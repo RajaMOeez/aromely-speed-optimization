@@ -294,13 +294,8 @@
 
   {% include 'vzmedia' %} 
   {% include 'taginstall-body' %}
-  
-  {% include '__footerhash' %}
-
-
-  
-  <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
-<script>
+  <script type="lazyload2" data-src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+<script type="lazyload2">
     var klaviyo = klaviyo || [];
     klaviyo.init({
       account: "RC6pnr",
@@ -335,8 +330,5 @@
     }
   });
 </script>
-  
-  
-  
-{%- render "ecom_footer"-%}</body>
+{% include '__footerhash' %}
 </html>
