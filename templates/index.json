@@ -1,1 +1,338 @@
-{"sections":{"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"top_subheading":"Aromely","title":"A Better Way\nTo Scent your Home","title_size":80,"subheading":"Try Aromely 100% Risk Free","link":"shopify:\/\/collections\/oil-blends","link_text":"Shop Scents","link_2":"shopify:\/\/collections\/scent-diffuser","link_text_2":"Shop Diffusers","color_accent":"#6a2789","text_align":"vertical-center horizontal-left","image":"shopify:\/\/shop_images\/2.jpg","overlay_opacity":26,"focal_point":"80% 0"}},"slideshow-1":{"type":"image","settings":{"top_subheading":"Aromely","title":"The Art of\nScent","title_size":80,"subheading":"Perfect for a Business, great for your home.","link":"shopify:\/\/collections\/oil-blends","link_text":"Shop Scents","link_2":"shopify:\/\/collections\/scent-diffuser","link_text_2":"Shop Diffusers","color_accent":"#6a2789","text_align":"vertical-center horizontal-left","image":"shopify:\/\/shop_images\/bruce-mars-DzscfI482bA-unsplash.jpg","overlay_opacity":0,"focal_point":"bottom center"}}},"block_order":["slideshow-0","slideshow-1"],"settings":{"section_height":"750px","mobile_height":"auto","parallax":true,"style":"bars","autoplay":true,"autoplay_speed":7}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{"title":"Safer, Cheaper & Better than Candles"}},"text":{"type":"text","settings":{"enlarge_text":true,"text":"<p>Don't let the smell of your house be limited to candles. Aromely products are natural, safe, affordable, and an easy-to-use way to maintain a healthy and delicious aroma around your home. <\/p>"}}},"block_order":["heading","text"],"settings":{"align_text":"center","narrow_column":true,"divider":false}},"promo-grid":{"type":"promo-grid","blocks":{"promo-0":{"type":"advanced","settings":{"subheading":"","heading":"The best diffusing experience","textarea":"We're here to offer you the best possible diffusing experience. We offer luxurious aromatherapy diffusers for home, office, and commercial use.","cta_text1":"Shop Diffusers","cta_link1":"shopify:\/\/collections\/scent-diffuser","cta_text2":"Shop Oils","cta_link2":"shopify:\/\/collections\/oil-blends","image":"shopify:\/\/shop_images\/553A7248.jpg","video_url":"","width":"50","height":800,"text_size":70,"text_align":"vertical-bottom horizontal-center","focal_point":"bottom","color_accent":"rgba(0,0,0,0)","boxed":false,"framed":true}},"promo-1":{"type":"advanced","settings":{"subheading":"Pure, natural, and therapeutic","heading":"Over 28 Scents to Choose","textarea":"Aromely is a one-stop shop for all your essential oils needs. Whether you need to add a touch of spice to your life, or want to take your relaxation to the next level, we have what you need.","cta_text1":"Shop Scents","cta_link1":"shopify:\/\/collections\/oil-blends","cta_text2":"Shop Diffusers","cta_link2":"shopify:\/\/collections\/scent-diffuser","image":"shopify:\/\/shop_images\/detailed-image-of-dried-lavender.jpg","video_url":"","width":"50","height":500,"text_size":100,"text_align":"vertical-bottom horizontal-center","focal_point":"80% 50%","color_accent":"rgba(0,0,0,0)","boxed":true,"framed":false}}},"block_order":["promo-0","promo-1"],"settings":{"full_width":true,"gutter_size":20,"space_above":false,"space_below":false}},"featured-collections":{"type":"featured-collections","disabled":true,"blocks":{"featured-collections-0":{"type":"collection","settings":{"collection":"scent-diffuser","title":"","focal_point":"center center"}},"featured-collections-1":{"type":"collection","settings":{"collection":"oil-blends","title":"","focal_point":"center center"}},"featured-collections-2":{"type":"collection","disabled":true,"settings":{"collection":"","title":"","focal_point":"center center"}},"featured-collections-3":{"type":"collection","disabled":true,"settings":{"collection":"","title":"","focal_point":"center center"}}},"block_order":["featured-collections-0","featured-collections-1","featured-collections-2","featured-collections-3"],"settings":{"title":"Shop by category","divider":false,"per_row":2,"enable_gutter":true}},"promo-grid2":{"type":"promo-grid","blocks":{"promo2-0":{"type":"advanced","settings":{"subheading":"Small, Medium, or Large","heading":"We got you covered","textarea":"We currently serve a wide variety of customers from small residential clients to very large supermarkets and commercial properties all over USA.","cta_text1":"Shop Scents","cta_link1":"shopify:\/\/collections\/oil-blends","cta_text2":"Shop Diffusers","cta_link2":"shopify:\/\/collections\/scent-diffuser","image":"shopify:\/\/shop_images\/Aromatherapy_Wifi_Nebulizing_Scent_Diffuser_-blue_Background_black_scent_machine.jpg","video_url":"","width":"100","height":800,"text_size":130,"text_align":"vertical-bottom horizontal-center","focal_point":"center","color_accent":"rgba(0,0,0,0)","boxed":false,"framed":false}},"promo2-1":{"type":"sale_collection","disabled":true,"settings":{"sale_collection":"","top_text":"Up to","middle_text":"50% off","bottom_text":"Select products","width":"50","color_tint":"#000000","color_tint_opacity":0,"boxed":false,"framed":true}},"promo2-2":{"type":"sale_collection","disabled":true,"settings":{"sale_collection":"","top_text":"Up to","middle_text":"50% off","bottom_text":"Select products","width":"50","color_tint":"#000000","color_tint_opacity":0,"boxed":false,"framed":true}}},"block_order":["promo2-0","promo2-1","promo2-2"],"settings":{"full_width":false,"gutter_size":20,"space_above":false,"space_below":false}},"featured-collection":{"type":"featured-collection","settings":{"title":"Featured collection","home_featured_products":"oil-blends","per_row":4,"rows":1,"mobile_scrollable":true,"view_all":true,"divider":false}},"background-image-text":{"type":"background-image-text","settings":{"subtitle":"Aromely","title":"Better breathing, better sleep","text":"<p>Aromely is an award-winning, natural solution to help you sleep better, faster, and longer. Our scents are made with 100% natural essential oils.<\/p>","button_label":"","button_link":"shopify:\/\/collections\/all","image":"shopify:\/\/shop_images\/3.jpg","focal_point":"center","layout":"left","height":750,"framed":false,"parallax":true}},"blog-posts":{"type":"blog-posts","settings":{"title":"From the journal","blog":"news","post_limit":3,"blog_show_tags":false,"blog_show_date":true,"blog_show_comments":false,"blog_show_author":false,"view_all":true,"blog_image_size":"square","divider":false}},"map":{"type":"map","disabled":true,"settings":{"map_title":"Our retail store","address":"<p>301 Front St W<br>Toronto, Canada<\/p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm<\/p>","map_address":"301 Front St W, Toronto, ON M5V 2T6","api_key":"","show_button":true,"background_image_position":"center center"}}},"order":["slideshow","rich-text","promo-grid","featured-collections","promo-grid2","featured-collection","background-image-text","blog-posts","map"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Aromely",
+            "title": "A Better Way\nTo Scent your Home",
+            "title_size": 80,
+            "subheading": "Try Aromely 100% Risk Free",
+            "link": "shopify://collections/diffuser-oils",
+            "link_text": "Shop Scents",
+            "link_2": "shopify://collections/scent-diffusers",
+            "link_text_2": "Shop Diffusers",
+            "color_accent": "#6a2789",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/2.jpg",
+            "overlay_opacity": 26,
+            "focal_point": "80% 0"
+          }
+        },
+        "slideshow-1": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "Aromely",
+            "title": "The Art of\nScent",
+            "title_size": 80,
+            "subheading": "Perfect for a Business, great for your home.",
+            "link": "shopify://collections/diffuser-oils",
+            "link_text": "Shop Scents",
+            "link_2": "shopify://collections/scent-diffusers",
+            "link_text_2": "Shop Diffusers",
+            "color_accent": "#6a2789",
+            "text_align": "vertical-center horizontal-left",
+            "image": "shopify://shop_images/bruce-mars-DzscfI482bA-unsplash.jpg",
+            "overlay_opacity": 0,
+            "focal_point": "bottom center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "slideshow-1"
+      ],
+      "settings": {
+        "section_height": "750px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Safer, Cheaper & Better than Candles"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Don't let the smell of your house be limited to candles. Aromely products are natural, safe, affordable, and an easy-to-use way to maintain a healthy and delicious aroma around your home. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "promo-grid": {
+      "type": "promo-grid",
+      "blocks": {
+        "promo-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "The best diffusing experience",
+            "textarea": "We're here to offer you the best possible diffusing experience. We offer luxurious aromatherapy diffusers for home, office, and commercial use.",
+            "cta_text1": "Shop Diffusers",
+            "cta_link1": "shopify://collections/scent-diffusers",
+            "cta_text2": "Shop Oils",
+            "cta_link2": "shopify://collections/diffuser-oils",
+            "image": "shopify://shop_images/553A7248.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 800,
+            "text_size": 70,
+            "text_align": "vertical-bottom horizontal-center",
+            "focal_point": "bottom",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "promo-1": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Pure, natural, and therapeutic",
+            "heading": "Over 28 Scents to Choose",
+            "textarea": "Aromely is a one-stop shop for all your essential oils needs. Whether you need to add a touch of spice to your life, or want to take your relaxation to the next level, we have what you need.",
+            "cta_text1": "Shop Scents",
+            "cta_link1": "shopify://collections/diffuser-oils",
+            "cta_text2": "Shop Diffusers",
+            "cta_link2": "shopify://collections/scent-diffusers",
+            "image": "shopify://shop_images/detailed-image-of-dried-lavender.jpg",
+            "video_url": "",
+            "width": "50",
+            "height": 500,
+            "text_size": 100,
+            "text_align": "vertical-bottom horizontal-center",
+            "focal_point": "80% 50%",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": true,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "promo-0",
+        "promo-1"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "featured-collections-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "scent-diffusers",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "diffuser-oils",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "featured-collections-3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "featured-collections-0",
+        "featured-collections-1",
+        "featured-collections-2",
+        "featured-collections-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Shop by category",
+        "divider": false,
+        "per_row": 2,
+        "enable_gutter": true
+      }
+    },
+    "promo-grid2": {
+      "type": "promo-grid",
+      "blocks": {
+        "promo2-0": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "Small, Medium, or Large",
+            "heading": "We got you covered",
+            "textarea": "We currently serve a wide variety of customers from small residential clients to very large supermarkets and commercial properties all over USA.",
+            "cta_text1": "Shop Scents",
+            "cta_link1": "shopify://collections/diffuser-oils",
+            "cta_text2": "Shop Diffusers",
+            "cta_link2": "shopify://collections/scent-diffusers",
+            "image": "shopify://shop_images/Aromatherapy_Wifi_Nebulizing_Scent_Diffuser_-blue_Background_black_scent_machine.jpg",
+            "video_url": "",
+            "width": "100",
+            "height": 800,
+            "text_size": 130,
+            "text_align": "vertical-bottom horizontal-center",
+            "focal_point": "center",
+            "color_accent": "rgba(0,0,0,0)",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "promo2-1": {
+          "type": "sale_collection",
+          "disabled": true,
+          "settings": {
+            "sale_collection": "",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
+            "width": "50",
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "boxed": false,
+            "framed": true
+          }
+        },
+        "promo2-2": {
+          "type": "sale_collection",
+          "disabled": true,
+          "settings": {
+            "sale_collection": "",
+            "top_text": "Up to",
+            "middle_text": "50% off",
+            "bottom_text": "Select products",
+            "width": "50",
+            "color_tint": "#000000",
+            "color_tint_opacity": 0,
+            "boxed": false,
+            "framed": true
+          }
+        }
+      },
+      "block_order": [
+        "promo2-0",
+        "promo2-1",
+        "promo2-2"
+      ],
+      "settings": {
+        "full_width": false,
+        "gutter_size": 20,
+        "space_above": false,
+        "space_below": false
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "diffuser-oils",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "background-image-text": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "Aromely",
+        "title": "Better breathing, better sleep",
+        "text": "<p>Aromely is an award-winning, natural solution to help you sleep better, faster, and longer. Our scents are made with 100% natural essential oils.</p>",
+        "button_label": "",
+        "button_link": "shopify://collections/all",
+        "image": "shopify://shop_images/3.jpg",
+        "focal_point": "center",
+        "layout": "left",
+        "height": 750,
+        "framed": false,
+        "parallax": true
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "From the journal",
+        "blog": "news",
+        "post_limit": 3,
+        "blog_show_tags": false,
+        "blog_show_date": true,
+        "blog_show_comments": false,
+        "blog_show_author": false,
+        "view_all": true,
+        "blog_image_size": "square",
+        "divider": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "Our retail store",
+        "address": "<p>301 Front St W<br>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm</p>",
+        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
+        "api_key": "",
+        "show_button": true,
+        "background_image_position": "center center"
+      }
+    }
+  },
+  "order": [
+    "slideshow",
+    "rich-text",
+    "promo-grid",
+    "featured-collections",
+    "promo-grid2",
+    "featured-collection",
+    "background-image-text",
+    "blog-posts",
+    "map"
+  ]
+}
