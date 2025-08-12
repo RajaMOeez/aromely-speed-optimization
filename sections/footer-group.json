@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "hide_homepage": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-1": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "heading_tag": "p",
+            "menu": "shop",
+            "container_width": 18
+          }
+        },
+        "menu_yfNi7D": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "heading_tag": "h2",
+            "menu": "polices-terms",
+            "container_width": 17
+          }
+        },
+        "menu_kdjphB": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "heading_tag": "p",
+            "menu": "help",
+            "container_width": 18
+          }
+        },
+        "menu_BJAeag": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": true,
+            "heading_tag": "p",
+            "menu": "discover",
+            "container_width": 17
+          }
+        },
+        "footer2": {
+          "type": "newsletter",
+          "settings": {
+            "show_footer_title": true,
+            "heading_tag": "h2",
+            "mobile_heading_tag": "h2",
+            "title": "Subscribe to Save 10%",
+            "title_mobile": "Subscribe to Save 10%",
+            "text": "<p><em>Be the first to know about once-in-a-lifetime deals and secret events!!</em></p>",
+            "text_mobile": "<p><em>Be the first to know about once-in-a-lifetime deals and new collections.</em></p>",
+            "container_width": 30
+          }
+        }
+      },
+      "block_order": [
+        "footer-1",
+        "menu_yfNi7D",
+        "menu_kdjphB",
+        "menu_BJAeag",
+        "footer2"
+      ],
+      "custom_css": [
+        ".site-footer {background-color: #efe8f2;}",
+        ".footer__newsletter-input {background-color: #efe8f2;}",
+        ".footer-link-heading {font-family: 'Twentieth Century';}"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}

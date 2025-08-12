@@ -1,0 +1,224 @@
+{% comment %} ENHANCED BY @RICKY 01-07-2025 {% endcomment %}
+
+{%- form 'product', product, id: form_id, class: 'product-single__form opti_ajax_form' -%}
+
+    {%- liquid
+      assign enable_dynamic_buttons = false
+      if show_dynamic_checkout and template != 'product.preorder' and gift_card_recipient_feature_active == false
+        assign enable_dynamic_buttons = true
+      endif
+    -%}
+  
+
+      {%- liquid
+        assign default_text = 'products.product.add_to_cart' | t
+        assign button_text = 'products.product.add_to_cart' | t
+        if template contains 'preorder'
+          assign default_text = 'products.product.preorder' | t
+          assign button_text = 'products.product.preorder' | t
+        endif
+        unless current_variant.available
+          assign button_text = 'products.product.sold_out' | t
+        endunless
+      -%}
+
+      <div class="sticky_inner_wrapper">
+        <div class="content_inner_wrapper">
+            <div class="product_media">
+                <img src="{{ product.featured_image | img_url: 'small' }}" alt="">
+            </div>
+
+            <div class="content_container">
+                <p class="sticky_heading hidden_sticky_title">{{ product.title }}</p> 
+                <span class="opti_vt_label" style="display: block; float: left; font-size: 14px;"> 
+                  {% unless product.has_only_default_variant %}
+                  ( {{ current_variant.title }} ) 
+                  {% endunless %}
+                </span>
+                <div style='{{ jm_style }}' class='jdgm-widget desktop_reviews jdgm-preview-badge opti_review_outer_container' data-id='{{ product.id }}' data-auto-install='false'>
+                    <span style="display: flex; gap: 5px;">{{ product.metafields.judgeme.badge }}</span>
+                </div>
+
+
+                <div class="price_sticky_container mob_sticky_price">
+                    {%- assign hide_sale_price = true -%}
+                    {%- if product.compare_at_price_max > product.price -%}
+                    {%- if current_variant.compare_at_price > current_variant.price -%}
+                        {%- assign hide_sale_price = false -%}
+                    {%- endif -%}
+                    <span
+                        data-a11y-price
+                        class="visually-hidden"
+                        aria-hidden="{{ hide_sale_price }}">
+                        {{ 'products.general.regular_price' | t }}
+                    </span>
+                    <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
+                        <span data-compare-price class="product__price product__price--compare">
+                        {%- if current_variant.compare_at_price > current_variant.price -%}
+                            {{ current_variant.compare_at_price | money }}
+                        {%- endif -%}
+                        </span>
+                    </span>
+                    <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+                    {%- else -%}
+                    <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                    {%- endif -%}
+    
+                    <span data-product-price
+                    class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                    {%- unless product.empty? -%}
+                        {{ current_variant.price | money }}
+                    {%- else -%}
+                        {{ 1999 | money }}
+                    {%- endunless -%}
+                    </span>
+    
+                    {%- if settings.product_save_amount -%}
+                    {%- if settings.product_save_type == 'dollar' -%}
+                        {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
+                    {%- else -%}
+                        {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round }}%{%- endcapture -%}
+                    {%- endif -%}
+                    <span data-save-price data-price-saving class="product__price-savings opti_ps_label_second {% if hide_sale_price %} hide{% endif %}">
+                        {%- unless hide_sale_price -%}
+                        {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
+                        {%- endunless -%}
+                    </span>
+                    {%- endif -%}
+    
+                    <div
+                    data-unit-price-wrapper
+                    class="product__unit-price product__unit-price--spacing {% unless current_variant.unit_price_measurement %} hide{% endunless %}">
+                    {%- capture unit_price_base_unit -%}
+                        <span data-unit-base>
+                        {%- if current_variant.unit_price_measurement -%}
+                            {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+                            {{ current_variant.unit_price_measurement.reference_value }}
+                            {%- endif -%}
+                            {{ current_variant.unit_price_measurement.reference_unit }}
+                        {%- endif -%}
+                        </span>
+                    {%- endcapture -%}
+    
+                    <span data-unit-price>{{ current_variant.unit_price | money }}</span>/{{ unit_price_base_unit }}
+                    </div>
+    
+                    {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                    <div style="display: none;" class="product__policies rte small--text-center">
+                        {%- if shop.taxes_included -%}
+                        {{ 'products.product.include_taxes' | t }}
+                        {%- endif -%}
+                        {%- if shop.shipping_policy.body != blank -%}
+                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                        {%- endif -%}
+                    </div>
+                    {%- endif -%}
+                </div>
+
+            </div>
+        </div>
+
+        <div class="buttons_block_sticky">
+            <div class="product-block product-block--price" {{ block.shopify_attributes }}>
+                <div class="price_sticky_container">
+                    {%- assign hide_sale_price = true -%}
+                    {%- if product.compare_at_price_max > product.price -%}
+                    {%- if current_variant.compare_at_price > current_variant.price -%}
+                        {%- assign hide_sale_price = false -%}
+                    {%- endif -%}
+                    <span
+                        data-a11y-price
+                        class="visually-hidden"
+                        aria-hidden="{{ hide_sale_price }}">
+                        {{ 'products.general.regular_price' | t }}
+                    </span>
+                    <span data-product-price-wrap class="{% if hide_sale_price %} hide{% endif %}">
+                        <span data-compare-price class="product__price product__price--compare">
+                        {%- if current_variant.compare_at_price > current_variant.price -%}
+                            {{ current_variant.compare_at_price | money }}
+                        {%- endif -%}
+                        </span>
+                    </span>
+                    <span data-compare-price-a11y class="visually-hidden">{{ 'products.general.sale_price' | t }}</span>
+                    {%- else -%}
+                    <span data-a11y-price class="visually-hidden">{{ 'products.general.regular_price' | t }}</span>
+                    {%- endif -%}
+    
+                    <span data-product-price
+                    class="product__price{% if current_variant.compare_at_price > current_variant.price %} on-sale{% endif %}">
+                    {%- unless product.empty? -%}
+                        {{ current_variant.price | money }}
+                    {%- else -%}
+                        {{ 1999 | money }}
+                    {%- endunless -%}
+                    </span>
+    
+                    {%- if settings.product_save_amount -%}
+                    {%- if settings.product_save_type == 'dollar' -%}
+                        {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | money }}{%- endcapture -%}
+                    {%- else -%}
+                        {%- capture saved_amount -%}{{ current_variant.compare_at_price | minus: current_variant.price | times: 100.0 | divided_by: current_variant.compare_at_price | round }}%{%- endcapture -%}
+                    {%- endif -%}
+                    <span data-save-price data-price-saving class="product__price-savings opti_ps_label_second {% if hide_sale_price %} hide{% endif %}">
+                        {%- unless hide_sale_price -%}
+                        {{ 'products.general.save_html' | t: saved_amount: saved_amount }}
+                        {%- endunless -%}
+                    </span>
+                    {%- endif -%}
+    
+                    <div
+                    data-unit-price-wrapper
+                    class="product__unit-price product__unit-price--spacing {% unless current_variant.unit_price_measurement %} hide{% endunless %}">
+                    {%- capture unit_price_base_unit -%}
+                        <span data-unit-base>
+                        {%- if current_variant.unit_price_measurement -%}
+                            {%- if current_variant.unit_price_measurement.reference_value != 1 -%}
+                            {{ current_variant.unit_price_measurement.reference_value }}
+                            {%- endif -%}
+                            {{ current_variant.unit_price_measurement.reference_unit }}
+                        {%- endif -%}
+                        </span>
+                    {%- endcapture -%}
+    
+                    <span data-unit-price>{{ current_variant.unit_price | money }}</span>/{{ unit_price_base_unit }}
+                    </div>
+    
+                    {%- if shop.taxes_included or shop.shipping_policy.body != blank -%}
+                    <div style="display: none;" class="product__policies rte small--text-center">
+                        {%- if shop.taxes_included -%}
+                        {{ 'products.product.include_taxes' | t }}
+                        {%- endif -%}
+                        {%- if shop.shipping_policy.body != blank -%}
+                        {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                        {%- endif -%}
+                    </div>
+                    {%- endif -%}
+                </div>
+            </div>
+
+            <input type="hidden" name="id" value="{{ current_variant.id }}" class="sticky_form_input">
+  
+            {% if product.selling_plan_groups[0].selling_plans[0].id  %}
+              <input type="hidden" class="selling_plan_input" name="selling_plan" value="{{ product.selling_plan_groups[0].selling_plans[0].id }}" data-selling-plan="{{ product.selling_plan_groups[0].selling_plans[0].id }}">
+            {% endif %}
+
+            <div style='{{ jm_style }}' class='jdgm-widget mobile_reviews jdgm-preview-badge opti_review_outer_container' data-id='{{ product.id }}' data-auto-install='false'>
+                <span style="display: flex; gap: 5px;">{{ product.metafields.judgeme.badge }}</span>
+            </div>
+
+            <button
+              {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+              name="add"
+              data-add-to-cart
+              class="btn btn--full add-to-cart my_custom_button_big custom_color_button {% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %} sticky_element_target"
+              {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+              <span data-add-to-cart-text data-default-text="{{ default_text }}">
+                {{ button_text }}
+              </span>
+            </button>
+        </div>
+
+      </div>
+  
+  {%- endform -%}
+  

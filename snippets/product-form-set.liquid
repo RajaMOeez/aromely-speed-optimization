@@ -1,0 +1,59 @@
+{% comment %} ADDED BY @OPTIEXPERTS 06-08-2024 {% endcomment %}
+
+{%- form 'product', product, id: form_id, class: 'product-single__form' -%}
+
+    {%- liquid
+      assign enable_dynamic_buttons = false
+      if show_dynamic_checkout and template != 'product.preorder' and gift_card_recipient_feature_active == false
+        assign enable_dynamic_buttons = true
+      endif
+    -%}
+  
+    {% comment %} {%- if enable_dynamic_buttons -%}
+      <div class="payment-buttons">
+    {%- endif -%} {% endcomment %}
+  
+      {%- liquid
+        assign default_text = 'products.product.add_to_cart' | t
+        assign button_text = 'products.product.add_to_cart' | t
+        if template contains 'preorder'
+          assign default_text = 'products.product.preorder' | t
+          assign button_text = 'products.product.preorder' | t
+        endif
+        unless current_variant.available
+          assign button_text = 'products.product.sold_out' | t
+        endunless
+      -%}
+
+
+        <input type="hidden" name="id" value="{{ current_variant.id }}">
+
+        <div class="input-blocks">
+            <button
+                {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+                name="add"
+                data-add-to-cart
+                class="btn--full single-product-button add-to-cart{% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %}"
+                {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+                <span data-default-text="{{ default_text }}" style="line-height: 0.3;">
+                {% if current_variant.available %}
+                    {% render 'icon-cart-plus' %}
+                {% else %}
+                    {% render 'icon-cart-plus' %}
+                {% endif %}
+                </span>
+            </button>
+        </div>
+  
+{% comment %}   
+      {%- if enable_dynamic_buttons -%}
+        {{ form | payment_button }}
+      {%- endif -%} {% endcomment %}
+  
+    {% comment %} {%- if enable_dynamic_buttons -%}
+      </div>
+    {%- endif -%} {% endcomment %}
+  
+    {% comment %} <div class="shopify-payment-terms product__policies">{{ form | payment_terms }}</div> {% endcomment %}
+  {%- endform -%}
+  

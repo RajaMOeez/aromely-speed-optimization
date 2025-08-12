@@ -5,11 +5,13 @@
     {{ product.description }}
   {%- endif -%}
 {% endcapture %}
-{%- if is_tab -%}
-  {% assign title = 'products.product.description' | t %}
-  {%- render 'tab', id: id, title: title, content: description -%}
-{%- else -%}
-  <div class="rte">
-    {{ description }}
-  </div>
-{%- endif -%}
+
+<div class="rte">
+  {% assign description_parts = description | split: '||' %}
+  {%- if description_parts.size > 2 -%}
+    {% assign final_description = description_parts[0] | append: description_parts[2] %}
+  {%- else -%}
+    {% assign final_description = description %}
+  {%- endif -%}
+  {{ final_description | strip }}
+</div>

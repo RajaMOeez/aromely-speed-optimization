@@ -1,0 +1,151 @@
+{%- liquid
+  assign dark_search_bg = false
+  assign lightness = settings.color_header_search | color_brightness
+
+  if lightness <= 100
+    assign dark_search_bg = true
+  endif
+-%}
+
+<predictive-search data-context="{{ context }}" data-enabled="{{ settings.predictive_search_enabled }}" data-dark="{{ dark_search_bg }}" class="opti_search_wrapper">
+  <div class="predictive__screen" data-screen></div>
+  
+  <form action="{{ routes.search_url }}" method="get" role="search">
+    <label for="Search" class="hidden-label">Search</label>
+    <div class="search__input-wrap">
+      <input
+        class="search__input"
+        id="Search"
+        type="search"
+        name="q"
+        value="{{ search.terms | escape }}"
+        role="combobox"
+        aria-expanded="false"
+        aria-owns="predictive-search-results"
+        aria-controls="predictive-search-results"
+        aria-haspopup="listbox"
+        aria-autocomplete="list"
+        autocorrect="off"
+        autocomplete="off"
+        autocapitalize="off"
+        spellcheck="false"
+        placeholder="{{ 'general.search.placeholder' | t }}"
+        tabindex="0"
+      >
+      <input name="options[prefix]" type="hidden" value="last">
+      <button class="btn--search" type="submit">
+       <svg 
+  aria-hidden="true" 
+  focusable="false" 
+  role="presentation" 
+  class="icon icon-search" 
+  viewBox="0 0 64 64" 
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 4px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M47.16 28.58A18.58 18.58 0 1 1 28.58 10a18.58 18.58 0 0 1 18.58 18.58zM54 54L41.94 42"/>
+</svg>
+
+        <span class="icon__fallback-text">{{ 'general.search.submit' | t }}</span>
+      </button>
+    </div>
+
+    <button class="btn--close-search">
+      <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-close" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:2px}</style></defs><path class="cls-1" d="M19 17.61l27.12 27.13m0-27.13L19 44.74"/></svg>
+    </button>
+
+
+    {% comment %} UPDATE CHANGE BY TODAY {% endcomment %}
+    <div class="opti__handler_container">
+      {% if settings.show_popular %}
+        <div class="most_search_bubble">
+          <span class="pop_search_title">Most Popular Searches</span>
+          <div class="opti_upper_groot">
+            {% assign tags = settings.popular_tags | split: "," %}
+            {% for tag in tags %}
+              <button class="tag-button opti_search_btn">{{ tag | strip }}</button>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </div>
+
+
+    <div id="predictive-search" class="search__results" tabindex="-1"></div>
+
+    <div class="tab-container">
+      <!-- Tab Buttons -->
+      <div class="tabs">
+        <button type="button" class="tab-button active" onclick="openTab(event, 'best-sellers')">Best Sellers</button>
+        <button type="button" class="tab-button" onclick="openTab(event, 'recently-viewed')">Recently Viewed</button>
+      </div>
+
+      <div id="best-sellers" class="tab-content active">
+        <div class="index-section index-section--small">
+          <div class="page-width">
+            {% comment %} <header class="section-header">
+              <h3 class="section-header__title">Best Sellers</h3>
+            </header> {% endcomment %}
+            <div class="grid grid--uniform stack_grid_item">
+              {% assign best_collection = settings.best_collection %}
+              {% for parent_product in collections[best_collection].products %}
+                {% if template contains 'product' %}
+                  {% unless product.title == parent_product.title %}
+                    <product-item-light>
+                      {%- render 'product-grid-item-light',
+                        product: parent_product,
+                        index_item: forloop.index0
+                      -%}
+                    </product-item-light>
+                  {% endunless %}
+                {% else %}
+                  <product-item-light>
+                    {%- render 'product-grid-item-light',
+                      product: parent_product,
+                      index_item: forloop.index0
+                    -%}
+                  </product-item-light>
+                {% endif %}
+              {% endfor %}
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div id="recently-viewed" class="tab-content">
+        <div class="opti_lower_groot">
+          <div class="container_recent_viewed">
+            <div
+              data-subsection
+              data-section-id="{{ section.id }}"
+              data-section-type="recently-viewed"
+              data-product-handle="{{ product.handle }}"
+              data-recent-count="5"
+              data-grid-item-class="{{ gridView }}"
+              data-row-of="{{ row_of }}"
+              data-image-sizes="{{ sizes }}">
+              <div class="index-section index-section--small">
+                <div class="page-width page-width--flush-small">
+                  <div class="grid-overflow-wrapper">
+                    <div id="RecentlyViewed-{{ section.id }}" class="grid grid--uniform stack_custom_grid" data-aos="overflow__animation"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </form>
+</predictive-search>

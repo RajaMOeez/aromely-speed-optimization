@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free Shipping  for +$175 Orders",
+            "link_text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "announcement_compact": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "header-0": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify://shop_images/AROMELY-SIN-SLOGAN.png",
+            "desktop_logo_width": 120,
+            "mobile_logo_width": 110
+          }
+        }
+      },
+      "block_order": [
+        "header-0"
+      ],
+      "custom_css": [
+        ".mobile-nav__item:not(.mobile-nav__item--secondary) + .mobile-nav__item--secondary {display: none;}",
+        ".site-header {padding: 0px;}",
+        "@media (max-width: 768px) {.logo-bottom-text {left:10px}"
+      ],
+      "settings": {
+        "main_menu_link_list": "enhanced-desktop",
+        "main_menu_link_list_mobile": "sidebar-menu",
+        "hover_menu": true,
+        "mega_menu_images": false,
+        "drawer_position": "left",
+        "main_menu_alignment": "left-center",
+        "header_style": "normal",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "toolbar_menu": "",
+        "toolbar_social": false,
+        "show_locale_selector": true,
+        "show_currency_selector": false,
+        "show_currency_flags": false
+      }
+    },
+    "text_columns_xjYCkj": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_yj8j3m": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/unnamed_3.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "BundlesARO-BLISS Diffuser + My Way Scent Bundle",
+            "text": "<p>Fragrances are carefully crafted to exclude harsh chemicals. We steer clear of ingredients that might pose health or environmental risks</p>",
+            "button_label": "Don’t Miss Out",
+            "button_link": ""
+          }
+        },
+        "text_block_wCaCgR": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/Aromely_Car_Diffuser_Pink_Gift_Set_a0ffd065-cd7e-4b9a-88f6-a0819a4e287b.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "ARO CAR Gift Set - Smart & Premium Car Diffuser",
+            "text": "<p><strong>Portable Elegance</strong>: Designed for on-the-go freshness, the ARO-CAR Diffuser enhances your car with a sleek and modern design...</p>",
+            "button_label": "Don’t Miss Out",
+            "button_link": "https://aromely.com/products/aro-car-gift-set-smart-premium-car-diffuser-deal"
+          }
+        },
+        "text_block_tHTE4J": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/aro-tower-gift-set-aromely.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "ARO TOWER - Smart Scent Diffuser for Home",
+            "text": "<p><strong>Extensive Diffusion Capacity:</strong> The ARO-TOWER effortlessly diffuses essential oils across an expansive area of up to 3,000 square feet, perfect for open spaces...</p>",
+            "button_label": "Don’t Miss Out",
+            "button_link": "shopify://products/aro-bliss-gift-set-smart-scent-diffuser-up-to-500-sqft-deal"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_yj8j3m",
+        "text_block_wCaCgR",
+        "text_block_tHTE4J"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "/* Cambiar color del texto */.grid-item h3,.grid-item p {color: #000000 !important;}",
+        " /* Hacer botones más grandes */.btn {padding: 16px 24px !important; font-size: 16px !important; font-weight: 600 !important;}",
+        " /* Color del botón y bordes redondeados */.btn {background-color: #692789 !important; color: white !important; border-radius: 3px !important;}"
+      ],
+      "name": "t:sections.text-columns.presets.text_columns_with_images.name",
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "announcement",
+    "header",
+    "text_columns_xjYCkj"
+  ]
+}

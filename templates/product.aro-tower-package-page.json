@@ -1,0 +1,418 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product-package-aro-tower",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "recharge_subscriptions_subscription_widget_YBCXHf": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget/371eed76-0b44-4869-9813-730372ea378e",
+          "disabled": true,
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "package_pack_7X7Gwm": {
+          "type": "package_pack",
+          "settings": {
+            "package_products": [
+              "delighted-inspired-by-four-seasons-hotel-bora-bora",
+              "bundle-1-20ml",
+              "bundle-2-20ml"
+            ]
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "surface_pickup_enable": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "tolstoy_shoppable_video_quiz_stories_block_f4Dtp9": {
+          "type": "shopify://apps/tolstoy-shoppable-video-quiz/blocks/stories-block/06fa8282-42ff-403e-b67c-1936776aed11",
+          "settings": {
+            "publishId": "hf8soo7m8sa75"
+          }
+        },
+        "sales_point": {
+          "type": "sales_point",
+          "settings": {
+            "icon": "checkmark",
+            "text": "Free shipping within the US on orders over $175"
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "complete_set_VgxACj": {
+          "type": "complete_set",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "separator_DT4yyU": {
+          "type": "separator",
+          "settings": {}
+        },
+        "tab_keynotes_N9rzCt": {
+          "type": "tab_keynotes",
+          "settings": {}
+        },
+        "custom_tab_content_DCgKkw": {
+          "type": "custom_tab_content",
+          "settings": {
+            "title": "Clean & Safe Ingredients",
+            "content": "<p>Fragrances are carefully crafted to exclude harsh chemicals. We steer clear of ingredients that might pose health or environmental risks. Each fragrance is safe and cleanly obtained for the human and pets.</p>",
+            "page": "",
+            "shipment_policy": false,
+            "shipment_page": "",
+            "return_policy": false,
+            "return_page": ""
+          }
+        },
+        "custom_tab_content_8CRx3T": {
+          "type": "custom_tab_content",
+          "settings": {
+            "title": "Shipping & Returns",
+            "content": "<p>Free<strong> </strong><a href=\"#shipment_policy_block\"><strong>shipping</strong></a><strong> </strong>on orders over $175</p><p><a href=\"#return_policy_block\"><strong>Return</strong></a><strong> </strong>accepted within 30 days of delivery</p>",
+            "page": "",
+            "shipment_policy": true,
+            "shipment_page": "shipment-policy",
+            "return_policy": true,
+            "return_page": "refund-policy"
+          }
+        },
+        "review_tab_RtVjed": {
+          "type": "review_tab",
+          "settings": {}
+        },
+        "contact": {
+          "type": "contact",
+          "disabled": true,
+          "settings": {
+            "title": "Ask a question",
+            "phone": false
+          }
+        },
+        "custom_reTBaw": {
+          "type": "custom",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Disclaimer</title>\n    <style>\n        .disclaimer {\n            font-size: 15px;\n        }\n\n        @media (max-width: 768px) {\n            .disclaimer {\n                font-size: 10px;\n            }\n        }\n    </style>\n</head>\n<body>\n\n    <p class=\"disclaimer\">\n        DISCLAIMER: Our fragrances are inspired by luxury hotels but are not affiliated with or endorsed by any brand. \n        All trademarks belong to their respective owners.\n    </p>\n\n</body>\n</html>"
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "price",
+        "variant_picker",
+        "recharge_subscriptions_subscription_widget_YBCXHf",
+        "package_pack_7X7Gwm",
+        "buy_buttons",
+        "tolstoy_shoppable_video_quiz_stories_block_f4Dtp9",
+        "sales_point",
+        "inventory_status",
+        "complete_set_VgxACj",
+        "description",
+        "separator_DT4yyU",
+        "tab_keynotes_N9rzCt",
+        "custom_tab_content_DCgKkw",
+        "custom_tab_content_8CRx3T",
+        "review_tab_RtVjed",
+        "contact",
+        "custom_reTBaw",
+        "share"
+      ],
+      "custom_css": [
+        ".sticky_atc_container {z-index: 100;}",
+        "@media (max-width: 768px) {.input-blocks .single-product-button {padding: 4px !important}"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "beside",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": false,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "settings": {
+        "max_width": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 6,
+        "products_per_row": 3,
+        "enable_selling": true
+      }
+    },
+    "faq_BJwgCj": {
+      "type": "faq",
+      "blocks": {
+        "question_jAh79k": {
+          "type": "question",
+          "settings": {
+            "title": "WHERE DO YOU SHIP FROM?",
+            "text": "<p>All our orders are shipped from USA, we usually ship within<br/>24 hours after the order is received.</p>"
+          }
+        },
+        "question_9RxbyN": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT’S THE BEST WAY TO CONTACT AROMELY?",
+            "text": "<p>We offer email, phone and chat support. </p>"
+          }
+        },
+        "question_Hewg4k": {
+          "type": "question",
+          "settings": {
+            "title": "WHAT IS AROMELY RETURN POLICY?",
+            "text": "<p>We offer 30 days NO QUESTION ASKED return policy. Meaning that if you for any reason<br/>you are not satisfied with your order, we will refund 100% of your money.</p>"
+          }
+        },
+        "question_erRtfg": {
+          "type": "question",
+          "settings": {
+            "title": "CAN I USE OTHER ESSENTIAL OILS BRAND WITH AROMELY DIFFUSERS?",
+            "text": "<p>We recommend using our oils as they are formulated specifically<br/>to work with our diffusers however as long as you use high quality oils the diffusers<br/>will work just find with other brands.</p>"
+          }
+        },
+        "question_EHqkeT": {
+          "type": "question",
+          "settings": {
+            "title": "HOW DO I CLEAN AND MAINTAIN MY AROMELY DIFFUSER?",
+            "text": "<ol><li><strong>Empty Remaining Oil</strong>: Carefully pour out any leftover oil from the diffuser bottle.</li><li><strong>Fill with Isopropyl Alcohol</strong>: Add high-concentration isopropyl alcohol, ideally between 91% to 95%, to the bottle. This concentration is effective for dissolving stubborn oil residues.</li><li><strong>Run the Diffuser</strong>: Set your diffuser to a high-intensity setting and let it operate for about 30 minutes. The alcohol will help to cleanse and sanitize the interior components.</li><li><strong>Empty the Alcohol</strong>: After 30 minutes, turn off the diffuser and safely dispose of the isopropyl alcohol.</li><li><strong>Drying</strong>: Allow the bottle and diffuser components to air dry completely. It's crucial to ensure no alcohol residue remains before the next use.</li><li><strong>Refill and Use</strong>: Once everything is dry, you can refill the diffuser with your preferred oil and use it as usual.</li></ol><p>This cleaning method is a good practice to maintain your diffuser, especially if you frequently change oils or notice a decrease in performance. </p>"
+          }
+        },
+        "question_LhQiQE": {
+          "type": "question",
+          "settings": {
+            "title": "HOW LONG CAN I EXPECT MY AROMELY OIL BOTTLE TO LAST?",
+            "text": "<p>The lifespan of an Aromely oil bottle varies and typically ranges between 1 to 3 months. This duration is influenced by several factors, including:</p><ol><li><strong>Type of Diffuser:</strong> Different diffusers consume oil at varying rates.</li><li><strong>Intensity Settings:</strong> Higher intensity settings use more oil.</li><li><strong>Usage Frequency:</strong> Regular use for several hours a day will deplete the bottle faster.</li></ol><p>Given these variables, it's challenging to predict an exact timeframe. However, on average, users can anticipate their Aromely oil bottle to last anywhere from one to three months under normal usage conditions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_jAh79k",
+        "question_9RxbyN",
+        "question_Hewg4k",
+        "question_erRtfg",
+        "question_EHqkeT",
+        "question_LhQiQE"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "1707133670457572b2": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "background_image_text_tyhYEB": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "Bringing Nature to your Life",
+        "title": "Aromely",
+        "text": "<p>A way to be more in tune with the natural world. A way to live more in the present moment. We want you to be able to feel better, live better, and love better every day. That's why we created Aromely Essential Oils with three simple ingredients: pure plant oils, pure plant essences, and a bunch LOVE!</p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify://shop_images/C6303BC9-60B9-4AF7-A7D1-A9B23C93BB7C.png",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": false,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_kznVXC": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/CA2529B8-254E-4405-BBC7-A3785B4F70FC.png",
+        "image_mask": "none",
+        "image2": "shopify://shop_images/6D30FA49-14EA-4509-942D-FED5627D4743.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Style and Design",
+        "text": "<p>You deserve to feel amazing, and we want you to experience that in your home or office. That's why Aromely diffusers are designed to be aesthetically pleasing, modern, and functional. We're always looking for ways to improve and we're committed to bringing you beauty and technology, together.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_tVfnte": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/0ED6E1AE-6A6D-4AEB-9FA1-28656E743403.png",
+        "image_mask": "none",
+        "image2": "shopify://shop_images/A5E0A483-37FF-4BD4-AF62-F20C08A024B8.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Shopping Experience",
+        "text": "<p>We stand by our products 100%. If you're not happy with it, we're not happy. We're committed to providing high-quality customer service and support for all our customers. We truly want our customers to leave us with a smile. Give us a try today! </p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "testimonials_9hga3t": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_k4Gzre": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Simply the best ! If you want a room with great smell do yourself a favor and purchase form Aromely !, awesome costumer service , you ask they answer , you call they answer . Always here to help the costumer . Do yourself a favor and try the wonderful fragrances they offer , it’s to die for !. I walk into my house and I automatically transport to another place ! It smells so good . They’re long lasting and so easy to use . I would highly recommend everyone and anyone to this product . I was recommended myself and honestly don’t regret it ! Worth every penny spent , thank you Aromely ! You guys are the best ☑️🙏❤️</p>",
+            "author": "Jennifer Olano",
+            "author_info": "Hialeah, FL"
+          }
+        },
+        "testimonial_MkCGne": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This is one of the best things I have purchased! I am fan of having a room smelling nice and a candle does not even compare to this device. It fills up the room completely and concentrates much stronger and faster. There is also a variety of fragrances to choose from. I am overall very happy and satisfied with it and the service! 100% recommend.</p>",
+            "author": "Dayana Bordatto",
+            "author_info": "Miami, FL"
+          }
+        },
+        "testimonial_A94kiW": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This is by far the best thing i’ve purchased ! The number one thing i’m always concerned about is if the smell is going last long but with this product it was amazing . i’ve never gotten something that smells really good and fills up my whole room with just one and last forever ! And not to mention the Costumer Service is was super welcoming and very helpful.<br/></p>",
+            "author": "Emily Quiroz",
+            "author_info": "Miami, FL"
+          }
+        },
+        "testimonial_edeA6L": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "author": "Author's name",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_k4Gzre",
+        "testimonial_MkCGne",
+        "testimonial_A94kiW",
+        "testimonial_edeA6L"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#f9f9f9",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {}
+    },
+    "back_to_top_button_rK7VMJ": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "product-recommendations",
+    "faq_BJwgCj",
+    "recently-viewed",
+    "1707133670457572b2",
+    "background_image_text_tyhYEB",
+    "text_and_image_kznVXC",
+    "text_and_image_tVfnte",
+    "testimonials_9hga3t",
+    "collection-return",
+    "back_to_top_button_rK7VMJ"
+  ]
+}

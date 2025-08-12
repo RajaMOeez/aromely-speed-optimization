@@ -1,0 +1,266 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_content_GRLczp": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_FchW9E": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_URXJmK": {
+          "type": "liquid",
+          "settings": {
+            "code": "<h2>Custom content<\/h2><p>Use this advanced section to build your own layouts or to add custom HTML, Liquid, or scripts.<\/p>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_FchW9E",
+        "liquid_URXJmK"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "custom_rich_text_TgcfBz": {
+      "type": "custom-rich-text",
+      "blocks": {
+        "heading_Lb4H7t": {
+          "type": "heading",
+          "settings": {
+            "title": "Account"
+          }
+        },
+        "text_Qp43hL": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_3Yz6hB": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Lb4H7t",
+        "text_Qp43hL",
+        "button_3Yz6hB"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "custom_rich_text_46wkKQ": {
+      "type": "custom-rich-text",
+      "blocks": {
+        "heading_r7gbzW": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscription"
+          }
+        },
+        "text_g8Bttk": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_BXVJVj": {
+          "type": "button",
+          "settings": {
+            "link": "",
+            "link_text": "Button"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r7gbzW",
+        "text_g8Bttk",
+        "button_BXVJVj"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "promo_grid_8Mcnxy": {
+      "type": "promo-grid",
+      "blocks": {
+        "advanced_DB8ePA": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Account",
+            "textarea": "View Your Order History, Status Updates, and Past Purchases.",
+            "cta_text1": "Access Now",
+            "cta_link1": "https:\/\/shopify.com\/authentication\/50305990856\/login?client_id=e5f53c0c-61f0-4c7c-a0d5-6a211792fb96&locale=en-US&redirect_uri=https%3A%2F%2Fshopify.com%2Fauthentication%2F50305990856%2Foauth%2Fauthorize%3Fclient_id%3De5f53c0c-61f0-4c7c-a0d5-6a211792fb96%26locale%3Den-US%26nonce%3D62d1edb4-83b3-41ba-8496-fac00e053c99%26redirect_uri%3Dhttps%253A%252F%252Fshopify.com%252F50305990856%252Faccount%252Fcallback%253Fsource%253Dcore%26response_type%3Dcode%26scope%3Dopenid%2Bemail%2Bcustomer-account-api%253Afull%26state%3D01JATTW92M3WVW0MM4WFDPEBPJ",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 300,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#6a2789",
+            "boxed": false,
+            "framed": false
+          }
+        },
+        "advanced_WXkgRQ": {
+          "type": "advanced",
+          "settings": {
+            "subheading": "",
+            "heading": "Subscription",
+            "textarea": "Modify, Swap, or Cancel Your Scented Oil Subscription Anytime",
+            "cta_text1": "Access now",
+            "cta_link1": "https:\/\/aromely.com\/tools\/recurring\/get-subscription-access",
+            "cta_text2": "",
+            "cta_link2": "",
+            "video_url": "",
+            "width": "33",
+            "height": 300,
+            "text_size": 100,
+            "text_align": "vertical-center horizontal-center",
+            "color_accent": "#6a2789",
+            "boxed": false,
+            "framed": false
+          }
+        }
+      },
+      "block_order": [
+        "advanced_DB8ePA",
+        "advanced_WXkgRQ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".flex-grid--template--18104141250792__promo_grid_8Mcnxy {display: flex; justify-content: center; align-items: center; text-align: center;}",
+        "@media only screen and (max-width: 768px) {.main-content {min-height: 10px; } .promo-grid__text {font-size: 1.2rem; color: black; }}",
+        "@media only screen and (min-width: 769px) {.main-content {min-height: 200px}"
+      ],
+      "settings": {
+        "full_width": true,
+        "gutter_size": 15,
+        "space_above": true,
+        "space_below": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_MbxwQC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cxyPFj": {
+          "type": "heading",
+          "settings": {
+            "title": "Account"
+          }
+        },
+        "text_4MRdhJ": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>View Your Order History, Status Updates, and Past Purchases.<\/p>"
+          }
+        },
+        "button_wMr6XA": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/shopify.com\/50305990856\/account",
+            "link_text": "Access now"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cxyPFj",
+        "text_4MRdhJ",
+        "button_wMr6XA"
+      ],
+      "custom_css": [
+        "@media only screen and (min-width: 769px) {.main-content {min-height: 200px"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "rich_text_cqFbQH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_D3EDpQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Subscription"
+          }
+        },
+        "text_w84H4k": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Modify, Swap, Skip or Cancel Your Oil Subscription Anytime.<\/p>"
+          }
+        },
+        "button_JNmJrE": {
+          "type": "button",
+          "settings": {
+            "link": "https:\/\/aromely.com\/tools\/recurring\/get-subscription-access",
+            "link_text": "Access now"
+          }
+        }
+      },
+      "block_order": [
+        "heading_D3EDpQ",
+        "text_w84H4k",
+        "button_JNmJrE"
+      ],
+      "custom_css": [],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_content_GRLczp",
+    "custom_rich_text_TgcfBz",
+    "custom_rich_text_46wkKQ",
+    "promo_grid_8Mcnxy",
+    "rich_text_MbxwQC",
+    "rich_text_cqFbQH"
+  ]
+}

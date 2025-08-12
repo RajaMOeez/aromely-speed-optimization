@@ -1,0 +1,167 @@
+{% comment %} BUNDLER PACKAGE CODE {% endcomment %}
+
+<div class="package_wrapper_container">
+  <div class="inner_heading_wrapper">
+    Select Diffuser
+  </div>
+  <p class="container_error_message"></p>
+  <div class="inner_container flex_item">
+    <div class="progress_check_container">
+      <div class="progress_row">
+        <div class="progress_div_highlight">
+            <div class="inner_progress_track">
+              <div class="shadow_element_path"></div>
+            </div>
+            <div class="svg_first svg_item_terrif">
+              <div class="inner_item_track">
+                <span class="icon_tick active">
+                    <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 6.285L9.84 19.018 3 13l1.319-1.49 5.341 4.686L19.525 5l1.475 1.285z"/>
+                    </svg>
+                </span>
+                <span class="title_item">Diffuser</span>
+              </div>
+            </div>
+            <div class="svg_second svg_item_terrif">
+              <div class="inner_item_track">
+                <span class="icon_tick">
+                    <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 6.285L9.84 19.018 3 13l1.319-1.49 5.341 4.686L19.525 5l1.475 1.285z"/>
+                    </svg>
+                </span>
+                <span class="title_item">Color</span>
+              </div>
+            </div>
+            <div class="svg_third svg_item_terrif">
+              <div class="inner_item_track">
+                <span class="icon_tick">
+                    <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 6.285L9.84 19.018 3 13l1.319-1.49 5.341 4.686L19.525 5l1.475 1.285z"/>
+                    </svg>
+                </span>
+                <span class="title_item">Oil</span>
+              </div>
+            </div>
+            <div class="svg_fourth svg_item_terrif">
+              <div class="inner_item_track">
+                <span class="icon_tick">
+                    <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 6.285L9.84 19.018 3 13l1.319-1.49 5.341 4.686L19.525 5l1.475 1.285z"/>
+                    </svg>
+                </span>
+                <span class="title_item">Fragrance</span>
+              </div>
+            </div>
+            <div class="svg_fifth svg_item_terrif">
+              <div class="inner_item_track">
+                <span class="icon_tick">
+                    <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M21 6.285L9.84 19.018 3 13l1.319-1.49 5.341 4.686L19.525 5l1.475 1.285z"/>
+                    </svg>
+                </span>
+                <span class="title_item">Complete</span>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="items_holder_right">
+      <div class="inner_first_row inner_item_row active_row">
+        {% if collection_first and collection_first.products.size > 0 %}
+          {% for product in collection_first.products %}
+            <input type="radio" name="diffuers-track" class="parent_check_elem" data-heading="Select Color" id="diffuser-track-{{ product.selected_or_first_available_variant.id }}" data-product-id="{{ product.selected_or_first_available_variant.id }}" auto>
+            <label for="diffuser-track-{{ product.selected_or_first_available_variant.id }}" class="grid_item_label text-label">
+              {%- render 'product-grid-item-package',
+                product: product,
+                collection: collection_first
+              -%}
+            </label>
+          {% endfor %}
+        {% else %}
+          <p>No products found in first collection.</p>
+        {% endif %}
+      </div>
+
+      <div class="inner_second_row inner_item_row">
+        {% if collection_first %}
+          {% for product in collection_first.products %}
+            <div class="inner_product_wrapper" id="diffuser-track-{{ product.selected_or_first_available_variant.id }}">
+              {% unless product.has_only_default_variant %}
+                {% for variant in product.variants %}
+                    <input type="radio" name="diffuser-track-varaints" data-set-item-dipper="diffuser-variant" data-heading="Select Oil" class="variant_check_elem" id="variant-diffuser-track-{{ variant.id }}" data-product-id="{{ product.selected_or_first_available_variant.id }}">
+                    <label for="variant-diffuser-track-{{ variant.id }}" class="grid_item_label text-label">
+                      {%- render 'product-grid-item-package',
+                        product: variant,
+                        collection: collection_second
+                      -%}
+                    </label>
+                  {% endfor %}
+              {% endunless %}
+            </div>
+          {% endfor %}
+        {% else %}
+          <p>No products found in second collection.</p>
+        {% endif %}
+      </div>
+
+      <div class="inner_third_row inner_item_row">
+        {% if collection_second %}
+          {% for product in collection_second %}
+            <input type="radio" name="oils-track" class="parent_check_elem" data-heading="Select Oil Pack" id="oils-track-{{ product.selected_or_first_available_variant.id }}" data-product-id="{{ product.selected_or_first_available_variant.id }}">
+            <label for="oils-track-{{ product.selected_or_first_available_variant.id }}" class="grid_item_label text-label">
+              {%- render 'product-grid-item-package',
+                product: product,
+                collection: collection_second
+              -%}
+            </label>
+          {% endfor %}
+        {% else %}
+          <p>No products found in second collection.</p>
+        {% endif %}
+      </div>
+
+      <div class="inner_fourth_row inner_item_row">
+        {% if collection_first %}
+          {% for product in collection_second  %}
+            <div class="inner_product_wrapper" id="oils-track-{{ product.selected_or_first_available_variant.id }}">
+              {% unless product.has_only_default_variant %}
+                {% for variant in product.variants %}
+                    <input type="radio" name="oils-track-varaints" data-set-item-dipper="oil-variant" data-heading="Your Starter Pack" class="variant_check_elem" id="variant-oils-track-{{ variant.id }}" data-product-id="{{ product.selected_or_first_available_variant.id }}">
+                    <label for="variant-oils-track-{{ variant.id }}" class="grid_item_label text-label">
+                      {%- render 'product-grid-item-package',
+                        product: variant,
+                        collection: collection_second
+                      -%}
+                    </label>
+                  {% endfor %}
+              {% endunless %}
+            </div>
+          {% endfor %}
+        {% else %}
+          <p>No products found in second collection.</p>
+        {% endif %}
+      </div>
+      
+      <div class="inner_fifth_row inner_item_row">
+        <div class="inner_wrapper_elem">
+          <div class="container_step_combined">
+              {%- render 'product-grid-item',
+                product: collection_first.products[0],
+                collection: collection_first
+              -%}
+              {% for product in collection_second limit: 1 %}
+                  {%- render 'product-grid-item',
+                    product: product,
+                    collection: collection_second
+                  -%}
+              {% endfor %}
+          </div>
+          <div class="form_button_container">
+            <button class="btn btn--full">Add to cart</button>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>

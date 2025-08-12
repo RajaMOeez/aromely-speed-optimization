@@ -1,0 +1,70 @@
+{% comment %} ADDED BY @OPTIEXPERTS {% endcomment %}
+
+{%- form 'product', product, id: form_id, class: 'custom_width_form product-single__form opti_ajax_form' -%}
+
+  {%- liquid
+      assign enable_dynamic_buttons = false
+      if show_dynamic_checkout and template != 'product.preorder' and gift_card_recipient_feature_active == false
+      assign enable_dynamic_buttons = true
+      endif
+  -%}
+{% comment %} {%- if enable_dynamic_buttons -%}
+  <div class="payment-buttons">
+{%- endif -%} {% endcomment %}
+
+    {%- liquid
+      assign default_text = 'products.product.add_to_cart' | t
+      assign button_text = 'Add to Cart'
+      if template contains 'preorder'
+        assign default_text = 'products.product.preorder' | t
+        assign button_text = 'products.product.preorder' | t
+      endif
+      unless current_variant.available
+        assign button_text = 'sold'
+      endunless
+    -%}
+
+    {% comment %} /* CHANGE COMMENT ADDED 07-08-2024 */ {% endcomment %}
+    <input type="hidden" name="id" class="current_variant_form" value="{{ current_variant.id }}">
+
+    {% if product.selling_plan_groups[0].selling_plans[0].id  %}
+      <input type="hidden" class="selling_plan_input" name="{% if section.settings.enable_selling %}selling_plan{% endif %}" value="{% if section.settings.enable_selling %}{{ product.selling_plan_groups[0].selling_plans[0].id }}{% endif %}" data-selling-name="selling_plan" data-selling-plan="{{ product.selling_plan_groups[0].selling_plans[0].id }}">
+    {% endif %}
+
+    <button
+      {% if product.empty? %}type="button"{% else %}type="submit"{% endif %}
+      name="add"
+      data-add-to-cart
+      class="add-to-cart {% if enable_dynamic_buttons and product.selling_plan_groups == empty %} btn--secondary{% endif %} {% if variant_title %}submit-button-popover {% endif %}"
+      {% unless current_variant.available %} disabled="disabled"{% endunless %}>
+      <span data-add-to-cart-text data-default-text="{{ default_text }}">
+          {{ button_text }}
+      </span>
+    </button>
+
+    {% if desktop_block %}
+      <span class="popover-money">
+        {% if current_variant.compare_at_price > current_variant.price %}
+            {% assign percent_off = current_variant.price | times: 0.10 %}
+            <span class="compare-at-price strikethrough">
+            {{ current_variant.price | money }}
+            </span>
+            <span class="current-price">
+            {{ current_variant.price | minus: percent_off | round | money }}
+            </span>
+        {% else %}
+            <span class="variant-price">
+            <span class="current-price">
+                {{ current_variant.price | money }}
+            </span>
+            </span>
+        {% endif %}
+      </span>
+    {% endif %}
+
+  {% comment %} {%- if enable_dynamic_buttons -%}
+    </div>
+  {%- endif -%} {% endcomment %}
+{%- endform -%}
+
+

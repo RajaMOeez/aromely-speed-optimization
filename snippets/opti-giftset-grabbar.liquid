@@ -1,0 +1,174 @@
+{% comment %} GIFT SET CODE TO MOVE {% endcomment %}
+<div class="opti_giftset_holder">
+  <input type="hidden" name="product_torom" value="{{ main_product.selected_or_first_available_variant.id }}">
+  <div class="main_heading_setpack">
+    <p>Add 3 Oils to Complete Your Kit.</p>
+  </div>
+  <div class="progress_container">
+    <div class="inner_progress_shadow"></div>
+    <div class="inner_progress_bar"></div>
+    <div class="icons_container">
+        <div class="progress_first">
+            <span class="circle_elem">1</span>
+        </div>
+        <div class="progress_second">
+            <span class="circle_elem">2</span>
+        </div>
+        <div class="progress_third">
+            <span class="circle_elem">3</span>
+        </div>
+    </div>
+  </div>
+  <div class="inner_wrapper_holder">
+    <div class="tabs_container">
+      <div class="opti-tabs">
+        {% for collection in main_product.metafields.custom.giftset_data.value %}
+          <button 
+            class="opti-tab-btn{% if forloop.first %} active{% endif %}" 
+            data-opti-tab="opti-tab-{{ forloop.index }}">
+            {{ collection.title }}
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="content_container">
+      {% for collection in main_product.metafields.custom.giftset_data.value %}
+        <div 
+          class="opti-tab-content{% if forloop.first %} active{% endif %}" 
+          id="opti-tab-{{ forloop.index }}">
+          <div class="opti-product-grid">
+            {% assign prod_total_price = 0 %}
+            {% assign prod_compare_price = 0 %}
+            {% for product in collection.products %}
+                
+                {% unless product.title contains 'Sample' and product.available %}  
+                    <opti-giftset-bundle>
+                        <div class="opti-product-card">
+                            <div class="opti_panel_selected">
+                                <div class="bubble-wrapper">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                        <path fill="#ffffff" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 
+                                        12-5.373 12-12-5.373-12-12-12zm-1.25 16.518l-4.5-4.319 
+                                        1.396-1.435 3.078 2.937 6.105-6.218 
+                                        1.421 1.409-7.5 7.626z"/>
+                                    </svg>
+                                    <span class="bubble b1"></span>
+                                    <span class="bubble b2"></span>
+                                    <span class="bubble b3"></span>
+                                    <span class="bubble b4"></span>
+                                    <span class="bubble b5"></span>
+                                    <span class="bubble b6"></span>
+                                    <span class="bubble b7"></span>
+                                </div>
+                            </div>
+                            <p class="card_error_msg"></p>
+    
+                            {% assign selected_title = main_product.metafields.custom.variant_filter_giftset %}
+                            {% if product.variants %}
+                                {% for variant in product.variants %}
+                                    {% assign variant_title_down = variant.title | downcase %}
+                                    {% assign filter_down = selected_title | strip | downcase %}
+                                    {% if variant.available and variant_title_down == filter_down %}
+                                        <img src="{{ variant.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+                                        {% assign final_price = variant.price %}
+                                        {% assign compare_price = variant.compare_at_price %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% else %}
+                                <img src="{{ product.featured_image | img_url: 'medium' }}" alt="{{ product.title }}">
+                                {% assign final_price = product.price %}
+                                {% assign compare_price = product.compare_at_price %}
+                            {% endif %}
+    
+                            
+                            
+                            <p class="product_title">{{ product.title }}</p>
+                            {% if product.metafields.judgeme.badge %}
+                                <div style='{{ jm_style }}' class='jdgm-widget opti_review_outer_container jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'>
+                                <span style="display: flex; gap: 5px;">{{ product.metafields.judgeme.badge }}</span>
+                                <span class="opti_review_container"></span>
+                                </div>
+                            {% endif %}
+                            <div class="price_container">
+                                {% if product.compare_at_price > product.price  %}
+                                    <span class="price_original">
+                                        <del>{{ compare_price | money }}</del>
+                                    </span>
+                                    <span class="price_discount">
+                                        {{ final_price | money }}
+                                    </span>
+                                {% else %}
+                                    <span class="price_original">
+                                        {{ final_price | money }}
+                                    </span>
+                                {% endif %}
+                            </div>
+    
+    
+                            {% assign filter_titles = main_product.metafields.custom.variant_filter_giftset | split: ',' %}
+                            {% if product.variants %}
+                                <div class="opti-variant-grid">
+                                    {% for variant in product.variants %}
+                                        {% assign variant_title_down = variant.title | downcase %}
+                                        {% for filter in filter_titles %}
+                                            {% assign filter_down = filter | strip | downcase %}
+                                            {% if variant.available and variant_title_down == filter_down %}
+                                                <div class="opti-variant-card visually-hidden" 
+                                                    data-id="{{ variant.id }}"
+                                                    data-image="{% if variant.featured_media %}{{ variant.featured_media | img_url: 'large' }}{% else %}{{ product.featured_media | img_url: 'large' }}{% endif %}"
+                                                    data-title="{% if variant_title_down == 'default title' %}{{ product.title | truncatewords: 2 }}{% else %}{{ product.title }} ({{ variant.title }}){% endif %}"
+                                                    data-price="{% if variant.compare_at_price > variant.price %}
+                                                    <span class='price_original'><del>{{ variant.compare_at_price | money }}</del></span>
+                                                    <span class='price_discount'>{{ variant.price | money }}</span>
+                                                    {% else %}
+                                                    <span class='price_original'>{{ variant.price | money }}</span>
+                                                    {% endif %}"
+                                                    {% if product.metafields.judgeme.badge %}
+                                                    data-reviews="
+                                                        <div style='{{ jm_style }}' class='jdgm-widget opti_review_outer_container jdgm-preview-badge' data-id='{{ product.id }}' data-auto-install='false'>
+                                                        <span style='display: flex; gap: 5px;'>{{ product.metafields.judgeme.badge }}</span>
+                                                        <span class='opti_review_container'></span>
+                                                        </div>"
+                                                    {% endif %}
+                                                    {% if product.selling_plan_groups[0].selling_plans[0].id %}
+                                                        data-selling-plan="{{ product.selling_plan_groups[0].selling_plans[0].id }}"
+                                                        data-selling-name="selling_plan"
+                                                    {% endif %}
+                                                    data-final-price="{{ variant.price }}"
+                                                    data-compare-price="{{ variant.compare_at_price }}"
+                                                    >
+                                                </div>
+                                            {% break %}
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        
+                        </div>
+                    </opti-giftset-bundle>
+                {% endunless %}
+
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="completed_prod_placeholder">
+    <div class="place_header">
+        <p class="p">🎉Diffuser Kit Ready!</p>
+    </div>
+    <div class="inner_container_stim">
+    </div>
+  </div> 
+</div>
+
+
+
+
+
+
+

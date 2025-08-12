@@ -1,0 +1,113 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_content_VVwhe4": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_HMQzgg": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Image Display</title>\n    <style>\n        /* CSS for center alignment, size adjustment, and padding */\n        img {\n            display: block; /* Make the image a block element */\n            margin: 20px auto 0; /* Center align the image and add top padding */\n            width: 8%; /* Set the width to 30% of the container */\n            padding-bottom: 0; /* Set bottom padding to 0 */\n        }\n    </style>\n</head>\n<body>\n\n    <img src=\"https://cdn.shopify.com/s/files/1/0503/0599/0856/files/aromely-disclaimer.png?v=1717696005\" alt=\"Image\">\n\n</body>\n</html>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_HMQzgg"
+      ],
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_DWVWWi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iMCJzA": {
+          "type": "heading",
+          "settings": {
+            "title": "DISCLAIMER"
+          }
+        },
+        "text_cqYNYe": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Thank you for choosing us! Ensure your safety and satisfaction by understanding proper product use. Please read carefully.</p>"
+          }
+        },
+        "text_CLUePN": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3><strong>1. DIFFUSER OIL SAMPLES</strong></h3><p>Discounts can be combined with sample sets. All sample set purchases are final and not eligible for return. However, the seller may offer a replacement if evidence of incorrect fulfillment is provided.</p>"
+          }
+        },
+        "text_CzGgkF": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3><strong>2. SIGNATURE OILS </strong></h3><p><strong>Trademark: </strong>At Aromely, we provide fragrance recommendations for informational purposes only. While brands may be mentioned as sources of inspiration, we are not currently affiliated with any specific brand or product. Please note that all mentioned brands are the sole owners of their respective trademarks. </p><p><strong>Not for Ingestion:</strong> Our diffuser oils are for external use only. They are not intended to be ingested in any form. Ingesting essential oils can be toxic and cause serious harm to your health. Please keep them out of reach of children and pets.</p><p><strong>Not for Medical Use:</strong> While some essential oils have aromatherapeutic properties, our products are not intended to diagnose, treat, cure, or prevent any disease. If you have any medical concerns, consult with a qualified healthcare professional before using essential oils.</p><p><strong>Avoid Contact with Eyes and Mucous Membranes:</strong> Direct contact with eyes or mucous membranes should be avoided. If contact occurs, rinse thoroughly with water and seek medical attention if irritation persists.</p>"
+          }
+        },
+        "text_UiLHMt": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h3><strong>3. FREESTANDING & HVAC DIFFUSERS </strong></h3><p><strong>Warranty </strong>Avoidance<strong>: </strong>While we highly recommend exclusive use of Aromely products for optimal performance, it is not mandatory. However, should our technicians determine that a diffuser malfunction is due to substandard oil use, the warranty will be void. In such cases, the client assumes full responsibility for repair costs. Your cooperation in adhering to these guidelines is appreciated.</p><p><strong>Do Not Disassemble:</strong> Our oil diffuser machines are designed to be used as a whole unit. Disassembling the device or attempting to modify its components can result in malfunction or damage. Only authorized personnel should perform any maintenance or repairs on the machine.</p><p><strong>Avoid Sitting or Placing Heavy Objects:</strong> Do not sit or place heavy objects on the oil diffuser machine. Doing so may cause damage to the internal components or affect its performance. Place the machine on a stable and flat surface to ensure proper operation.</p><p><strong>Keep Away from Water Sources:</strong> While our oil diffuser machines are designed to disperse essential oils into the air, they are not waterproof. Keep the device away from water sources such as sinks, bathtubs, or pools to prevent damage or electrical hazards.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iMCJzA",
+        "text_cqYNYe",
+        "text_CLUePN",
+        "text_CzGgkF",
+        "text_UiLHMt"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "back_to_top_button_wPtAzr": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "advanced_content_VVwhe4",
+    "rich_text_DWVWWi",
+    "back_to_top_button_wPtAzr"
+  ]
+}
