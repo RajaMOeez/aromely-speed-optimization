@@ -1,0 +1,160 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-header": {
+      "type": "collection-header",
+      "disabled": true,
+      "settings": {
+        "enable": true,
+        "collection_image_enable": true,
+        "parallax": true,
+        "parallax_direction": "top"
+      }
+    },
+    "slideshow_dnN93J": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QxTmHX": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/aromely-toilet-odor-control.png",
+            "image_mobile": "shopify://shop_images/aromely-toilet-odor-control-mobile.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_QxTmHX"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": true
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "custom_css": [
+        ".grid-product__tag--sale {text-transform: uppercase; font-weight: 800;}"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "drawer",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    },
+    "testimonials_Tb9CFg": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_4Kj3Yw": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This spray transforms the bathroom experience. Just a couple of spritzes, and any odor worries vanish. It leaves a pleasant scent behind. A must-have for a fresh-smelling bathroom!</p>",
+            "author": "Excellent!",
+            "author_info": ""
+          }
+        },
+        "testimonial_CrzVYz": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I was skeptical, but this spray is a game-changer. It traps odors in the bowl and leaves a refreshing fragrance. Guests always ask where to get it.</p>",
+            "author": "Game-Changer",
+            "author_info": ""
+          }
+        },
+        "testimonial_X7J9bP": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This spray is perfect for travel. It traps odors and leaves a refreshing fragrance. It’s small and discreet, ideal for hotels and on-the-go. Never leave home without it!</p>",
+            "author": "Travel Essential!",
+            "author_info": ""
+          }
+        },
+        "testimonial_XXHEMf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>A must-have for vacations! It kept our hotel bathroom fresh and odor-free. Compact and easy to use, it's now a permanent part of my travel essentials.</p>",
+            "author": "Vacation-Saver",
+            "author_info": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_4Kj3Yw",
+        "testimonial_CrzVYz",
+        "testimonial_X7J9bP",
+        "testimonial_XXHEMf"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Why Customers Love Pee&Poo?",
+        "align_text": "left",
+        "round_images": true,
+        "color_background": "#ffffff",
+        "color_text": "#1c1d1d"
+      }
+    }
+  },
+  "order": [
+    "collection-header",
+    "slideshow_dnN93J",
+    "main-collection",
+    "testimonials_Tb9CFg"
+  ]
+}

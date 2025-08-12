@@ -9,330 +9,860 @@
  */
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "accordion_banner_xMkDnd": {
+      "type": "accordion-banner",
       "blocks": {
-        "slideshow-0": {
-          "type": "image",
+        "product_item_WxhexV": {
+          "type": "product_item",
           "settings": {
-            "top_subheading": "Aromely",
-            "title": "A Better Way\nTo Scent your Home",
-            "title_size": 80,
-            "subheading": "Try Aromely 100% Risk Free",
-            "link": "shopify://collections/diffuser-oils",
-            "link_text": "Shop Scents",
-            "link_2": "shopify://collections/scent-diffusers",
-            "link_text_2": "Shop Diffusers",
-            "color_accent": "#6a2789",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/2.jpg",
-            "overlay_opacity": 26,
-            "focal_point": "80% 0"
+            "product": "aro-tower-gift-set-smart-scent-diffuser-up-to-3-000-sqft-deal",
+            "image": "shopify://shop_images/mesa_completa.webp",
+            "custom_description": "",
+            "button_text": "Treat Yourself"
           }
         },
-        "slideshow-1": {
-          "type": "image",
+        "product_item_XazBWm": {
+          "type": "product_item",
           "settings": {
-            "top_subheading": "Aromely",
-            "title": "The Art of\nScent",
-            "title_size": 80,
-            "subheading": "Perfect for a Business, great for your home.",
-            "link": "shopify://collections/diffuser-oils",
-            "link_text": "Shop Scents",
-            "link_2": "shopify://collections/scent-diffusers",
-            "link_text_2": "Shop Diffusers",
-            "color_accent": "#6a2789",
-            "text_align": "vertical-center horizontal-left",
-            "image": "shopify://shop_images/bruce-mars-DzscfI482bA-unsplash.jpg",
-            "overlay_opacity": 0,
-            "focal_point": "bottom center"
+            "product": "aro-bliss-gift-set-smart-scent-diffuser-up-to-500-sqft-deal",
+            "image": "shopify://shop_images/bliss_bundle_66d82e73-d795-438b-bd0a-6dc8771617fb.webp",
+            "custom_description": "",
+            "button_text": "Treat Yourself"
+          }
+        },
+        "product_item_gKqpHc": {
+          "type": "product_item",
+          "settings": {
+            "product": "my-way-by-aromely-inspired-by-1-hotel-home-fragrances-aromatherapy-essential-scent-woody",
+            "image": "shopify://shop_images/myway.webp",
+            "custom_description": "",
+            "button_text": "Treat Yourself"
+          }
+        },
+        "product_item_ywyfHJ": {
+          "type": "product_item",
+          "settings": {
+            "product": "aro-max-gift-set-smart-hvac-scent-diffuser-up-to-16-000-sqft-deal",
+            "image": "shopify://shop_images/aromax.webp",
+            "custom_description": "",
+            "button_text": "Treat Yourself"
+          }
+        },
+        "product_item_yjQgrR": {
+          "type": "product_item",
+          "settings": {
+            "product": "aromely-toilet-odor-control-before-you-go-spray-2oz-60ml",
+            "image": "shopify://shop_images/peeandpoo.webp",
+            "custom_description": "",
+            "button_text": "Treat Yourself"
+          }
+        },
+        "product_item_XAtXKX": {
+          "type": "product_item",
+          "settings": {
+            "product": "aromely-room-air-spray-8floz-236ml-made-in-usa",
+            "image": "shopify://shop_images/roomspray.webp",
+            "custom_description": "",
+            "button_text": "Treat Yourself"
           }
         }
       },
       "block_order": [
-        "slideshow-0",
-        "slideshow-1"
+        "product_item_WxhexV",
+        "product_item_XazBWm",
+        "product_item_gKqpHc",
+        "product_item_ywyfHJ",
+        "product_item_yjQgrR",
+        "product_item_XAtXKX"
       ],
+      "custom_css": [],
+      "name": "Banner Acordeón",
       "settings": {
-        "section_height": "750px",
-        "mobile_height": "auto",
-        "parallax": true,
-        "style": "bars",
-        "autoplay": true,
-        "autoplay_speed": 7
+        "banner_height": 500,
+        "hover_flex": 1.5,
+        "margin_top": 0,
+        "margin_bottom": 20,
+        "text_color": "#ffffff",
+        "title_size": 15,
+        "description_size": 14,
+        "price_size": 16,
+        "price_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 70,
+        "border_radius": 10,
+        "button_bg_color": "#6a2789",
+        "button_text_color": "#ffffff",
+        "button_hover_color": "#6a2789",
+        "button_hover_text_color": "#ffffff",
+        "button_padding": 12,
+        "button_border_radius": 5,
+        "button_text_size": 14
       }
     },
-    "rich-text": {
-      "type": "rich-text",
+    "raw_Ld4gHG": {
+      "type": "raw",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "title": "Safer, Cheaper & Better than Candles"
-          }
-        },
-        "text": {
+        "text_d6YEWN": {
           "type": "text",
           "settings": {
-            "enlarge_text": true,
-            "text": "<p>Don't let the smell of your house be limited to candles. Aromely products are natural, safe, affordable, and an easy-to-use way to maintain a healthy and delicious aroma around your home. </p>"
+            "title": "",
+            "section_html": "<!-- Sticky Seamless Scrolling Banner -->\n<div id=\"scent-banner\" style=\"\n  position: sticky;\n  top: 0;\n  background-color: #EC9036;\n  overflow: hidden;\n  white-space: nowrap;\n  z-index: 9999;\n  width: 100%;\n  margin-bottom: 0;\n\">\n  <div style=\"\n    display: inline-block;\n    white-space: nowrap;\n    animation: scrollText 25s linear infinite;\n    font-weight: bold;\n    font-family: inherit;\n    color: white;\n    font-size: 16px;\n    padding: 10px 0;\n  \">\n    <!-- Repeat enough times to ensure smooth looping -->\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n  </div>\n</div>\n<style>\n  @keyframes scrollText {\n    0%   { transform: translateX(0); }\n    100% { transform: translateX(-50%); }\n  }\n  /* Mobile-specific padding-bottom */\n  @media (max-width: 768px) {\n    #scent-banner > div {\n      padding-bottom: 1px !important;\n      padding-top: 1px !important;\n    }\n  }\n</style>",
+            "heading_size": "large",
+            "text_alignment": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "text"
+        "text_d6YEWN"
       ],
+      "name": "RAW Element",
       "settings": {
-        "align_text": "center",
-        "narrow_column": true,
-        "divider": false
+        "width": "full-width"
       }
     },
-    "promo-grid": {
-      "type": "promo-grid",
+    "raw_DeYYbC": {
+      "type": "raw",
       "blocks": {
-        "promo-0": {
-          "type": "advanced",
+        "text_mT8WEE": {
+          "type": "text",
           "settings": {
-            "subheading": "",
-            "heading": "The best diffusing experience",
-            "textarea": "We're here to offer you the best possible diffusing experience. We offer luxurious aromatherapy diffusers for home, office, and commercial use.",
-            "cta_text1": "Shop Diffusers",
-            "cta_link1": "shopify://collections/scent-diffusers",
-            "cta_text2": "Shop Oils",
-            "cta_link2": "shopify://collections/diffuser-oils",
-            "image": "shopify://shop_images/553A7248.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 800,
-            "text_size": 70,
-            "text_align": "vertical-bottom horizontal-center",
-            "focal_point": "bottom",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": true
-          }
-        },
-        "promo-1": {
-          "type": "advanced",
-          "settings": {
-            "subheading": "Pure, natural, and therapeutic",
-            "heading": "Over 28 Scents to Choose",
-            "textarea": "Aromely is a one-stop shop for all your essential oils needs. Whether you need to add a touch of spice to your life, or want to take your relaxation to the next level, we have what you need.",
-            "cta_text1": "Shop Scents",
-            "cta_link1": "shopify://collections/diffuser-oils",
-            "cta_text2": "Shop Diffusers",
-            "cta_link2": "shopify://collections/scent-diffusers",
-            "image": "shopify://shop_images/detailed-image-of-dried-lavender.jpg",
-            "video_url": "",
-            "width": "50",
-            "height": 500,
-            "text_size": 100,
-            "text_align": "vertical-bottom horizontal-center",
-            "focal_point": "80% 50%",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": true,
-            "framed": false
+            "title": "",
+            "section_html": "<meta charset=\"utf-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <title>Aromely – Video Hero</title>\n\n  <style>\n    html, body { margin: 0; padding: 0; }\n\n    /* Animations */\n    @keyframes fadeIn { to { opacity: 1; } }\n    @keyframes fadeInText { to { opacity: 1; } }\n    @keyframes fadeInButton { to { opacity: 1; } }\n\n    /* Hero container (16:9) */\n    .hero {\n      position: relative;\n      width: 100%;\n      padding-top: 56.25%; /* 16:9 fallback for broad support */\n      margin: 0;\n      /* If you prefer, you can use aspect-ratio instead of padding-top:\n         aspect-ratio: 16 / 9; */\n    }\n\n    /* Video iframe sits behind overlay */\n    .hero__video {\n      border: 0;\n      position: absolute;\n      inset: 0;\n      width: 100%;\n      height: 100%;\n      display: block;\n      z-index: 999999; /* << keeps video behind overlay */\n    }\n\n    /* Overlay content */\n    #overlay-content {\n      position: absolute;\n      top: 50%;\n      left: 50%;\n      transform: translate(-50%, -50%);\n      z-index: 99999; /* << above the video */\n      text-align: center;\n      font-family: inherit;\n      opacity: 0;\n      animation: fadeIn 1.5s ease forwards;\n      margin: 0;\n      padding: 0;\n    }\n\n    /* Text + CTA */\n    #new-scent-label {\n      color: white;\n      letter-spacing: 1px;\n      text-transform: uppercase;\n      margin: 0 0 4px 0;\n      opacity: 0;\n      transition: opacity 1s ease;\n      animation: fadeInText 1.5s ease 0.5s forwards;\n      font-size: 14px; /* mobile default */\n    }\n    #fragrance-name {\n      color: white;\n      margin: 0;\n      font-weight: bold;\n      opacity: 0;\n      transition: opacity 1s ease;\n      animation: fadeInText 1.5s ease 0.7s forwards;\n      font-size: 14px; /* mobile default */\n    }\n    #scent-button {\n      display: inline-block;\n      border: 2px solid white;\n      color: white;\n      background-color: transparent;\n      font-size: 16px;\n      text-decoration: none;\n      transition: all 0.3s ease, opacity 1s ease;\n      opacity: 0;\n      animation: fadeInButton 1.5s ease 1s forwards;\n      padding: 5px 7px; /* mobile default */\n    }\n    #scent-button:hover { background-color: rgba(255,255,255,0.1); }\n\n    /* Desktop tweaks */\n    @media (min-width: 769px) {\n      #new-scent-label { font-size: 40px; }\n      #fragrance-name { font-size: 30px; padding-bottom: 10px; }\n      #scent-button { padding: 12px 24px; }\n    }\n  </style>\n\n\n\n  <div class=\"hero\">\n    <!-- Bunny.net iframe (fills the container) -->\n    <iframe class=\"hero__video\" title=\"Aromely Hero Video\" src=\"https://iframe.mediadelivery.net/embed/477595/95d8c5ec-4af7-462d-b773-9aa47b79e018?autoplay=true&amp;loop=true&amp;muted=true&amp;playsinline=true&amp;preload=true&amp;responsive=true\" loading=\"eager\" allow=\"accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;\" allowfullscreen=\"\"></iframe>\n\n    <!-- Overlay Content Centered -->\n    <div id=\"overlay-content\">\n      <p id=\"new-scent-label\">DUBAI OUD MIRAGE</p>\n      <p id=\"fragrance-name\">Every Scent is a story.</p>\n      <a id=\"scent-button\" href=\"https://aromely.com/products/dubai-oud-mirage\">Explore Now</a>\n    </div>\n  </div>",
+            "heading_size": "large",
+            "text_alignment": "center"
           }
         }
       },
       "block_order": [
-        "promo-0",
-        "promo-1"
+        "text_mT8WEE"
       ],
+      "custom_css": [
+        "plyr__controls {justify-content: flex-start !important;}"
+      ],
+      "name": "RAW Element",
       "settings": {
-        "full_width": true,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
+        "width": "regular"
       }
     },
-    "featured-collections": {
-      "type": "featured-collections",
+    "raw_4WEPQg": {
+      "type": "raw",
       "blocks": {
-        "featured-collections-0": {
-          "type": "collection",
+        "text_jpMQBX": {
+          "type": "text",
           "settings": {
-            "collection": "scent-diffusers",
             "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "diffuser-oils",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-2": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
-          }
-        },
-        "featured-collections-3": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": "",
-            "title": "",
-            "focal_point": "center center"
+            "section_html": "<!-- Sticky Seamless Scrolling Banner -->\n<div id=\"scent-banner\" style=\"\n  position: sticky;\n  top: 0;\n  background-color: #EC9036;\n  overflow: hidden;\n  white-space: nowrap;\n  z-index: 9999;\n  width: 100%;\n  margin-bottom: 0;\n\">\n  <div style=\"\n    display: inline-block;\n    white-space: nowrap;\n    animation: scrollText 25s linear infinite;\n    font-weight: bold;\n    font-family: inherit;\n    color: white;\n    font-size: 16px;\n    padding: 10px 0;\n  \">\n    <!-- Repeat enough times to ensure smooth looping -->\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n    <span style=\"margin: 0 60px;\">Arriving Soon</span>\n  </div>\n</div>\n<style>\n  @keyframes scrollText {\n    0%   { transform: translateX(0); }\n    100% { transform: translateX(-50%); }\n  }\n  /* Mobile-specific padding-bottom */\n  @media (max-width: 768px) {\n    #scent-banner > div {\n      padding-bottom: 1px !important;\n      padding-top: 1px !important;\n    }\n  }\n</style>",
+            "heading_size": "large",
+            "text_alignment": "center"
           }
         }
       },
       "block_order": [
-        "featured-collections-0",
-        "featured-collections-1",
-        "featured-collections-2",
-        "featured-collections-3"
+        "text_jpMQBX"
+      ],
+      "custom_css": [],
+      "name": "RAW Element",
+      "settings": {
+        "width": "full-width"
+      }
+    },
+    "hero_video_A4qD6M": {
+      "type": "hero-video",
+      "disabled": true,
+      "name": "t:sections.hero-video.presets.video_hero.name",
+      "settings": {
+        "title": "",
+        "title_size": 80,
+        "subheading": "NEW SCENT: Dubai Oud Mirage",
+        "link_text": "EXPLORE SCENT NOW",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https://iframe.mediadelivery.net/play/477595/95d8c5ec-4af7-462d-b773-9aa47b79e018",
+        "overlay_opacity": 0,
+        "section_height": "650px",
+        "mobile_height": "auto"
+      }
+    },
+    "product_featured_tabs_Hxe6KB": {
+      "type": "product-featured-tabs",
+      "blocks": {
+        "step_CiADej": {
+          "type": "step",
+          "settings": {
+            "heading": "<p>My Way by Aromely (20ml Oil Samples)</p>",
+            "content": "<p>Discover the Perfect Aromely Scents with 20ml Samples – Convenient, Affordable, and Customizable</p>",
+            "product": "my-way-inspired-by-1-hotel-20ml-sample",
+            "product_description": "<p>Discover the Perfect Aromely Scents with 20ml Samples – Convenient, Affordable, and Customizable</p>",
+            "key_point_1": "<p>✔ Selected Ingredients</p>",
+            "key_point_2": "<p>✔ Pet & Kid Safe</p>",
+            "key_point_3": "<p>✔ Exclusive Formulas</p>",
+            "button_link": "shopify://pages/aromely-diffuser-oil-samples",
+            "button_text": "How it Works"
+          }
+        },
+        "step_64kmNB": {
+          "type": "step",
+          "settings": {
+            "heading": "<p>Ocean Desire by Aromely (20ml Oil Samples)</p>",
+            "content": "<p>The More you Buy, the More you Save Enjoy Up to 25% OFF on your order.</p>",
+            "product": "ocean-desire-inspired-by-ritz-carlton-20ml-sample",
+            "product_description": "<p>The More you Buy, the More you Save Enjoy Up to 25% OFF on your order.</p>",
+            "key_point_1": "<p>✔ Selected Ingredients</p>",
+            "key_point_2": "<p>✔ Pet & Kid Safe</p>",
+            "key_point_3": "<p>✔ Exclusive Formulas</p>",
+            "button_link": "shopify://pages/aromely-diffuser-oil-samples",
+            "button_text": "How it Works"
+          }
+        },
+        "step_ezac8V": {
+          "type": "step",
+          "settings": {
+            "heading": "<p>Fresh Linen By Aromely (20ml Oil Samples)</p>",
+            "content": "<p>Customize your sample selection today to find your ideal fragrance while taking advantage of amazing discounts.</p>",
+            "product": "fresh-linen-inspired-by-cheval-blanc-hotel-paris-20ml-sample",
+            "product_description": "<p>Customize your sample selection today to find your ideal fragrance while taking advantage of amazing discounts.</p>",
+            "key_point_1": "<p>✔ Selected Ingredients</p>",
+            "key_point_2": "<p>✔ Pet & Kid Safe</p>",
+            "key_point_3": "<p>✔ Exclusive Formulas</p>",
+            "button_link": "shopify://pages/aromely-diffuser-oil-samples",
+            "button_text": "How it Works"
+          }
+        }
+      },
+      "block_order": [
+        "step_CiADej",
+        "step_64kmNB",
+        "step_ezac8V"
       ],
       "disabled": true,
+      "name": "Product Tabs",
       "settings": {
-        "title": "Shop by category",
-        "divider": false,
-        "per_row": 2,
-        "enable_gutter": true
+        "background_color": "#efe8f2",
+        "top_main_heading": "",
+        "top_main_content": ""
       }
     },
-    "promo-grid2": {
-      "type": "promo-grid",
+    "marketing_by_media_Th7tMR": {
+      "type": "marketing-by-media",
+      "custom_css": [
+        ".heading-above-subtitle {margin-bottom: 45px;}",
+        "h2 {font-size: 20px; font-weight: normal;}",
+        "p {color: purple; font-size: 20px;}",
+        "@media (max-width: 600px) {h2 {font-size: 13px; } .heading-above-subtitle {margin-bottom: 20px; } p {color: purple; font-size: 15px; }}"
+      ],
+      "name": "Marketing by Media",
+      "settings": {
+        "h1_text": "Aroma oil diffuser by Aromely",
+        "h2_heading_text": "Premium Scent Diffusers & Designer Fragrances",
+        "h2_text": "Aromely: Every Scent Is a Story",
+        "description_text": "Why stay stuck with old-fashioned Candles or Air Fresheners ? \nDiscover the  best-kept 5-star-hotel fragrance secret you can bring home without breaking the bank.",
+        "image_desktop": "shopify://shop_images/2-Premium_Scent_Diffusers_Home_Fragrances_copy.webp",
+        "image_mobile": "shopify://shop_images/2-Premium_Scent_Diffusers_Home_Fragrances_copy.webp",
+        "button_text": "Indulge in Luxury Now",
+        "button_link": "shopify://collections/hotel-selection-hvac-diffusers",
+        "section_padding": 60,
+        "image_position": "left",
+        "image_border_radius": 10,
+        "h1_color": "#000000",
+        "h1_size": 36,
+        "h1_weight": 400,
+        "h1_margin_bottom": 20,
+        "h2_color": "#000000",
+        "h2_size": 24,
+        "h2_weight": 400,
+        "h2_margin_bottom": 16,
+        "text_color": "#333333",
+        "text_size": 16,
+        "text_alignment": "left",
+        "button_bg_color": "#6a2789",
+        "button_text_color": "#ffffff",
+        "button_hover_color": "#6a2789",
+        "button_text_size": 14,
+        "button_padding": 12,
+        "button_border_radius": 5,
+        "button_position": "bottom-left",
+        "button_offset_x": 20,
+        "button_offset_y": 20
+      }
+    },
+    "ml_oil_by_lamedia_H6Dmgw": {
+      "type": "ml_oil_by_lamedia",
       "blocks": {
-        "promo2-0": {
-          "type": "advanced",
+        "featured_item_MrMqde": {
+          "type": "featured_item",
           "settings": {
-            "subheading": "Small, Medium, or Large",
-            "heading": "We got you covered",
-            "textarea": "We currently serve a wide variety of customers from small residential clients to very large supermarkets and commercial properties all over USA.",
-            "cta_text1": "Shop Scents",
-            "cta_link1": "shopify://collections/diffuser-oils",
-            "cta_text2": "Shop Diffusers",
-            "cta_link2": "shopify://collections/scent-diffusers",
-            "image": "shopify://shop_images/Aromatherapy_Wifi_Nebulizing_Scent_Diffuser_-blue_Background_black_scent_machine.jpg",
-            "video_url": "",
-            "width": "100",
-            "height": 800,
-            "text_size": 130,
-            "text_align": "vertical-bottom horizontal-center",
-            "focal_point": "center",
-            "color_accent": "rgba(0,0,0,0)",
-            "boxed": false,
-            "framed": false
+            "title_tag": "p",
+            "title_color": "#000000",
+            "title": "One of Our Award-Winning Aromas.",
+            "description_tag": "p",
+            "description_color": "#1c1d1d",
+            "description": "Discover the Perfect Aromely Scents with 20ml Samples – Convenient, Affordable, and Customizable",
+            "featured_product": "my-way-inspired-by-1-hotel-20ml-sample",
+            "product_title_tag": "p",
+            "product_title_color": "#6a2789",
+            "feature_1": "Selected Ingredients",
+            "feature_1_tag": "p",
+            "feature_1_color": "",
+            "feature_2": "Pet & Kid Safe",
+            "feature_2_tag": "p",
+            "feature_2_color": "",
+            "feature_3": "Exclusive Formulas",
+            "feature_3_tag": "p",
+            "feature_3_color": "",
+            "button_text": "How It Works",
+            "button_url": "shopify://pages/aromely-diffuser-oil-samples"
           }
         },
-        "promo2-1": {
-          "type": "sale_collection",
-          "disabled": true,
+        "featured_item_C4maYG": {
+          "type": "featured_item",
           "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
+            "title_tag": "p",
+            "title_color": "",
+            "title": "Our Always Sold-Out Aroma",
+            "description_tag": "p",
+            "description_color": "",
+            "description": "The More you Buy, the More you Save Enjoy Up to 25% OFF on your order.",
+            "featured_product": "ocean-desire-inspired-by-ritz-carlton-20ml-sample",
+            "product_title_tag": "p",
+            "product_title_color": "#6a2789",
+            "feature_1": "Selected Ingredients",
+            "feature_1_tag": "p",
+            "feature_1_color": "",
+            "feature_2": "Pet & Kid Safe",
+            "feature_2_tag": "p",
+            "feature_2_color": "",
+            "feature_3": "Exclusive Formulas",
+            "feature_3_tag": "p",
+            "feature_3_color": "",
+            "button_text": "How it works",
+            "button_url": "shopify://pages/aromely-diffuser-oil-samples"
           }
         },
-        "promo2-2": {
-          "type": "sale_collection",
-          "disabled": true,
+        "featured_item_DxMz6d": {
+          "type": "featured_item",
           "settings": {
-            "sale_collection": "",
-            "top_text": "Up to",
-            "middle_text": "50% off",
-            "bottom_text": "Select products",
-            "width": "50",
-            "color_tint": "#000000",
-            "color_tint_opacity": 0,
-            "boxed": false,
-            "framed": true
+            "title_tag": "p",
+            "title_color": "",
+            "title": "Our Newest Viral Aroma.",
+            "description_tag": "p",
+            "description_color": "",
+            "description": "Customize your sample selection today to find your ideal fragrance while taking advantage of amazing discounts.",
+            "featured_product": "fresh-linen-inspired-by-cheval-blanc-hotel-paris-20ml-sample",
+            "product_title_tag": "p",
+            "product_title_color": "#6a2789",
+            "feature_1": "Selected Ingredients",
+            "feature_1_tag": "p",
+            "feature_1_color": "",
+            "feature_2": "Pet & Kid Safe",
+            "feature_2_tag": "p",
+            "feature_2_color": "",
+            "feature_3": "Exclusive Formulas",
+            "feature_3_tag": "p",
+            "feature_3_color": "",
+            "button_text": "How it Works",
+            "button_url": "shopify://pages/aromely-diffuser-oil-samples"
           }
         }
       },
       "block_order": [
-        "promo2-0",
-        "promo2-1",
-        "promo2-2"
+        "featured_item_MrMqde",
+        "featured_item_C4maYG",
+        "featured_item_DxMz6d"
+      ],
+      "custom_css": [],
+      "name": "20ml Destacados",
+      "settings": {
+        "sidebar_title": "Aromely Diffuser Oil Samples",
+        "background_color": "#4400990f",
+        "sidebar_bg_color": "#7c4297",
+        "sidebar_text_color": "#ffffff",
+        "accent_color": "#7c4297",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "button_bg_color": "#7c4297",
+        "button_text_color": "#ffffff",
+        "button_hover_bg_color": "#ffffff",
+        "item_title_size": 24,
+        "item_title_weight": "600"
+      }
+    },
+    "collection_by_media_6NVX7n": {
+      "type": "collection-by-media",
+      "blocks": {
+        "collection_item_4Lmtdp": {
+          "type": "collection_item",
+          "settings": {
+            "selected_collection": "diffuser-gift-sets",
+            "collection_link": "shopify://collections/scent-diffusers",
+            "custom_image": "shopify://shop_images/DIFUSORES_-_2.webp",
+            "custom_title": "HVAC Scent Diffusers",
+            "custom_subtitle": "Aromely’s premium collection of smart home scent diffusers...",
+            "background_zoom": 1,
+            "background_opacity": 0.8
+          }
+        },
+        "collection_item_RmL8r4": {
+          "type": "collection_item",
+          "settings": {
+            "selected_collection": "diffuser-oils",
+            "collection_link": "shopify://collections/diffuser-oils",
+            "custom_image": "shopify://shop_images/white_tea.webp",
+            "custom_title": "Diffuser Oils",
+            "custom_subtitle": "Over 30 luxury scents inspired by world-class hotels.",
+            "background_zoom": 1,
+            "background_opacity": 0.4
+          }
+        },
+        "collection_item_rQbfzA": {
+          "type": "collection_item",
+          "settings": {
+            "selected_collection": "diffuser-gift-sets",
+            "collection_link": "shopify://collections/diffuser-gift-sets",
+            "custom_image": "shopify://shop_images/aro_bliss_my_way.webp",
+            "custom_title": "Diffuser Gift Set",
+            "custom_subtitle": "The perfect bundle, tailored for your space—ready to buy...",
+            "background_zoom": 1.1,
+            "background_opacity": 0.4
+          }
+        },
+        "collection_item_yJQhYK": {
+          "type": "collection_item",
+          "settings": {
+            "selected_collection": "home-fragrances",
+            "collection_link": "shopify://products/aromely-room-air-spray-8floz-236ml-made-in-usa",
+            "custom_image": "shopify://shop_images/room_spray_banner_final.webp",
+            "custom_title": "Room Odor Spray",
+            "custom_subtitle": "Your go-to ritual for winding down or starting fresh...",
+            "background_zoom": 1.1,
+            "background_opacity": 0.3
+          }
+        },
+        "collection_item_wLY6F7": {
+          "type": "collection_item",
+          "settings": {
+            "selected_collection": "before-you-go-spray",
+            "collection_link": "shopify://products/aromely-toilet-odor-control-before-you-go-spray-2oz-60ml",
+            "custom_image": "shopify://shop_images/toilet_spray.webp",
+            "custom_title": "Before you Go Odor Spray",
+            "custom_subtitle": "Trap odors before they begin. Your perfect ally for travel and more...",
+            "background_zoom": 1.1,
+            "background_opacity": 0.4
+          }
+        },
+        "collection_item_8iHFmW": {
+          "type": "collection_item",
+          "settings": {
+            "selected_collection": "pets-odor-control",
+            "collection_link": "shopify://products/pee-poo-cat-odor-eliminator-spray-clean-natural-8oz-230ml",
+            "custom_image": "shopify://shop_images/PET-pee-an-poo.webp",
+            "custom_title": "Pets Odor Eliminator Spray",
+            "custom_subtitle": "Two sprays. That’s all it takes to go from funky to fresh...",
+            "background_zoom": 1,
+            "background_opacity": 0.3
+          }
+        }
+      },
+      "block_order": [
+        "collection_item_4Lmtdp",
+        "collection_item_RmL8r4",
+        "collection_item_rQbfzA",
+        "collection_item_yJQhYK",
+        "collection_item_wLY6F7",
+        "collection_item_8iHFmW"
+      ],
+      "name": "Collection by Media",
+      "settings": {
+        "max_items": 6,
+        "show_header": true,
+        "section_title": "Shop Our Collections",
+        "section_subtitle": "Discover our full range of products, carefully organized by category for a seamless shopping experience in home fragrance and scent solutions.",
+        "header_alignment": "center",
+        "title_size": 32,
+        "title_weight": "700",
+        "title_color": "#0f0f0f",
+        "title_margin_bottom": 10,
+        "subtitle_size": 16,
+        "subtitle_color": "#111111",
+        "header_margin_bottom": 40,
+        "gallery_alignment": "center",
+        "items_gap": 20,
+        "item_width": 300,
+        "tablet_item_width": 250,
+        "item_height": 300,
+        "item_border_radius": 8,
+        "item_shadow": "0 4px 8px rgba(0,0,0,0.1)",
+        "default_background_image": "shopify://shop_images/background.webp",
+        "default_background_opacity": 0.3,
+        "default_background_zoom": 1,
+        "background_opacity": 0.3,
+        "background_zoom": 1,
+        "background_transition_duration": 0.6,
+        "background_overlay_color": "#ffffff",
+        "background_overlay_opacity": 0.4,
+        "disable_background_mobile": true,
+        "hover_transform": "translateY(-5px)",
+        "hover_duration": 0.3,
+        "image_zoom_on_hover": true,
+        "overlay_bg_color": "#7580da99",
+        "overlay_text_color": "#000000",
+        "overlay_text_size": 18,
+        "overlay_text_transform": "uppercase",
+        "overlay_text_weight": "700",
+        "overlay_opacity_desktop": 0,
+        "overlay_opacity_hover": 1,
+        "mobile_item_width": 100,
+        "mobile_item_height": 250,
+        "mobile_overlay_always_visible": true,
+        "overlay_opacity_mobile": 0.8,
+        "mobile_overlay_bg_color": "rgba(0,0,0,0)",
+        "mobile_overlay_text_color": "#222222",
+        "mobile_overlay_padding": 10,
+        "show_product_count": true,
+        "section_bg_color": "#ffffff",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60
+      }
+    },
+    "product_recommendations_DWad6N": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "Featured Products & Bundles",
+        "related_count": 6,
+        "products_per_row": 3,
+        "enable_selling": true
+      }
+    },
+    "collection_tabs_fwyXWX": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_block_DBhnHR": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "",
+            "home_featured_products": "scent-diffusers",
+            "per_row": 4,
+            "rows": 2,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "collection_block_fwkhRp": {
+          "type": "collection_block",
+          "settings": {
+            "title": "Diffuser Gift Sets",
+            "tab_label": "Gift Sets",
+            "home_featured_products": "diffuser-gift-sets",
+            "per_row": 4,
+            "rows": 2,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "collection_block_jx8Apr": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "",
+            "home_featured_products": "diffuser-oils",
+            "per_row": 4,
+            "rows": 2,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_DBhnHR",
+        "collection_block_fwkhRp",
+        "collection_block_jx8Apr"
+      ],
+      "custom_css": [
+        ".section-header {display: none;}",
+        ".grid-product__tag--sale {text-transform: uppercase; font-weight: 800;}",
+        ".grid-product__tag {background-color: red !important;}",
+        ".grid-product__price {font-size: calc(var(--typeBaseSize) * 1.1);}"
+      ],
+      "settings": {
+        "enable_selling": true
+      }
+    },
+    "video_reviews_plus_jXbwMe": {
+      "type": "video-reviews-plus",
+      "blocks": {
+        "review_card_XAqgxc": {
+          "type": "review_card",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/ce0a6c5658c4492c810825535fc4118c.mov",
+            "linked_product": "aro-x25-gift-set-smart-scent-diffuser-up-to-1-000-sqft-deal"
+          }
+        },
+        "review_card_aVHwir": {
+          "type": "review_card",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/de3ed2a8375347cbb49a20671241d89e.mp4",
+            "linked_product": "aro-25-max-gift-set-smart-scent-diffuser-up-to-1-500-sqft-deal"
+          }
+        },
+        "review_card_Fn6xB8": {
+          "type": "review_card",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/d1fbc6a5043842cb8377454dc59da8cc.mov",
+            "linked_product": "aro-home-smart-hvac-scent-diffuser-up-to-1-800-sqft-bluetooth-waterless"
+          }
+        },
+        "review_card_4Ezzby": {
+          "type": "review_card",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/1206c6bcaa614f77b0f6992aa09225cb.mp4",
+            "linked_product": "aro-tower-smart-scent-diffuser-for-home-office-spa-up-to-3-000-sqft-open-areas"
+          }
+        },
+        "review_card_gtPPtw": {
+          "type": "review_card",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/1a905de39d50418381db8e15287686ba.mov",
+            "linked_product": "aro-bliss-gift-set-smart-scent-diffuser-up-to-500-sqft-deal"
+          }
+        },
+        "review_card_xFgHJb": {
+          "type": "review_card",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/261e59b2299a4d4590c46de633f859b1.mov",
+            "linked_product": "aro-max-smart-hvac-scent-diffuser-up-to-16-000-sqft-bluetooth-waterless"
+          }
+        },
+        "review_card_gm6gUF": {
+          "type": "review_card",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/5c44d892e5b34debaeb5f94c10c01383.mov",
+            "linked_product": "my-way-by-aromely-inspired-by-1-hotel-home-fragrances-aromatherapy-essential-scent-woody"
+          }
+        }
+      },
+      "block_order": [
+        "review_card_XAqgxc",
+        "review_card_aVHwir",
+        "review_card_Fn6xB8",
+        "review_card_4Ezzby",
+        "review_card_gtPPtw",
+        "review_card_xFgHJb",
+        "review_card_gm6gUF"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "section_title": "Also Bought Together",
+        "section_subtitle": "Suggested Add-Ons & Accessories for a Perfect Scent Experience"
+      }
+    },
+    "1751203058e831d520": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_8UUNw4": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_8UUNw4"
       ],
       "settings": {
         "full_width": false,
-        "gutter_size": 20,
-        "space_above": false,
-        "space_below": false
+        "space_around": true
       }
     },
-    "featured-collection": {
-      "type": "featured-collection",
+    "ugc_video_with_product_qVa6LT": {
+      "type": "ugc-video-with-product",
+      "blocks": {
+        "media_product_block_LLXKr6": {
+          "type": "media_product_block",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/c03aea25cf4b43c7a86c52cef6916f48.mp4",
+            "poster_image": "shopify://shop_images/9.16-Dubai-Oud-home.jpg",
+            "product": "dubai-oud-mirage",
+            "button_text": "Explore Now",
+            "button_link": "shopify://products/dubai-oud-mirage"
+          }
+        },
+        "media_product_block_TK6EyH": {
+          "type": "media_product_block",
+          "settings": {
+            "media_type": "video",
+            "image": "shopify://shop_images/AROMELY-SIN-SLOGAN-POSITIVO.png",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/277a4680f4bb4de4b66bf35775d5945a.mp4",
+            "poster_image": "shopify://shop_images/toilet.webp",
+            "product": "aromely-toilet-odor-control-before-you-go-spray-2oz-60ml",
+            "button_text": "EXPLORE SAMPLES",
+            "button_link": "https://aromely.com/pages/aromely-diffuser-oil-samples"
+          }
+        },
+        "media_product_block_37nyG4": {
+          "type": "media_product_block",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/79c7c1bf987d42b195079d2b06e49b35.mp4",
+            "product": "aro-x25-gift-set-smart-scent-diffuser-up-to-1-000-sqft-deal",
+            "button_text": "EXPLORE NOW",
+            "button_link": "https://aromely.com/products/aro-25-max-gift-set-smart-scent-diffuser-up-to-1-500-sqft-deal"
+          }
+        },
+        "media_product_block_ELDY9q": {
+          "type": "media_product_block",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/a28bad98799940ab8dc9eb7e2ac22d52.mp4",
+            "poster_image": "shopify://shop_images/ARO_HOME_Scent_Diffuser_Coverage_1200_Sqft_Small_Spaces.jpg",
+            "product": "aro-home-gift-set-smart-hvac-scent-diffuser-up-to-1-800-sqft-deal",
+            "button_text": "EXPLORE NOW",
+            "button_link": "https://aromely.com/products/aro-home-gift-set-smart-hvac-scent-diffuser-up-to-1-800-sqft-deal"
+          }
+        },
+        "media_product_block_V8EL7t": {
+          "type": "media_product_block",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/6259ef1d9e274335a07c2663df0c209c.mp4",
+            "product": "aro-tower-gift-set-smart-scent-diffuser-up-to-3-000-sqft-deal",
+            "button_text": "EXPLORE NOW",
+            "button_link": "https://aromely.com/products/aro-tower-gift-set-smart-scent-diffuser-up-to-3-000-sqft-deal"
+          }
+        },
+        "media_product_block_BPi9MY": {
+          "type": "media_product_block",
+          "settings": {
+            "media_type": "video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b1d16e6fb6f24aec87e3d066edd5c928.mp4",
+            "poster_image": "shopify://shop_images/aromely-home-scent-diffuser-aro-bliss-gift-set.png",
+            "product": "aro-bliss-gift-set-smart-scent-diffuser-up-to-500-sqft-deal",
+            "button_text": "EXPLORE NOW",
+            "button_link": "https://aromely.com/products/aro-bliss-gift-set-smart-scent-diffuser-up-to-500-sqft-deal"
+          }
+        }
+      },
+      "block_order": [
+        "media_product_block_LLXKr6",
+        "media_product_block_TK6EyH",
+        "media_product_block_37nyG4",
+        "media_product_block_ELDY9q",
+        "media_product_block_V8EL7t",
+        "media_product_block_BPi9MY"
+      ],
+      "custom_css": [
+        ".text-link,a {color: WHITE;}"
+      ],
+      "name": "UGC Product Slider",
       "settings": {
-        "title": "Featured collection",
-        "home_featured_products": "diffuser-oils",
-        "per_row": 4,
-        "rows": 1,
-        "mobile_scrollable": true,
-        "view_all": true,
-        "divider": false
-      }
-    },
-    "background-image-text": {
-      "type": "background-image-text",
-      "settings": {
-        "subtitle": "Aromely",
-        "title": "Better breathing, better sleep",
-        "text": "<p>Aromely is an award-winning, natural solution to help you sleep better, faster, and longer. Our scents are made with 100% natural essential oils.</p>",
-        "button_label": "",
-        "button_link": "shopify://collections/all",
-        "image": "shopify://shop_images/3.jpg",
-        "focal_point": "center",
-        "layout": "left",
-        "height": 750,
-        "framed": false,
-        "parallax": true
+        "heading_title": "Also Bought Together",
+        "heading_subtitle": "Suggested Add-Ons & Accessories for a Perfect Scent Experience"
       }
     },
     "blog-posts": {
       "type": "blog-posts",
+      "custom_css": [
+        ".btn--secondary.btn--small {color: purple;}"
+      ],
       "settings": {
-        "title": "From the journal",
+        "title": "Diffuser Tips, Must-Haves & Trends",
         "blog": "news",
         "post_limit": 3,
-        "blog_show_tags": false,
+        "mobile_post_limit": 2,
+        "blog_show_tags": true,
         "blog_show_date": true,
         "blog_show_comments": false,
-        "blog_show_author": false,
+        "blog_show_author": true,
         "view_all": true,
-        "blog_image_size": "square",
+        "blog_image_size": "natural",
         "divider": false
       }
     },
-    "map": {
-      "type": "map",
-      "disabled": true,
+    "features_section_E4TjdH": {
+      "type": "features-section",
+      "blocks": {
+        "feature_cCFUGJ": {
+          "type": "feature",
+          "settings": {
+            "link_url": "https://aromely.com/collections/scent-diffusers",
+            "icon": "shopify://shop_images/aro_bliss_my_way.webp",
+            "heading": "Hotel-Grade Scenting at Home",
+            "text": ""
+          }
+        },
+        "feature_FfpgG3": {
+          "type": "feature",
+          "settings": {
+            "link_url": "https://aromely.com/collections/diffuser-oils",
+            "icon": "shopify://shop_images/room_spray_banner_final.webp",
+            "heading": "Safer, Cheaper & Better than Candles",
+            "text": ""
+          }
+        },
+        "feature_fgg9cn": {
+          "type": "feature",
+          "settings": {
+            "link_url": "",
+            "icon": "shopify://shop_images/DIFUSORES_-_2-1.webp",
+            "heading": "The Art of Scent: Your Ticket to Every 5-Star Resort.",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "feature_cCFUGJ",
+        "feature_FfpgG3",
+        "feature_fgg9cn"
+      ],
+      "custom_css": [],
+      "name": "Three-Up Features",
       "settings": {
-        "map_title": "Our retail store",
-        "address": "<p>301 Front St W<br>Toronto, Canada</p><p>Mon - Fri, 8:30am - 10:30pm<br>Saturday, 8:30am - 10:30pm<br>Sunday, 8:30am - 10:30pm</p>",
-        "map_address": "301 Front St W, Toronto, ON M5V 2T6",
-        "api_key": "",
-        "show_button": true,
-        "background_image_position": "center center"
+        "title": "Why Choose Aromely?"
+      }
+    },
+    "back_to_top_button_8NRxEE": {
+      "type": "back-to-top-button",
+      "custom_css": [],
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 80,
+        "enable_scroll_to_class": true,
+        "scroll_to_class": ".media-overlay",
+        "enable_scroll_to_top": false,
+        "position": "bottom-right",
+        "background_color": "#ffffff",
+        "icon_color": "#6a2789",
+        "icon_size_mobile": 18,
+        "icon_size_desktop": 32,
+        "shape": "shadowed"
       }
     }
   },
   "order": [
-    "slideshow",
-    "rich-text",
-    "promo-grid",
-    "featured-collections",
-    "promo-grid2",
-    "featured-collection",
-    "background-image-text",
+    "accordion_banner_xMkDnd",
+    "raw_Ld4gHG",
+    "raw_DeYYbC",
+    "raw_4WEPQg",
+    "hero_video_A4qD6M",
+    "product_featured_tabs_Hxe6KB",
+    "marketing_by_media_Th7tMR",
+    "ml_oil_by_lamedia_H6Dmgw",
+    "collection_by_media_6NVX7n",
+    "product_recommendations_DWad6N",
+    "collection_tabs_fwyXWX",
+    "video_reviews_plus_jXbwMe",
+    "1751203058e831d520",
+    "ugc_video_with_product_qVa6LT",
     "blog-posts",
-    "map"
+    "features_section_E4TjdH",
+    "back_to_top_button_8NRxEE"
   ]
 }

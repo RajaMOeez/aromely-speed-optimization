@@ -1,0 +1,259 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_VTFq7c": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YX6f4W": {
+          "type": "heading",
+          "settings": {
+            "title": "MTK Flash Sale!"
+          }
+        },
+        "text_xh3Qd8": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Auto-Applied at Checkout: <strong>Extra 20%OFF all Gift Sets + BOGO on ALL Fragrances.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YX6f4W",
+        "text_xh3Qd8"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "advanced_content_9myhTJ": {
+      "type": "advanced-content",
+      "blocks": {
+        "liquid_F9dJNe": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Flash Sale with Custom Styling</title>\n  <style>\n\n    /* Unique container for flash sale section */\n    .flash-sale-container {\n      text-align: center;\n      margin: 0;\n      padding: 2px;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      background-color: #fffff;\n      font-family: Arial, sans-serif;\n    }\n\n    /* MLK Flash Sale text with sliding effect */\n    .flash-sale-text {\n      font-size: 30px;\n      font-weight: bold;\n      color: black; /* Updated to black */\n      opacity: 0;\n      transform: translateX(-100%);\n      animation: flashSaleSlideIn 1.5s forwards;\n    }\n\n    /* Extra Offer text next to Flash Sale */\n    .offer-text {\n      font-size: 20px;\n      font-weight: bold; /* Ensuring boldness */\n      color: black;\n      margin-left: 5px;\n      display: inline-block;\n    }\n.disclaimer {\n            font-size: 15px;\n            text-align: center;\n            color: black;\n            margin: 10px 20px}\n    /* Underlined Auto-applied text with specific size */\n    .underline {\n      font-size: 15px; /* Fixed size for both desktop and mobile */\n      text-decoration: underline;\n      font-weight: normal;\n    }\n\n    /* Sliding animation for Flash Sale */\n    @keyframes flashSaleSlideIn {\n      0% {\n        opacity: 0;\n        transform: translateX(-100%);\n      }\n      100% {\n        opacity: 1;\n        transform: translateX(0);\n      }\n    }\n\n    /* Fading animation for Auto-applied text */\n    @keyframes extraOfferFadeIn {\n      0% {\n        opacity: 0;\n      }\n      100% {\n        opacity: 1;\n      }\n    }\n\n    /* Responsive font sizes */\n    @media (max-width: 768px) {\n      .flash-sale-text, .offer-text {\n        font-size: 15px}\n .disclaimer {\n                font-size: 10px;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"flash-sale-container\">\n    <div>\n      <span class=\"flash-sale-text\"></span>\n      <span class=\"offer-text\">EXTRA 20% OFF ALL GIFT SETS + BOGO ON ALL FRAGRANCES\n</span>\n    </div>\n    <p class=\"underline\">\n      Auto-applied at checkout\n    </p>\n<p class=\"disclaimer\">\n        DISCALIMER: Extra 20% off is valid while wholesale lasts. The BOGO sale (Buy Two, Get One Free) is valid on one-time purchases only.\n    </p>\n  </div>\n</body>\n</html>",
+            "width": "100%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "liquid_F9dJNe"
+      ],
+      "custom_css": [
+        ".rte > div {margin-bottom: 0px;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "advanced_content_bQiHzY": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_yrB384": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gift-set-selling-min.png",
+            "link": "shopify://collections/diffuser-gift-sets",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_pWJWHH": {
+          "type": "liquid",
+          "settings": {
+            "code": "<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Gift Set Text</title>\n  <style>\n    .gift-set-container {\n      display: flex;\n      flex-direction: column; \n      justify-content: center;\n      align-items: center;\n      height: auto;\n      background-color: #ffff;\n\n    }\n\n    .gift-set-text {\n      font-size: 20px;\n      text-align: center;\n      opacity: 0;\n      animation: giftTextFadeIn 1.5s forwards;\n    }\n\n    .underline {\n      text-decoration: underline;\n    }\n\n    .highlight-text {\n      font-size: 24px;\n      font-weight: bold;\n      text-transform: uppercase;\n      color: white;\n      background-color: red;\n      padding: 5px 10px;\n      margin-top: 10px;\n      text-align: center;\n      opacity: 0;\n      animation: giftTextFadeIn 1.5s 1s forwards; \n    }\n\n    @keyframes giftTextFadeIn {\n      0% {\n        opacity: 0;\n        transform: translateY(20px);\n      }\n      100% {\n        opacity: 1;\n        transform: translateY(0);\n      }\n    }\n\n    @media (max-width: 768px) {\n      .gift-set-text {\n        font-size: 18px;\n      }\n      .highlight-text {\n        font-size: 18px;\npadding-right: 15px;\n        padding-left: 15px;\n      }\n    }\n\n        \n  </style>\n</head>\n<body>\n  <div class=\"gift-set-container\"><p class=\"highlight-text\">Extra 20% off</p>\n    <p class=\"gift-set-text\">\n      Our gift sets are curated for a superior, long-lasting scenting experience, ensuring a perfectly perfumed space with ease and extra savings for a limited time \n      <span class=\"underline\">auto-applied at checkout</span>!\n    </p>\n    \n  </div>\n</body>\n</html>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_yrB384",
+        "liquid_pWJWHH"
+      ],
+      "custom_css": [
+        ".rte > div {margin-bottom: 0px;}",
+        "@media (max-width: 768px) {.gift-set-text {font-size: 16px; margin-right: 15px; margin-left: 15px; }}",
+        ".gift-set-container {background-color: white;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": false
+      }
+    },
+    "collection_tabs_ninKnT": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_block_93tRJM": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "",
+            "home_featured_products": "diffuser-gift-sets",
+            "per_row": 4,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": false,
+            "divider": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_93tRJM"
+      ],
+      "custom_css": [
+        ".tabs-section .tabs-block .tabs-buttons {display: none; padding: 0px 0px !important;}",
+        ".tabs-section .tabs-block .tabs-buttons .tab-btn.btn-active {display: none;}"
+      ],
+      "settings": {
+        "enable_selling": true
+      }
+    },
+    "featured_collection_9YXTHk": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "home-page",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "advanced_content_EdM43F": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_FXnEiG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Oils-selling-min.png",
+            "link": "shopify://collections/diffuser-oils",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "liquid_8bBGrE": {
+          "type": "liquid",
+          "settings": {
+            "code": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Gift Set Text</title>\n  <style>\n    .gift-set-container {\n      display: flex;\n      flex-direction: column; \n      justify-content: center;\n      align-items: center;\n      height: auto;\n      background-color: #f9f9f9;\n    }\n\n    .gift-set-text {\n      font-size: 20px;\n      text-align: center;\n      opacity: 0;\n      animation: giftTextFadeIn 1.5s forwards;\n    }\n\n    .underline {\n      text-decoration: underline;\n    }\n\n    .highlight-text {\n      font-size: 24px;\n      font-weight: bold;\n      text-transform: uppercase;\n      color: white;\n      background-color: red;\n      padding: 5px 10px;\n      margin-top: 10px;\n      text-align: center;\n      opacity: 0;\n      animation: giftTextFadeIn 1.5s 1s forwards; \n    }\n\n    @keyframes giftTextFadeIn {\n      0% {\n        opacity: 0;\n        transform: translateY(20px);\n      }\n      100% {\n        opacity: 1;\n        transform: translateY(0);\n      }\n    }\n\n    @media (max-width: 768px) {\n      .gift-set-text {\n        font-size: 12px;\n      }\n      .highlight-text {\n        font-size: 16px;\n      }\n    }\n  </style>\n</head>\n<body>\n  <div class=\"gift-set-container\"><p class=\"highlight-text\">BUY TWO, GET ONE FREE</p>\n    <p class=\"gift-set-text\">\nWant your home to feel like you just arrived at The Westin® or Ritz-Carlton®? This deal is for you for a limited time. <span class=\"underline\">auto-applied at checkout</span>!\n    </p>\n    \n  </div>\n</body>\n</html>",
+            "width": "50%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_FXnEiG",
+        "liquid_8bBGrE"
+      ],
+      "custom_css": [
+        "@media (max-width: 768px) {.gift-set-text {font-size: 16px; margin-right: 15px; margin-left: 15px; }}",
+        ".gift-set-container {background-color: white;}"
+      ],
+      "settings": {
+        "full_width": true,
+        "space_around": true,
+        "lazyload_images": false
+      }
+    },
+    "collection_tabs_9wxBH3": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_block_MqxgDQ": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "",
+            "home_featured_products": "diffuser-oils",
+            "per_row": 4,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": false,
+            "divider": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_MqxgDQ"
+      ],
+      "custom_css": [
+        ".tabs-section .tabs-block .tabs-buttons {display: none; padding: 0px 0px !important;}"
+      ],
+      "settings": {
+        "enable_selling": true
+      }
+    },
+    "raw_KwUpte": {
+      "type": "raw",
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "featured_collection_7iqWfy": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "home_featured_products": "diffuser-oils",
+        "per_row": 5,
+        "rows": 5,
+        "mobile_scrollable": false,
+        "view_all": false,
+        "divider": false
+      }
+    },
+    "back_to_top_button_p4MycW": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "rich_text_VTFq7c",
+    "main",
+    "advanced_content_9myhTJ",
+    "advanced_content_bQiHzY",
+    "collection_tabs_ninKnT",
+    "featured_collection_9YXTHk",
+    "advanced_content_EdM43F",
+    "collection_tabs_9wxBH3",
+    "raw_KwUpte",
+    "featured_collection_7iqWfy",
+    "back_to_top_button_p4MycW"
+  ]
+}

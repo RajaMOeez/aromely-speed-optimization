@@ -1,0 +1,309 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "opti_rich_text_ab7f8j": {
+      "type": "Opti-rich-text",
+      "blocks": {
+        "custom_text_c3pjwW": {
+          "type": "custom_text",
+          "settings": {
+            "custom_text": "<h1>Aromely Diffuser Oil Samples</h1><h2>Discover the Perfect Aromely Scents with 20ml Samples – Convenient, Affordable, and Customizable</h2>"
+          }
+        },
+        "heading_bppFwQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": ""
+          }
+        },
+        "custom_text_8G47na": {
+          "type": "custom_text",
+          "disabled": true,
+          "settings": {
+            "custom_text": "<p>DISCLAMIER:</p><p>ADD AT LEAST 3 SCENTS TO GET THE DISCOUNT. THERE IS NO MAXIMUM SAVING LIMIT; YOU CAN ADD AS MANY AS YOU WANT.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "custom_text_c3pjwW",
+        "heading_bppFwQ",
+        "custom_text_8G47na"
+      ],
+      "custom_css": [
+        "h1 {color: black; font-size: 45px; @media (max-width: 767px) {font-size: 25px; }}",
+        "h2 {color: black; font-size: 20px; @media (max-width: 767px) {font-size: 15px; }"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "opti_rich_text_LRGBNY": {
+      "type": "Opti-rich-text",
+      "blocks": {
+        "text_XENTkK": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>HOW IT WORKS?</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_XENTkK"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "raw_CMqpK3": {
+      "type": "raw",
+      "blocks": {
+        "text_MhNYr3": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "section_html": "<div id=\"shopify-section-template--18098997166312__how_to_steps_T3VnH8\" class=\"shopify-section\">\n  <div class=\"steps_container\" id=\"section_template--18098997166312__how_to_steps_T3VnH8\">\n    <div class=\"page page-width steps_inner_wrapper\">\n      <div class=\"steps_wrapper\">\n        <div class=\"step-block\">\n          <div class=\"step-block-inner\">\n            <div class=\"step-block-image\">\n              <img src=\"//aromely.com/cdn/shop/files/ranking1_large.png?v=1728325587\" alt=\"\">\n            </div>\n            <div class=\"step-block-content\">\n              <p><strong>Add Any 20ml Scent.</strong></p>\n              <p>Explore every scent! Edit anytime for the perfect mix.</p>\n            </div>\n          </div>\n        </div>\n        <div class=\"step-block\">\n          <div class=\"step-block-inner\">\n            <div class=\"step-block-image\">\n              <img src=\"//aromely.com/cdn/shop/files/rank_2_large.png?v=1728325690\" alt=\"\">\n            </div>\n            <div class=\"step-block-content\">\n              <p><strong>Maximize Savings!</strong></p>\n              <p>Unlock up to 25% OFF when you add more scents!</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    /* Container setup */\n    .steps_inner_wrapper {\n      position: relative;\n    }\n\n    .steps_wrapper {\n      display: flex;\n      justify-content: space-between;\n      padding: 0;\n      width: 100%;\n      gap:20px; /* Space between blocks */\n    }\n\n    /* Step block container */\n    .step-block {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      padding: 0px;\n      flex: 1; /* Ensure blocks take equal space */\n      box-shadow: inset 0 0 5px #F0CFF2;\n      border-radius: 15px;\n      min-width: 100px; /* Set a minimum size for blocks */\n    }\n\n    /* Inner block setup */\n    .step-block-inner {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      gap: 10px;\n      height: auto;\n    }\n\n    /* Image adjustments */\n    .step-block-image {\n      flex: 1;\n      padding: 0;\n      margin: 0;\n    }\n\n    .step-block-image img {\n      display: block;\n      max-width: 50%;\n      height: auto;\n      object-fit: cover;\n      margin: 0;\n      padding: 0;\n    }\n\n    /* Content setup */\n    .step-block-content {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      text-align: center;\n      margin: 0;\n    }\n\n    .step-block-content p {\n      margin: 0;\n      padding: 0;\n      line-height: 1;\n      font-size: 20px; /* Adjust font size */\n    }\n\n    /* Mobile adjustments */\n    @media (max-width: 768px) {\n      .steps_wrapper {\n        flex-wrap: nowrap; /* Ensure blocks stay side-by-side */\n        gap: 10px;\n      }\n\n      .step-block {\n        flex: 1 1 auto; /* Let the blocks shrink to fit the screen */\n        padding: 5px;\n      }\n\n      .step-block-image img {\n        width: 30%%;\n      }\n\n      .step-block-content p {\n        font-size: 15px; /* Reduce font size for mobile */\n      }\n\n      .step-block-inner {\n        gap: 5px;\n      }\n    }\n\n    /* Tablet adjustments */\n    @media (min-width: 769px) and (max-width: 1024px) {\n      .steps_wrapper {\n        flex-wrap: nowrap; /* Keep blocks side-by-side */\n        gap: 15px;\n      }\n\n      .step-block {\n        flex: 1 1 auto; /* Adjust block size */\n      }\n\n      .step-block-image img {\n        height: auto;\n      }\n\n      .step-block-inner {\n        gap: 5px;\n      }\n    }\n  </style>\n</div>",
+            "heading_size": "large",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "text_MhNYr3"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".step-block-image {flex: 1; padding: 0; margin: 0; display: flex; justify-content: center}",
+        "@media (max-width: 768px) {.step-block-image img {width: 30%}"
+      ],
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "raw_pcAEQK": {
+      "type": "raw",
+      "blocks": {
+        "text_6wRtiK": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "section_html": "<div id=\"shopify-section-template--18098997166312__how_to_steps_T3VnH8\" class=\"shopify-section\">\n  <div class=\"steps_container\" id=\"section_template--18098997166312__how_to_steps_T3VnH8\">\n    <div class=\"page page-width steps_inner_wrapper\">\n      <div class=\"steps_wrapper\">\n        <div class=\"step-block\">\n          <div class=\"step-block-inner\">\n            <div class=\"step-block-image\">\n              <img src=\"https://cdn.shopify.com/s/files/1/0503/0599/0856/files/SAMPLE-steps.png?v=1729532723\" alt=\"Sample Image\">\n            </div>\n            <div class=\"step-block-content\">\n              <p><strong> The More you Buy, the More you Save—Enjoy Up to 25% OFF on your order.</strong></p>\n              <p>Explore our full collection of luxurious scents. Customize your sample selection today to find your ideal fragrance while taking advantage of amazing discounts.</p>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n\n  <style>\n    /* Container setup */\n    .steps_inner_wrapper {\n      position: relative;\n    }\n\n    .steps_wrapper {\n      display: flex;\n      justify-content: center; /* Center the step block */\n      padding: 0;\n      width: 100%;\n      gap: 20px; /* Space between blocks */\n    }\n\n    /* Step block container */\n    .step-block {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      padding: 0px;\n      border-radius: 15px;\n      min-width: 100px; /* Set a minimum size for blocks */\n    }\n\n    /* Inner block setup */\n    .step-block-inner {\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      align-items: center;\n      gap: 10px;\n      height: auto;\n    }\n\n    /* Image adjustments */\n    .step-block-image {\n      flex: 1;\n      padding: 0;\n      margin: 0;\n      display: flex;\n      justify-content: center; /* Center the image */\n    }\n\n    .step-block-image img {\n      display: block;\n      max-width: 50%;\n      height: auto;\n      object-fit: cover;\n    }\n\n    /* Content setup */\n    .step-block-content {\n      flex: 1;\n      display: flex;\n      flex-direction: column;\n      justify-content: center;\n      text-align: center;\n      margin: 0;\n    }\n\n    .step-block-content p {\n      margin: 0;\n      padding: 0;\n      line-height: 1.2;\n      font-size: 20px; /* Adjust font size */\n    }\n\n    /* Mobile adjustments */\n    @media (max-width: 768px) {\n      .steps_wrapper {\n        flex-wrap: nowrap;\n        gap: 10px;\n      }\n\n      .step-block {\n        flex: 1 1 auto;\n        padding: 5px;\n      }\n\n      .step-block-image img {\n        max-width: 80%;\n      }\n\n      .step-block-content p {\n        font-size: 15px; /* Reduce font size for mobile */\n      }\n\n      .step-block-inner {\n        gap: 5px;\n      }\n    }\n  </style>\n</div>",
+            "heading_size": "large",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "text_6wRtiK"
+      ],
+      "custom_css": [
+        ".step-block-image {flex: 1; padding: 0; margin: 0; display: flex; justify-content: center;}",
+        ".step-block-image img {max-width: 100%;}",
+        "@media (max-width: 768px) {.step-block-image img {width: 60% .step-block-image img {max-width: 100%; }}"
+      ],
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "how_to_steps_T3VnH8": {
+      "type": "how-to-steps",
+      "blocks": {
+        "step_block_F3TBtG": {
+          "type": "step_block",
+          "settings": {
+            "image": "shopify://shop_images/ranking1.png",
+            "heading": "<p><strong>Add Any 20ml Scent.</strong></p><p>Explore every scent! Edit anytime for the perfect mix.</p>"
+          }
+        },
+        "step_block_3rhQeC": {
+          "type": "step_block",
+          "settings": {
+            "image": "shopify://shop_images/rank_2.png",
+            "heading": "<p><strong>Maximize Savings!</strong></p><p>Unlock up to 25% OFF when you add more scents!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "step_block_F3TBtG",
+        "step_block_3rhQeC"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".step-block-image {flex: 2; padding: 0;}",
+        ".steps_wrapper {display: flex; padding: 0;}",
+        "@media (max-width: 768px) {.scroll-left-steps {right: 200px !important; } .scroll-right-steps {right: 150px !important; } .steps_wrapper {display: flex; flex-wrap: nowrap; justify-content: space-between; padding: 0; box-shadow: none; overflow-x: hidden; } .step-block {flex: 1 1 100%; margin-bottom: 10px; padding: 0px; } .step-block-image {padding: 0px 0px; } .step-block-image img {height: 90%; } .step-block-inner {gap: 0px; flex-direction: column; height: 30%; }}"
+      ],
+      "settings": {}
+    },
+    "collection_bundle_b9qTXx": {
+      "type": "collection-bundle",
+      "blocks": {
+        "collection_block_XBVCJi": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "All",
+            "home_featured_products": "all-20ml",
+            "per_row": 4,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": false,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "collection_block_BjGKfQ": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "Hotel Selection",
+            "home_featured_products": "hotel-selection-20ml",
+            "per_row": 4,
+            "rows": 10,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": false,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "collection_block_7AUtMn": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "Woody Ember",
+            "home_featured_products": "woody-ember-20ml",
+            "per_row": 4,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": false,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "collection_block_4rH8CD": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "Citrus Breeze",
+            "home_featured_products": "citrus-breeze-20ml",
+            "per_row": 4,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": false,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "collection_block_gdyWeU": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "Fruity Velvet",
+            "home_featured_products": "fruity-velvet-20ml",
+            "per_row": 4,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": false,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "collection_block_dDDDN8": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "Floral Noir",
+            "home_featured_products": "floral-noir-20ml",
+            "per_row": 4,
+            "rows": 6,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "collection_block_HWe6zQ": {
+          "type": "collection_block",
+          "disabled": true,
+          "settings": {
+            "title": "",
+            "tab_label": "",
+            "home_featured_products": "scent-diffusers",
+            "per_row": 5,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": false,
+            "view_all": false,
+            "divider": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_XBVCJi",
+        "collection_block_BjGKfQ",
+        "collection_block_7AUtMn",
+        "collection_block_4rH8CD",
+        "collection_block_gdyWeU",
+        "collection_block_dDDDN8",
+        "collection_block_HWe6zQ"
+      ],
+      "custom_css": [
+        ".subscription-widget-content {display: none;}",
+        ".bundle-savings-price,.bundle-total-price-container {padding: 0px 10px 0px 10px;}",
+        ".bundler_total_checkout_price {font-weight: 500;}",
+        "a.grid-product__see-all {display: none;}"
+      ],
+      "settings": {
+        "percentage_image": "shopify://shop_images/Add_a_heading_3.png",
+        "short_trophy_image": "shopify://shop_images/Small_Trophy.png",
+        "medium_trophy_image": "shopify://shop_images/Medium_trohy.png",
+        "large_trophy_image": "shopify://shop_images/Lare_Trophy.png"
+      }
+    },
+    "back_to_top_button_9Gk6Qk": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "opti_rich_text_ab7f8j",
+    "opti_rich_text_LRGBNY",
+    "raw_CMqpK3",
+    "raw_pcAEQK",
+    "how_to_steps_T3VnH8",
+    "collection_bundle_b9qTXx",
+    "back_to_top_button_9Gk6Qk"
+  ]
+}

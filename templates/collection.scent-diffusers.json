@@ -1,0 +1,319 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_wgaKbT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_UCTmCf": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify:\/\/collections\/scent-diffusers",
+            "link_text": "Scent Diffuser",
+            "link_2": "shopify:\/\/collections\/diffuser-oils",
+            "link_text_2": "Oil Blends",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/Aromely-diffusers-collection.png",
+            "image_mobile": "shopify:\/\/shop_images\/aromely-diffuser-collection-mobile.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_UCTmCf"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": false,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": true
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "custom_css": [
+        ".grid-product__tag--sale {text-transform: uppercase; font-weight: 800;}",
+        ".grid-product__tag {background-color: red !important;}"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "drawer",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    },
+    "featured_collection_zUwU4N": {
+      "type": "featured-collection",
+      "custom_css": [
+        ".grid-product__tag--sale {text-transform: uppercase; font-weight: 800;}"
+      ],
+      "settings": {
+        "title": "Explore  Exclusive Aromas",
+        "home_featured_products": "diffuser-oils",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "testimonials_3iAn8z": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Qaqb8W": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Just awesome to walk thru my front door and scent hits you before your first step in..Just like walking into paradise..every room with good aroma and even my wardrobe closets..Best investment<\/p>",
+            "author": "Greg O.",
+            "author_info": "Midlothian, TX"
+          }
+        },
+        "testimonial_xgFXCf": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Bought this unit for my house and the tower for my business. This has been an absolute game changer. Keeps the rooms smelling great and is not over the top! So perfect for any occasion! Currently have a new HVAC system being put in then cant wait to hook it up to that!!! 11\/10 recommend!!!<\/p>",
+            "author": "Braden D.",
+            "author_info": "Erie, PA"
+          }
+        },
+        "testimonial_z4RfDg": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>I get so many compliments on how amazing my house smells, well my living room is where I have my diffuser.<\/p>",
+            "author": "Fernanda C.",
+            "author_info": "Hutto, TX"
+          }
+        },
+        "testimonial_DLiiRL": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>This thing is amazing. I bought it mainly to hook up to my HVAC, but I haven't had a chance to hook it up yet. I have it on standalone right now and it still covers the whole house. House smells amazing. Great price and easy to program with Bluetooth settings, and it don't leave any oil residue ! 👍<\/p>",
+            "author": "Michael J.",
+            "author_info": "Slidell, LA"
+          }
+        },
+        "testimonial_7DKXpV": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>The scent is amazing, my entire home smells like a 5 star upscale hotel and everyone that comes to my house absolutely loves the smell. Also , Aromely company and all its employees are amazing, 🤩 if you need anything they get back with you right away and solve any issues you may have which is very rare , I only had 1 issue with one of my machines, (I have two, one for each AC unit) and they came right away to my home and actually ended up changing both my machines for their new model at no charge. Super happy with them.<\/p>",
+            "author": "Mellissa T.",
+            "author_info": "Plantation, FL"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Qaqb8W",
+        "testimonial_xgFXCf",
+        "testimonial_z4RfDg",
+        "testimonial_DLiiRL",
+        "testimonial_7DKXpV"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": true,
+        "color_background": "#efe8f2",
+        "color_text": "#1c1d1d"
+      }
+    },
+    "faq_pbrjKC": {
+      "type": "faq",
+      "blocks": {
+        "question_49fkJE": {
+          "type": "question",
+          "settings": {
+            "title": "Why Choose Aromely Diffusers?",
+            "text": "<p>Aromely diffusers are the perfect blend of innovation, performance, and customer care, making them the ultimate choice for your scenting needs. Here’s why Aromely stands out:<\/p><ul><li><strong>Waterless Nebulizing Technology:<\/strong> Aromely diffusers use no heat or water, ensuring pure, undiluted fragrance for a stronger and longer-lasting aroma.<\/li><li><strong>Customizable Features:<\/strong> With Bluetooth connectivity and the Aromely app, you can easily adjust scent intensity, create schedules, and tailor the fragrance experience to your preferences.<\/li><li><strong>Versatility for Any Space:<\/strong> Whether you need a solution for a small room, a large office, or an entire hotel, Aromely offers standalone and HVAC-compatible options to meet your specific requirements.<\/li><li><strong>Safe and Eco-Friendly:<\/strong> Heat-free operation and energy-efficient design make Aromely diffusers safe for continuous, unattended use, offering peace of mind and sustainability.<\/li><li><strong>Premium Fragrance Oils:<\/strong> Pair your diffuser with Aromely’s high-quality oils, crafted to enhance any space with luxurious and memorable scents.<\/li><li><strong>Best-in-Class Customer Support:<\/strong> Aromely provides exceptional support to ensure you have the best experience, from selecting the right diffuser to troubleshooting and maintenance.<\/li><li><strong>Risk-Free Purchase:<\/strong> Aromely offers a satisfaction guarantee, so you can try their products with confidence.<\/li><li><strong>Extended Manufacturer Warranty:<\/strong> Aromely diffusers come with long warranty periods, demonstrating their commitment to quality and durability for years of worry-free use.<\/li><\/ul><p>With Aromely, you’re not just buying a diffuser—you’re investing in an elevated experience, backed by superior technology, excellent customer care, and a commitment to quality.<\/p>"
+          }
+        },
+        "question_CLHaX6": {
+          "type": "question",
+          "settings": {
+            "title": "What is a scent diffuser, and how does it work?",
+            "text": "<p>An Aromely scent diffuser is a device designed to fill your space with delightful aromas by dispersing essential oils or fragrance blends into the air. Aromely diffusers use advanced nebulizing technology to transform oils into a fine mist, creating a luxurious and inviting atmosphere.<\/p>"
+          }
+        },
+        "question_EXnwbc": {
+          "type": "question",
+          "settings": {
+            "title": "What makes Aromely scent diffusers stand out?",
+            "text": "<p>Aromely scent diffusers combine elegance, efficiency, and advanced technology. Designed to suit modern lifestyles, they are easy to use, offer adjustable settings for scent intensity, and are crafted with durable materials. Whether you’re looking for a powerful diffuser for large spaces or a compact option for smaller rooms, Aromely has the perfect solution.<\/p>"
+          }
+        },
+        "question_k479BG": {
+          "type": "question",
+          "settings": {
+            "title": "Which is better: an aroma diffuser or a traditional air freshener?",
+            "text": "<p>Aroma diffusers provide a more natural and long-lasting alternative to air fresheners. Unlike sprays that mask odors temporarily, diffusers continually release fine fragrances or essential oils, enhancing the ambiance of your space without harsh chemicals.<\/p>"
+          }
+        },
+        "question_8atcbE": {
+          "type": "question",
+          "settings": {
+            "title": "How do I choose the right aroma diffuser for my needs?",
+            "text": "<p>When selecting an aroma diffuser, consider key factors such as the size of the area you want to fragrance, your preferred scent intensity, and the installation method. Aromely offers a wide range of options to suit every need, including:<\/p><ul><li><strong>Compact, freestanding models<\/strong> perfect for small spaces like bedrooms, bathrooms, or home offices.<\/li><li><strong>Powerful HVAC-compatible diffusers<\/strong> designed to integrate with your ventilation system, providing consistent and even fragrance coverage for larger areas or entire homes.<\/li><li><strong>Portable options<\/strong> that are lightweight and versatile, allowing you to move them from room to room effortlessly.<\/li><\/ul><p>Aromely diffusers are available in various designs to match your decor while ensuring optimal performance for spaces of all sizes, from cozy rooms to expansive living areas.<\/p>"
+          }
+        },
+        "question_88xXNH": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use any fragrance oil with Aromely diffusers?",
+            "text": "<p>While Aromely diffusers can work with most high-quality fragrance oils, we recommend using Aromely’s specially formulated oils for the best results. These oils are designed to maximize the performance of waterless diffusers and provide a clean, long-lasting scent.<\/p>"
+          }
+        },
+        "question_PNg6XD": {
+          "type": "question",
+          "settings": {
+            "title": "Can I adjust the intensity of scent with a diffuser?",
+            "text": "<p>Yes, Aromely diffusers are fully customizable, giving you complete control over your scenting experience. Using the Aromely app via Bluetooth, you can:<\/p><ul><li><strong>Adjust scent intensity<\/strong> to match your preferences, from a subtle hint of fragrance to a bold aroma.<\/li><li><strong>Create automatic scent schedules<\/strong> tailored to your daily routine, ensuring your space always smells perfect at the right times.<\/li><\/ul><p>With the Aromely app, you can easily manage your diffuser settings whenever you're within Bluetooth range, making it simple and convenient to personalize your environment.<\/p>"
+          }
+        },
+        "question_dttiGX": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between Aromely waterless diffusers and traditional water-based models?",
+            "text": "<p>Aromely waterless diffusers use nebulizing technology to release pure fragrance oils into the air without dilution, ensuring a more intense and long-lasting scent. Traditional water-based diffusers dilute oils with water, often resulting in a weaker aroma and requiring more frequent maintenance.<\/p>"
+          }
+        },
+        "question_BPCi3q": {
+          "type": "question",
+          "settings": {
+            "title": "What is the lifespan of an Aromely diffuser?",
+            "text": "<p>Aromely diffusers are built with high-quality materials for durability. With regular cleaning and maintenance, they can last for years, making them a reliable and long-term investment for your home or business.<\/p>"
+          }
+        },
+        "question_eFeCbE": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use Aromely diffusers in commercial spaces?",
+            "text": "<p>Absolutely! Aromely diffusers are perfect for commercial spaces, offering solutions for all your scenting needs. Whether you’re looking to fragrance a small office, boutique, spa, or a large-scale venue like a hotel, Aromely has the ideal diffuser for the job.<\/p><p>With options ranging from standalone models for smaller spaces to HVAC-compatible systems for seamless integration in larger areas, Aromely diffusers provide powerful scent coverage, ensuring a consistent and welcoming atmosphere. From small offices to expansive hotel lobbies, Aromely has you covered.<\/p>"
+          }
+        },
+        "question_rP4PDT": {
+          "type": "question",
+          "settings": {
+            "title": "How quiet are Aromely diffusers?",
+            "text": "<p>Aromely diffusers are designed to operate quietly, making them ideal for bedrooms, offices, or any space where silence is important. They provide effective scent diffusion without disrupting your environment.<\/p>"
+          }
+        },
+        "question_qdP7Ef": {
+          "type": "question",
+          "settings": {
+            "title": "Are Aromely diffusers safe to leave running unattended?",
+            "text": "<p>Yes, Aromely diffusers are designed with safety and convenience in mind. They use advanced nebulizing technology that requires no heat, eliminating fire risks and ensuring safe, unattended operation. Additionally, Aromely diffusers are equipped with features like automatic shut-off timers and customizable schedules, allowing you to set and forget with complete peace of mind.<\/p>"
+          }
+        },
+        "question_6AyFr9": {
+          "type": "question",
+          "settings": {
+            "title": "Can Aromely diffusers improve customer experiences in retail or hospitality settings?",
+            "text": "<p>Yes! Aromely diffusers are an excellent way to enhance customer experiences in retail stores, hotels, and other hospitality spaces. A well-chosen fragrance can create a memorable atmosphere, reinforce your brand identity, and encourage customers to linger longer. With HVAC-compatible and standalone options, Aromely diffusers ensure consistent scenting tailored to your business's unique needs, whether it’s a boutique or a large hotel lobby.<\/p>"
+          }
+        },
+        "question_R3pAHC": {
+          "type": "question",
+          "settings": {
+            "title": "How energy-efficient are Aromely diffusers for continuous operation?",
+            "text": "<p>Aromely diffusers are designed to be highly energy-efficient, making them suitable for long-term, continuous use in both residential and commercial settings. Their advanced nebulizing technology uses minimal power while delivering maximum scent coverage, ensuring that you enjoy an economical yet luxurious fragrance experience without driving up energy costs.<\/p>"
+          }
+        },
+        "question_Fq4cEF": {
+          "type": "question",
+          "settings": {
+            "title": "Can Aromely diffusers be used for seasonal or event-specific scenting?",
+            "text": "<p>Yes! Aromely diffusers are perfect for seasonal or event-specific scenting. Whether it’s a cozy cinnamon and vanilla blend for the holidays or a bright citrus aroma for summer events, Aromely's customizable features and premium oils allow you to create the perfect ambiance for any occasion.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_49fkJE",
+        "question_CLHaX6",
+        "question_EXnwbc",
+        "question_k479BG",
+        "question_8atcbE",
+        "question_88xXNH",
+        "question_PNg6XD",
+        "question_dttiGX",
+        "question_BPCi3q",
+        "question_eFeCbE",
+        "question_rP4PDT",
+        "question_qdP7Ef",
+        "question_6AyFr9",
+        "question_R3pAHC",
+        "question_Fq4cEF"
+      ],
+      "settings": {
+        "title": "FAQs"
+      }
+    }
+  },
+  "order": [
+    "slideshow_wgaKbT",
+    "collection-header",
+    "main-collection",
+    "featured_collection_zUwU4N",
+    "testimonials_3iAn8z",
+    "faq_pbrjKC"
+  ]
+}

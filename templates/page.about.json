@@ -1,1 +1,236 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"slideshow":{"type":"slideshow","blocks":{"slideshow-0":{"type":"image","settings":{"link_text":""}}},"block_order":["slideshow-0"],"settings":{}},"rich-text":{"type":"rich-text","blocks":{"heading":{"type":"heading","settings":{}},"text":{"type":"text","settings":{}}},"block_order":["heading","text"],"settings":{}},"map":{"type":"map","settings":{}},"text-columns":{"type":"text-columns","blocks":{"column1":{"type":"text_block","settings":{}},"column2":{"type":"text_block","settings":{}},"column3":{"type":"text_block","settings":{}}},"block_order":["column1","column2","column3"],"settings":{}},"featured-collection":{"type":"featured-collection","settings":{}},"form":{"type":"contact-form","settings":{}}},"order":["main","slideshow","rich-text","text-columns","map","featured-collection","form"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "Quick \nProduct Guides",
+            "title_size": 80,
+            "subheading": "Select your product to access our quick guides, where you will find easy step-by-step instructions on how to install, set up, and use your Aromely diffuser.",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/image4.jpg",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0"
+      ],
+      "settings": {
+        "section_height": "650px",
+        "mobile_height": "auto",
+        "parallax": true,
+        "style": "bars",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "lazyload_images": true
+      }
+    },
+    "rich-text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Thank you for your support"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Thank you for choosing our product! We appreciate your trust in us and want to assure you that we're committed to helping you get the most out of it. Should you need assistance at any point, please know that we're here for you. Whether you prefer to reach us by phone, email, or chat, we'll do everything in our power to provide the support you need.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text-columns": {
+      "type": "text-columns",
+      "blocks": {
+        "text_block_fTVcAY": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/removal.ai__tmp-641a523ee99d9_QPLP97.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "ARO-MAX",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/aro-max-quick-guide"
+          }
+        },
+        "column1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/removal.ai__tmp-63d1dc66ba4bc.png",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "ARO-PRO",
+            "text": "",
+            "button_label": "",
+            "button_link": "https://aromely.com/pages/aro-pro?_pos=1&_psq=pro&_ss=e&_v=1.0"
+          }
+        },
+        "column2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/TOWER_DIFFUSE_IMAGE_GUIDE_PAGE.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "ARO-TOWER",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/aro-tower-quick-guide"
+          }
+        },
+        "column3": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/5_dada0e4e-3681-45aa-975a-a3d09ce85380.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "ARO-X25",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/aro-x25-quick-guide"
+          }
+        },
+        "text_block_k9DL3N": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ARO-25MAXAromatherapyEssentialOilDiffusermainblack.jpg",
+            "image_mask": "none",
+            "image_width": 650,
+            "title": "ARO-25-MAX",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/aro-25-max-quick-guide"
+          }
+        },
+        "text_block_qH6Eka": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify://shop_images/ARO-BLISS_1.png",
+            "image_mask": "none",
+            "image_width": 300,
+            "title": "ARO-BLISS",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify://pages/aro-bliss-quick-guide"
+          }
+        }
+      },
+      "block_order": [
+        "text_block_fTVcAY",
+        "column1",
+        "column2",
+        "column3",
+        "text_block_k9DL3N",
+        "text_block_qH6Eka"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    },
+    "map": {
+      "type": "map",
+      "settings": {
+        "map_title": "We are here to Help",
+        "address": "<p>By Phone Chat or Email:</p><p>866-AROMELY</p><p>sales@aromely.com</p><p>Mon - Fri, 9:30am - 6:30pm<br/>Saturday, 10:30am - 6:30pm</p>",
+        "map_address": "398 East 33rd St Hialeah, FL 33013",
+        "api_key": "",
+        "show_button": false,
+        "background_image": "shopify://shop_images/14076AB6-43F7-4BFE-B47F-4797F49A7514.jpg",
+        "lazyload_images": true
+      }
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Featured collection",
+        "home_featured_products": "",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": true,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": false,
+        "narrow_column": true
+      }
+    },
+    "back_to_top_button_ENNUMG": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow",
+    "rich-text",
+    "text-columns",
+    "map",
+    "featured-collection",
+    "form",
+    "back_to_top_button_ENNUMG"
+  ]
+}

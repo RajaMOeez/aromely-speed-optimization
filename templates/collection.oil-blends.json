@@ -1,0 +1,479 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_wgaKbT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_UCTmCf": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "shopify://collections/scent-diffusers",
+            "link_text": "Shop diffusers",
+            "link_2": "shopify://collections/diffuser-oils",
+            "link_text_2": "Shop oils",
+            "color_accent": "#000000",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify://shop_images/Aromely-signature-diffuser-oils.png",
+            "image_mobile": "shopify://shop_images/Aromely-signature-diffuser-oils-mobile.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_UCTmCf"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5,
+        "lazyload_images": false
+      }
+    },
+    "collection-header": {
+      "type": "collection-header",
+      "settings": {
+        "enable": true,
+        "collection_image_enable": false,
+        "parallax": false,
+        "parallax_direction": "top"
+      }
+    },
+    "main-collection": {
+      "type": "main-collection",
+      "blocks": {
+        "collection_description": {
+          "type": "collection_description",
+          "settings": {}
+        },
+        "subcollections": {
+          "type": "subcollections",
+          "disabled": true,
+          "settings": {
+            "subcollections_per_row": 5
+          }
+        },
+        "product_grid": {
+          "type": "product_grid",
+          "disabled": true,
+          "settings": {
+            "enable_collection_count": true,
+            "per_row": 4,
+            "rows_per_page": 7,
+            "mobile_flush_grid": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_description",
+        "subcollections",
+        "product_grid"
+      ],
+      "settings": {
+        "enable_sidebar": true,
+        "collapsed": true,
+        "filter_style": "drawer",
+        "enable_color_swatches": false,
+        "enable_swatch_labels": true,
+        "enable_sort": true
+      }
+    },
+    "collection_tabs_8xnTYV": {
+      "type": "collection-tabs",
+      "blocks": {
+        "collection_block_KH4PhP": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "",
+            "home_featured_products": "all",
+            "per_row": 4,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": false,
+            "view_all": false,
+            "divider": false
+          }
+        },
+        "collection_block_pVe4WA": {
+          "type": "collection_block",
+          "settings": {
+            "title": "Featured collection",
+            "tab_label": "HOTEL SELECTION",
+            "home_featured_products": "hotel-selection-hvac-diffusers",
+            "per_row": 5,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "collection_block_qBNQbY": {
+          "type": "collection_block",
+          "settings": {
+            "title": "Featured collection",
+            "tab_label": "WOODY",
+            "home_featured_products": "woody-ember-1",
+            "per_row": 5,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "collection_block_QFgA8H": {
+          "type": "collection_block",
+          "settings": {
+            "title": "",
+            "tab_label": "CITRUS",
+            "home_featured_products": "citrus-breeze",
+            "per_row": 5,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "collection_block_a4dQXM": {
+          "type": "collection_block",
+          "settings": {
+            "title": "Featured collection",
+            "tab_label": "FRUITY",
+            "home_featured_products": "fruity-velvet",
+            "per_row": 5,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        },
+        "collection_block_n84ijg": {
+          "type": "collection_block",
+          "settings": {
+            "title": "Featured collection",
+            "tab_label": "FLORAL",
+            "home_featured_products": "floral-noir",
+            "per_row": 5,
+            "rows": 7,
+            "product_dynamic_variants_enable": true,
+            "mobile_scrollable": true,
+            "view_all": true,
+            "divider": false
+          }
+        }
+      },
+      "block_order": [
+        "collection_block_KH4PhP",
+        "collection_block_pVe4WA",
+        "collection_block_qBNQbY",
+        "collection_block_QFgA8H",
+        "collection_block_a4dQXM",
+        "collection_block_n84ijg"
+      ],
+      "custom_css": [
+        ".grid-product__tag--sale {text-transform: uppercase; font-weight: 800;}",
+        ".my-product-title {height: 60px"
+      ],
+      "settings": {
+        "enable_selling": true
+      }
+    },
+    "featured_collections_3AdLMi": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_MW6xMx": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-wynn-hotel®-enigma",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_MD6Emm": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-westin-hotels®-royal-dreams",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_XUaCGp": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-w-hotel®-magnetic-seduction",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_6MFnPK": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-aria-hotel®-marbella",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_k3GiQ6": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-ritz-carlton®-ocean-breeze",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_7kQBeV": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-the-delano®-amber-oasis",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_cyVrXD": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-1-hotel®-my-way",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_33zbRL": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-fairmont®-bloom-bliss",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MW6xMx",
+        "collection_MD6Emm",
+        "collection_XUaCGp",
+        "collection_6MFnPK",
+        "collection_k3GiQ6",
+        "collection_7kQBeV",
+        "collection_cyVrXD",
+        "collection_33zbRL"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Hotel-Inspired Scents",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
+    "blog_collection_TkQzfA": {
+      "type": "blog-collection",
+      "blocks": {
+        "collection_b7VFMp": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-wynn-hotel®-enigma",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_KztaqC": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-westin-hotels®-royal-dreams",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_NBTghU": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-w-hotel®-magnetic-seduction",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_fAgmk3": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-aria-hotel®-marbella",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_LkpxrH": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-ritz-carlton®-ocean-breeze",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_kcyxrE": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-the-delano®-amber-oasis",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_YCNYBQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-1-hotel®-my-way",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_3MKb9U": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-fairmont®-bloom-bliss",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_YxBwwc": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-edition-hotel®",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_b7VFMp",
+        "collection_KztaqC",
+        "collection_NBTghU",
+        "collection_fAgmk3",
+        "collection_LkpxrH",
+        "collection_kcyxrE",
+        "collection_YCNYBQ",
+        "collection_3MKb9U",
+        "collection_YxBwwc"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
+    "blog_collection_NXBrLf": {
+      "type": "blog-collection",
+      "blocks": {
+        "collection_kRcLdM": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-aria-hotel®-marbella",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_UTThry": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-ritz-carlton®-ocean-breeze",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_YjgLma": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-the-delano®-amber-oasis",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kRcLdM",
+        "collection_UTThry",
+        "collection_YjgLma"
+      ],
+      "custom_css": [
+        ".collection-list-title {font-weight: normal;}"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
+    "blog_collection_tCc3TL": {
+      "type": "blog-collection",
+      "blocks": {
+        "collection_tCd4Ba": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-1-hotel®-my-way",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_PgAQxB": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-fairmont®-bloom-bliss",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "collection_V6bkFk": {
+          "type": "collection",
+          "settings": {
+            "collection": "inspired-by-edition-hotel®",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "collection_tCd4Ba",
+        "collection_PgAQxB",
+        "collection_V6bkFk"
+      ],
+      "custom_css": [
+        ".collection-list-title {font-weight: normal;}"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_wgaKbT",
+    "collection-header",
+    "main-collection",
+    "collection_tabs_8xnTYV",
+    "featured_collections_3AdLMi",
+    "blog_collection_TkQzfA",
+    "blog_collection_NXBrLf",
+    "blog_collection_tCc3TL"
+  ]
+}

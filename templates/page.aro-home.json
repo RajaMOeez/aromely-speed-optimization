@@ -1,0 +1,782 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "text_and_image_XpcNkj": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/aromely-smart-hvac-scent-diffuser-up-to-1200-sqsf-642729.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "Aro-HOME",
+        "title": "Quick Diffuser Guide",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "video_instructions_EVVBJr": {
+      "type": "video-instructions",
+      "blocks": {
+        "video_Jjk4RX": {
+          "type": "video",
+          "settings": {
+            "language": "en",
+            "title": "How to Setup My Aro Home HVAC Scent Diffuser?",
+            "video_link": "https://www.youtube.com/watch?v=LAWiDsY5Lwk",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "video_aVkVeW": {
+          "type": "video",
+          "settings": {
+            "language": "en",
+            "title": "How to Set up the Aromely App?",
+            "video_link": "https://www.youtube.com/watch?v=HBzJtoRPp88&t=199s",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "feature_Jtzf99": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/Aromely-Aro-Home-hvac-scent-diffuser.webp",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "1. Unboxing",
+            "text": "<p>What's inside the box:</p><ul><li>Diffuser</li><li>Standard 120v Power Supply </li><li>Instruction Manual</li><li>Wall Mount Bracket</li><li>Plastic bag with fixtures (Wall Mount Screws, Nozzle to hose connector & Magnetic Tags</li><li>Plastic Hose </li></ul>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_jyemJq": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/ARO_HOME_Adjustable_Time_Settings_Large_Oil_Bottle.jpg",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "2. Opening & adding Oil",
+            "text": "<p>⚠️ <strong>IMPORTANT! Do not mix oil with water.</strong></p><ul><li>To release the security pin and remove the bottle from your diffuser, place the included magnetic tag on the specific area of the diffuser where the lock mechanism is located. Depending on the model of your diffuser, this area can be either on the front or the back of the diffuser, as illustrated in the accompanying images.Once the magnetic tag is correctly positioned, the lock will release, allowing you to smoothly pull out the empty bottle. </li><li>Pull the empty bottle out and add your favorite diffuser oil.</li><li>Connect the diffuser to power (it will automatically start working on it's default settings. Follow next step to download the APP and modify the settings). </li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_rNhnNy": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/brandmark-design_3_d1aad3d4-4a86-4c57-880c-0e30d61b34b8.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Step 1: Download Aromely App",
+            "text": "<ul><li>Search and download <strong>AROMELY</strong> App on Google Play or Apple App Store.</li></ul><p><a href=\"https://play.google.com/store/apps/details?id=com.test.aromely&pcampaignid=web_share\" target=\"_blank\" title=\"https://play.google.com/store/apps/details?id=com.test.aromely&pcampaignid=web_share\"><strong>Download Aromely for Android</strong></a></p><p><a href=\"https://apps.apple.com/us/app/aromely/id6502456724\" target=\"_blank\" title=\"https://apps.apple.com/us/app/aromely/id6502456724\"><strong>Download Aromely for iOS</strong></a></p><p>Open the <strong>App Store</strong> (iPhone) or <strong>Google Play Store</strong> (Android).</p><p>Search for <strong>\"Aromely\"</strong> in the search bar.</p><p>Click on the <strong>Aromely app</strong> from the search results.</p><p>Tap <strong>Download</strong> (iPhone) or <strong>Install</strong> (Android).</p><p>Once the app is installed, open it.</p><p>When prompted, <strong>allow Bluetooth permissions</strong> to enable device connectivity.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_M3VhQX": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/aromely-app-screen.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Step 2: Accessing and Managing Your Diffuser",
+            "text": "<p>Open the <strong>Aromely App</strong>.</p><p>On the <strong>home screen</strong>, you will see several options.</p><p>To manage your diffuser, <strong>tap on \"Manage Diffusers\"</strong>.</p><p>This will take you to the device management screen, where you can add, configure, and control your diffuser.</p><p>💡 <strong>Additional Features on the Home Screen:</strong></p><p><strong>Language Selection:</strong> Tap the <strong>globe icon</strong> at the top right to switch the app language from <strong>English (default) to Spanish</strong>.</p><p><strong>Quick Access:</strong> The <strong>Scent Diffusers, Diffuser Oils, and Room Sprays</strong> buttons provide direct links to Aromely products on the website for easy browsing.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_aCpXaU": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/aromely-app-scent-diffusers.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Step 3: Viewing Available Diffusers",
+            "text": "<p>After tapping \"Manage Diffusers\", the app will display a list of all available Aromely diffusers within Bluetooth range.<br/><br/>The diffusers will automatically appear once Bluetooth permissions have been granted.<br/><br/>Each diffuser will display its name and signal strength (green for strong, red for weak).<br/><br/>At the bottom of the screen, you will find a \"Setup Instructions\" button. Tapping this button will provide access to user guides and instructions for easier setup.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_JFfU7D": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/Phone_english_2.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Step 4: Creating and Managing Schedules",
+            "text": "<p><strong>Select a Diffuser:</strong><br/>After completing <strong>Step 3</strong>, tap on the diffuser you want to manage.<br/>This will open the <strong>Diffuser Details</strong> and <strong>Working Mode screen.</strong><br/></p><p><strong>Understanding the Diffuser Details Section:</strong><br/><strong>Customer Service Icon (Top Right):</strong><br/>This allows Aromely support to remotely access your diffuser for troubleshooting.<br/>Available <strong>only during business hours.</strong><br/></p><p><strong>Settings Icon (Below Customer Service Icon):</strong><br/>Tap this to<strong> change the default diffuser password</strong> to a custom password (optional).<br/></p><p><strong>Name & Note:</strong><br/>You can rename your diffuser or add a custom note (e.g., \"Master Room - Peaceful\").<br/></p><p><strong>Fan Setting:</strong><br/>Some diffusers have a <strong>fan control</strong> option, but not all models support this feature.<br/>If your diffuser <strong>does not have a fan</strong>, this control will not appear in the app.<br/></p><p><strong>Understanding the Working Mode Section:</strong><br/><strong>Time Display (Clock Icon):</strong><br/>Tap to switch between <strong>12-hour mode (AM/PM) and 24-hour military time.</strong><br/></p><p><strong>Adding a Schedule (Plus + Icon):</strong><br/>Tap the <strong>+ icon</strong> to create a new schedule.<br/>You can add up to <strong>5 different schedules</strong> for each diffuser.</p><p><br/><strong>Modifying a Schedule (Pencil Icon):</strong><br/>Tap the <strong>pencil icon</strong> on the left side of any schedule to edit it.</p><p><br/><strong>Activating or Deactivating a Schedule (On/Off Switch):</strong><br/>Each schedule has a <strong>toggle switch</strong> to <strong>enable or disable it.</strong></p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_hBMm4A": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/Phone_english_3.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Step 5: Programming a Schedule",
+            "text": "<p><strong>Select the Diffuser:</strong></p><p>Follow <strong>Step 4</strong> to access the <strong>Working Mode</strong> section.<br/>Tap the <strong>pencil icon</strong> on an existing schedule to edit it or tap the <strong>+ icon</strong> to create a new one.</p><p><br/><strong>Set Scheduled Days:</strong><br/>Select the days the schedule should be <strong>active</strong> (e.g., <strong>Monday to Friday</strong>).<br/>Days will be highlighted when selected.</p><p><br/><strong>Set Active Hours:</strong><br/>Choose the <strong>Start Time</strong> (when the diffuser turns on).<br/>Choose the <strong>End Time</strong> (when the diffuser turns off).</p><p><br/><strong>Set Diffusion Cycle:</strong><br/><strong>Diffusion Time:</strong> Set how long the diffuser will work during each cycle (e.g., <strong>30 seconds</strong>).<br/><strong>Pause Time</strong>: Set how long the diffuser will pause between diffusion cycles (e.g., <strong>60 seconds</strong>).</p><p><br/><strong>Save the Schedule:</strong><br/>Tap “<strong>Apply Schedule</strong>” to save your settings.<br/>Deleting a Schedule:<br/><br/>To remove a schedule, tap the <strong>trash icon</strong> in the top-right corner.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_mFHcpD": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/English_4.png",
+            "image_mask": "none",
+            "image2": "shopify://shop_images/Phone_english_5.png",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Need Technical Support?",
+            "text": "<p><strong>Open the Technical Support Screen:</strong><br/>Tap the <strong>Customer Service icon</strong> (headset icon) in the <strong>Diffuser Details</strong> section.<br/>This will open the <strong>Technical Support</strong> page.<br/></p><p><strong>How to Contact Support:</strong><br/>Call the <strong>technical support number </strong>displayed on the screen.<br/>Provide the representative with your <strong>Service Tag Code</strong> to identify your device.<br/>If you need remote assistance, the support team can access your diffuser during business hours.<br/></p><p><strong>Business Hours & Availability:</strong><br/>If you access the page <strong>outside of business hours</strong>, the screen will display a “<strong>Closed</strong>” message.<br/>Support is available from <strong>9:00 AM - 5:00 PM (EST)</strong> on business days.<br/></p><p><strong>Ending a Remote Support Session:<br/></strong>If you granted remote access for troubleshooting, you can end the session at any time by tapping “<strong>End Remote Support Session</strong>”.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_GyKmrL": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/hvac-onnection-aromely-min.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "HVAC INSTALLATION",
+            "text": "<p>1. Connect the hose to the quick nozzle and hose connector as shown. Test the hose length on a secure surface near a power source.</p><p>2. Drill a hole in the supply duct, just large enough for the hose, and insert it 3 to 4 inches into the duct.</p><p>3.Once everything is set up, test the system using the Aromely App.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "video_Mggn49": {
+          "type": "video",
+          "settings": {
+            "language": "es",
+            "title": "¿Cómo Configurar mi Aro Home?",
+            "video_link": "https://www.youtube.com/watch?v=TXt6Uld-wZc",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "video_fNht6Q": {
+          "type": "video",
+          "settings": {
+            "language": "es",
+            "title": "¿Cómo Configurar la App de Aromely?",
+            "video_link": "https://www.youtube.com/watch?v=A5ynA2vcJq8",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "feature_rKUYTC": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/Aromely-Aro-Home-hvac-scent-diffuser.webp",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "1. Contenido del paquete",
+            "text": "<p>¿Qué incluye la caja?</p><ul><li>Difusor</li><li>Fuente de poder estándar de 120v</li><li>Manual de instrucciones</li><li>Soporte para montaje en pared</li><li>Bolsa plástica con accesorios (Tornillos para montaje en pared, Boquilla para conectar la manguera y Llaves magnéticas)<br/></li><li>Manguera plástica</li></ul>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_zbitmK": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/ARO_HOME_Adjustable_Time_Settings_Large_Oil_Bottle.jpg",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "2. Agregar el aceite",
+            "text": "<p>⚠️ <strong>¡IMPORTANTE! No mezcles el aceite con agua.</strong></p><ul><li>Para sacar la botella del difusor:<br/>Usa la llave magnética que viene incluida. Colócala en el lugar del difusor donde está el ícono de cerradura (puede estar al frente o atrás, según el modelo). Esto liberará la botella sin problema. Mira las imágenes para ver exactamente dónde colocar la llave magnética.</li></ul><p></p><ul><li>Extrae la botella vacía, desenrosca la tapa y agrega tu aceite de difusor favorito.</li></ul><p></p><ul><li>Conecta el difusor a la corriente (empezará a funcionar automáticamente con la configuración predeterminada. Sigue el siguiente paso para descargar la APP y personalizar los ajustes).</li></ul>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_7DiA37": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/brandmark-design_3_d1aad3d4-4a86-4c57-880c-0e30d61b34b8.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Paso 1: Descarga la app de Aromely",
+            "text": "<ul><li>Busca y descarga la app AROMELY en Google Play o Apple App Store.</li></ul><p><a href=\"https://play.google.com/store/apps/details?id=com.test.aromely&pcampaignid=web_share\" target=\"_blank\" title=\"https://play.google.com/store/apps/details?id=com.test.aromely&pcampaignid=web_share\"><strong>Descargar Aromely para Android</strong></a></p><p><a href=\"https://apps.apple.com/us/app/aromely/id6502456724\" target=\"_blank\" title=\"https://apps.apple.com/us/app/aromely/id6502456724\"><strong>Descargar Aromely para iOS</strong></a><br/></p><p>Abre la <strong>App Store</strong> (iPhone) o <strong>Google Play Store</strong> (Android).<br/><br/>Busca <strong>\"Aromely\"</strong> en la barra de búsqueda.<br/><br/>Haz clic en la app <strong>Aromely</strong> en los resultados.<br/><br/>Toca <strong>Descargar</strong> (iPhone) o <strong>Instalar</strong> (Android).<br/><br/>Una vez instalada la app, ábrela.<br/><br/>Cuando se te solicite, <strong>permite los permisos de Bluetooth</strong> para habilitar la conectividad con el dispositivo.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_bybPfm": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/Phone_1.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Paso 2: Acceder y Controlar tu Difusor",
+            "text": "<p>Abre la app <strong>Aromely</strong>.<br/><br/>En la <strong>pantalla de inicio</strong>, verás varias opciones.</p><p><strong>Selección de idioma:</strong> Toca el <strong>icono del globo</strong> en la esquina superior derecha para cambiar el idioma de la app de <strong>inglés (predeterminado)</strong> a <strong>español</strong>.<br/><br/>Para gestionar tu difusor, presione <strong>\"Configuracion de Difusores\"</strong>.<br/><br/>Esto te llevará a la pantalla de gestión del dispositivo, donde podrás agregar, configurar y controlar tu difusor.</p><p>💡 <strong>Funciones adicionales en la pantalla de inicio:</strong><br/><br/><strong>Acceso rápido:</strong> Los botones de <strong>Difusores de Aroma, Aceites para Difusor y  Sprays de Ambiente</strong> ofrecen enlaces directos a los productos Aromely en el sitio web para una navegación rápida.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_RRHrPF": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/phone_2.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Paso 3: Ver difusores disponibles",
+            "text": "<p>Después de tocar <strong>\"Configuracion de difusores\"</strong>, la app mostrará una lista de todos los difusores Aromely disponibles dentro del rango de Bluetooth.<br/><br/>Los difusores aparecerán automáticamente una vez que se hayan otorgado los permisos de Bluetooth.<br/><br/>Cada difusor mostrará su nombre y la intensidad de la señal (<strong>verde</strong> para señal fuerte, <strong>rojo</strong> para señal débil).<br/><br/>En la parte inferior de la pantalla, encontrarás un botón llamado <strong>\"Instrucciones de configuración\"</strong>. Al tocar este botón, accederás a guías de usuario e instrucciones para facilitar la configuración.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_DAmxAp": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/Phone_3.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Paso 4: Crea y Gestiona horarios",
+            "text": "<p><strong>Selecciona un difusor:</strong><br/><br/>Después de completar el <strong>Paso 3</strong>, toca el difusor que deseas configurar.<br/><br/>Esto abrirá la pantalla de <strong>Detalles del Difusor</strong> y <strong>Modo de Trabajo</strong>.</p><p><strong>Una vez aquí, encontrarás las siguientes acciones:</strong><br/></p><ul><li><strong>Ícono de atención al cliente (en la zona superior derecha):<br/></strong><br/>Esta función permite que el soporte de Aromely acceda remotamente a tu difusor para ayudarte con problemas técnicos.<br/><br/><strong>Disponible solo durante el horario comercial: lunes a viernes, de 9 a. m. a 5 p. m. (EST).</strong></li></ul><p></p><ul><li><strong>Ícono de Configuración de contraseña (debajo del ícono de atención al cliente): </strong><br/><br/>Tócalo para <strong>cambiar la contraseña predeterminada del difusor</strong> por una personalizada (opcional).</li></ul><p></p><ul><li><strong>Nombre y Nota:</strong><br/><br/>Puedes renombrar tu difusor o agregar una nota personalizada. Por ejemplo:</li></ul><p>-  Nombre: \"Cuarto Principal\"</p><p>- Nota : \"Nombre del Aroma\"</p><p></p><ul><li><strong>Ajuste del Ventilador:</strong><span style=\"text-decoration:underline\"><br/></span>Los difusores HVAC incluyen opción de ventilador para mejorar la dispersión del aroma, especialmente en espacios abiertos. Su efectividad puede variar según el entorno, y solo debe usarse en modo autónomo (standalone).<br/><br/><strong>Importante:</strong> Si el difusor no está conectado al HVAC, puedes activar el ventilador.<br/><br/>-Si el difusor está conectado al HVAC, el ventilador debe permanecer apagado.<br/><br/><strong>Indicadores</strong> del botón del fan (toggle):<br/><br/>-<strong>Rojo</strong>: apagado<br/><br/>-<strong>Ámbar</strong>: velocidad baja<br/><br/>-<strong>Verde</strong>: velocidad alta<br/><span style=\"text-decoration:underline\"><br/></span></li><li><strong>Entendiendo la sección de Modo de Funcionamiento:</strong><br/><br/><strong>Visualización de Hora (Ícono de 24/12 hrs:</strong><br/><br/>Toca para cambiar entre <strong>formato de 12 horas (AM/PM)</strong> y <strong>formato militar de 24 horas</strong>.</li></ul><p></p><ul><li><strong>Agregar un Horario (Ícono de +):</strong><br/><br/>Toca el ícono <strong>+</strong> para crear un nueva programación.<br/><br/>Puedes agregar hasta <strong>5 programaciones diferentes</strong> para cada difusor.</li></ul><p></p><ul><li><strong>Modificar un Horario (Ícono de Lápiz):</strong><br/><br/>Toca el <strong>ícono de lápiz</strong> a la izquierda de cualquier horario para editarlo.</li></ul><p></p><ul><li><strong>Activar o Desactivar una Programación</strong> <strong>(Interruptor On/Off):</strong><br/><br/>Cada programación tiene un <strong>interruptor</strong> para <strong>activarlo o desactivarlo</strong>.</li></ul>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_YAF4Pr": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/Phone_5.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Paso 5: Crear una programación",
+            "text": "<p>Toca el <strong>ícono +</strong> para crear uno nuevo o toca el <strong>ícono de lápiz</strong> en un horario existente para editarlo.</p><p></p><ul><li><strong>Establecer los días programados:</strong><br/><br/>Selecciona los días en los que deseas activar el horario. Los días seleccionados se mostrarán en morado; los no seleccionados, en blanco.</li></ul><p></p><ul><li><strong>Establecer horas activas:</strong><br/><br/><strong>Programación del Horario: </strong>Elige la <strong>hora de inicio,</strong> que <strong>determinará cuándo se encenderá el difusor </strong>según tu conveniencia. Luego, selecciona la <strong>hora de finalización</strong>, que <strong>indicará cuándo debe apagarse.</strong><br/><br/><strong>Nota</strong>: <strong>Recomendamos</strong> programar el encendido <strong>30 minutos antes</strong> de que te <strong>despiertes o abras tu negocio</strong>, y el apagado <strong>30 minutos antes de dormir o cerrar el local.</strong></li></ul><p></p><ul><li><strong>Configurar el ciclo de difusión:</strong><br/><br/><strong>Tiempo de difusión:</strong> Establece cuánto tiempo funcionará el difusor durante cada ciclo.<br/><strong>Tiempo de pausa:</strong> Establece cuánto tiempo se pausará entre ciclos de difusión.</li></ul><p><strong>Nota:</strong> El tiempo de difusión y pausa puede variar según el tamaño en pies cuadrados (sqft), la cantidad de cuartos y tu sensibilidad a los aromas.</p><p>Puedes comenzar con <strong>60 segundos de difusión</strong> y <strong>120 segundos de pausa</strong> como punto de partida.</p><ul><li><strong>Guardar el horario:</strong><br/><br/>Toca <strong>“Aplicar horario”</strong> para guardar tu configuración.</li></ul><p></p><ul><li><strong>Eliminar un horario:</strong><br/><br/>Para eliminar un horario, <strong>selecciona el ícono de basurero</strong> ubicado en la esquina superior derecha.<br/><br/></li></ul>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_b6eejF": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/Phone_8.png",
+            "image_mask": "none",
+            "image2": "shopify://shop_images/phone_7.png",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "Necesitas Soporte técnico?",
+            "text": "<ul><li><strong>Cómo abrir la pantalla de Soporte Técnico:</strong><br/><br/>En la sección <strong>Detalles del Difusor</strong>, toca el <strong>ícono de atención al cliente</strong> (Insertar Icono) para acceder al soporte técnico.<br/><br/>Esto abrirá la página de <strong>Soporte Técnico</strong>.</li></ul><p></p><ul><li><strong>Cómo contactar al soporte:</strong><br/><br/>Llama al <strong>número de soporte técnico</strong> que aparece en la pantalla.<br/><br/><strong>Proporciona al representante tu Etiqueta de Servicio (Service Tag Code).</strong><br/><br/>Esto permitirá que el equipo de soporte acceda remotamente a tu difusor y pueda asistirte.<br/><br/>La asistencia remota está disponible únicamente durante el horario laboral. </li></ul><p></p><ul><li><strong>Horario de atención al cliente:</strong><br/><br/>Si accedes a la página <strong>fuera del horario laboral</strong>, la pantalla mostrará un mensaje de “Cerrado”.<br/><br/>El soporte está disponible de <strong>9:00 AM a 5:00 PM (EST)</strong> de Lunes a Viernes.</li></ul><p></p><ul><li><strong>Finalizar una sesión de soporte remoto:</strong><br/><br/>Si otorgaste acceso remoto para resolver un problema, puedes finalizar la sesión en cualquier momento tocando \"<strong>Terminar asistencia remota\" </strong>.</li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_jnXrGT": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/hvac-onnection-aromely-min.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "INSTALACIÓN EN HVAC",
+            "text": "<p>1. Conecta la manguera a la boquilla rápida y al conector de manguera, como se muestra. Prueba la longitud de la manguera en una superficie segura cerca de una fuente de energía.</p><p><br/>2. Haz un orificio en el ducto de suministro, lo suficientemente grande para la manguera, e insértala 3 a 4 pulgadas dentro del ducto.<br/><br/>3. Una vez que todo esté configurado, prueba el sistema usando la App de Aromely.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        }
+      },
+      "block_order": [
+        "video_Jjk4RX",
+        "video_aVkVeW",
+        "feature_Jtzf99",
+        "feature_jyemJq",
+        "feature_rNhnNy",
+        "feature_M3VhQX",
+        "feature_aCpXaU",
+        "feature_JFfU7D",
+        "feature_hBMm4A",
+        "feature_mFHcpD",
+        "feature_GyKmrL",
+        "video_Mggn49",
+        "video_fNht6Q",
+        "feature_rKUYTC",
+        "feature_zbitmK",
+        "feature_7DiA37",
+        "feature_bybPfm",
+        "feature_RRHrPF",
+        "feature_DAmxAp",
+        "feature_YAF4Pr",
+        "feature_b6eejF",
+        "feature_jnXrGT"
+      ],
+      "custom_css": [
+        "@media (min-width: 1024px) {.video-instructions {padding: 40px 120px; } .video-instructions .tab-button {font-size: 25px; } .video-instructions .video-box p {font-size: 16px; } .video-instructions .guide-text {font-size: 24px; }}"
+      ],
+      "name": "Video Instructions",
+      "settings": {
+        "howto_name": "How to Setup My Scent Diffuser?",
+        "guide_text": "💡 To continue with the written guide, please scroll down to find our step-by-step instructions below.",
+        "schema_product": "aro-home-smart-hvac-scent-diffuser-up-to-1-800-sqft-bluetooth-waterless"
+      }
+    },
+    "text_and_image_JbjDcx": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/aromely-smart-hvac-scent-diffuser-up-to-1200-sqsf-195333.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "1. Unboxing",
+        "text": "<p>What's inside the box:</p><ul><li>Diffuser</li><li>Standard 120v Power Supply </li><li>Instruction Manual</li><li>Plastic bag with fixtures (Wall Mount Screws & Magnetic Tags)</li><li>Plastic Hose </li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_apcRfG": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/aromely-smart-hvac-scent-diffuser-up-to-1200-sqsf-976925.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "2. Opening & adding Oil",
+        "text": "<p>⚠️<strong>IMPORTANT! Do not mix oil with water.</strong></p><p>To release the security pin and remove the bottle from your diffuser, place the included magnetic tag on the specific area of the diffuser where the lock mechanism is located. For this model, the area is on the side of the diffuser, as shown in the image. Once the magnetic tag is correctly positioned, the lock will release, allowing you to smoothly pull out the empty bottle.</p><ul><li>Pull the empty bottle out and add your favorite diffuser oil.</li><li>Connect the diffuser to power (it will automatically start working on its default settings. Follow next step to download the APP and modify the settings).</li></ul><p>Check our Helpful FAQ's to find more guidance <a href=\"https://aromely.com/pages/faq\" title=\"https://aromely.com/pages/faq\">here</a></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_nyfqV8": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/brandmark-design_3_d1aad3d4-4a86-4c57-880c-0e30d61b34b8.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Step 1: Download Aromely App",
+        "text": "<ul><li>Search and download <strong>AROMELY</strong> App on Google Play or Apple App Store.</li></ul><p><a href=\"https://play.google.com/store/apps/details?id=com.test.aromely&pcampaignid=web_share\" target=\"_blank\" title=\"https://play.google.com/store/apps/details?id=com.test.aromely&pcampaignid=web_share\"><strong>Download Aromely for Android</strong></a></p><p><a href=\"https://apps.apple.com/us/app/aromely/id6502456724\" target=\"_blank\" title=\"https://apps.apple.com/us/app/aromely/id6502456724\"><strong>Download Aromely for iOS</strong></a></p><p>Open the <strong>App Store</strong> (iPhone) or <strong>Google Play Store</strong> (Android).</p><p>Search for <strong>\"Aromely\"</strong> in the search bar.</p><p>Click on the <strong>Aromely app</strong> from the search results.</p><p>Tap <strong>Download</strong> (iPhone) or <strong>Install</strong> (Android).</p><p>Once the app is installed, open it.</p><p>When prompted, <strong>allow Bluetooth permissions</strong> to enable device connectivity.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_CxHhwH": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Aromely_Droid_1.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Step 2: Accessing and Managing Your Diffuser",
+        "text": "<p>Open the <strong>Aromely App</strong>.</p><p>On the <strong>home screen</strong>, you will see several options.</p><p>To manage your diffuser, <strong>tap on \"Manage Diffusers\"</strong>.</p><p>This will take you to the device management screen, where you can add, configure, and control your diffuser.</p><p>💡 <strong>Additional Features on the Home Screen:</strong></p><p><strong>Language Selection:</strong> Tap the <strong>globe icon</strong> at the top right to switch the app language from <strong>English (default) to Spanish</strong>.</p><p><strong>Quick Access:</strong> The <strong>Scent Diffusers, Diffuser Oils, and Room Sprays</strong> buttons provide direct links to Aromely products on the website for easy browsing.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "33",
+        "layout": "right",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_Gw44eL": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Aromely2.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Step 3: Viewing Available Diffusers",
+        "text": "<p>After tapping <strong>\"Manage Diffusers\"</strong>, the app will display a list of all <strong>available Aromely diffusers</strong> within <strong>Bluetooth range</strong>.</p><p>The diffusers will <strong>automatically appear</strong> once <strong>Bluetooth permissions</strong> have been granted.</p><p>Each diffuser will display its <strong>name</strong> and <strong>signal strength</strong> (green for strong, red for weak).</p><p>At the bottom of the screen, you will find a <strong>\"Setup Instructions\"</strong> button. Tapping this button will provide <strong>access to user guides and instructions</strong> for easier setup.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "33",
+        "layout": "left",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_9QMWVM": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Aromely3.png",
+        "image_mask": "none",
+        "image2": "shopify://shop_images/Aromely_Droid_3.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Step 4: Creating and Managing Schedules",
+        "text": "<p><strong>Select a Diffuser:</strong><br/>After completing <strong>Step 3</strong>, tap on the diffuser you want to manage.<br/>This will open the <strong>Diffuser Details</strong> and <strong>Working Mode screen.</strong><br/></p><p><strong>Understanding the Diffuser Details Section:</strong><br/><strong>Customer Service Icon (Top Right):</strong><br/>This allows Aromely support to remotely access your diffuser for troubleshooting.<br/>Available <strong>only during business hours.</strong><br/></p><p><strong>Settings Icon (Below Customer Service Icon):</strong><br/>Tap this to<strong> change the default diffuser password</strong> to a custom password (optional).<br/></p><p><strong>Name & Note:</strong><br/>You can rename your diffuser or add a custom note (e.g., \"Master Room - Peaceful\").<br/></p><p><strong>Fan Setting:</strong><br/>Some diffusers have a <strong>fan control</strong> option, but not all models support this feature.<br/>If your diffuser <strong>does not have a fan</strong>, this control will not appear in the app.<br/></p><p><strong>Understanding the Working Mode Section:</strong><br/><strong>Time Display (Clock Icon):</strong><br/>Tap to switch between <strong>12-hour mode (AM/PM) and 24-hour military time.</strong><br/></p><p><strong>Adding a Schedule (Plus + Icon):</strong><br/>Tap the <strong>+ icon</strong> to create a new schedule.<br/>You can add up to <strong>5 different schedules</strong> for each diffuser.</p><p><br/><strong>Modifying a Schedule (Pencil Icon):</strong><br/>Tap the <strong>pencil icon</strong> on the left side of any schedule to edit it.</p><p><br/><strong>Activating or Deactivating a Schedule (On/Off Switch):</strong><br/>Each schedule has a <strong>toggle switch</strong> to <strong>enable or disable it.</strong></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_Nit6Cw": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Aromely_Droid_4.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Step 5: Programming a Schedule",
+        "text": "<p><strong>Select the Diffuser:</strong></p><p>Follow <strong>Step 4</strong> to access the <strong>Working Mode</strong> section.<br/>Tap the <strong>pencil icon</strong> on an existing schedule to edit it or tap the <strong>+ icon</strong> to create a new one.</p><p><br/><strong>Set Scheduled Days:</strong><br/>Select the days the schedule should be <strong>active</strong> (e.g., <strong>Monday to Friday</strong>).<br/>Days will be highlighted when selected.</p><p><br/><strong>Set Active Hours:</strong><br/>Choose the <strong>Start Time</strong> (when the diffuser turns on).<br/>Choose the <strong>End Time</strong> (when the diffuser turns off).</p><p><br/><strong>Set Diffusion Cycle:</strong><br/><strong>Diffusion Time:</strong> Set how long the diffuser will work during each cycle (e.g., <strong>30 seconds</strong>).<br/><strong>Pause Time</strong>: Set how long the diffuser will pause between diffusion cycles (e.g., <strong>60 seconds</strong>).</p><p><br/><strong>Save the Schedule:</strong><br/>Tap “<strong>Apply Schedule</strong>” to save your settings.<br/>Deleting a Schedule:<br/><br/>To remove a schedule, tap the <strong>trash icon</strong> in the top-right corner.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "33",
+        "layout": "left",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_3LFUFL": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Aromely5.png",
+        "image_mask": "none",
+        "image2": "shopify://shop_images/Aromely_Droid_5.png",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Step 6: Accessing Technical Support",
+        "text": "<p><strong>Open the Technical Support Screen:</strong><br/>Tap the <strong>Customer Service icon</strong> (headset icon) in the <strong>Diffuser Details</strong> section.<br/>This will open the <strong>Technical Support</strong> page.<br/></p><p><strong>How to Contact Support:</strong><br/>Call the <strong>technical support number </strong>displayed on the screen.<br/>Provide the representative with your <strong>Service Tag Code</strong> to identify your device.<br/>If you need remote assistance, the support team can access your diffuser during business hours.<br/></p><p><strong>Business Hours & Availability:</strong><br/>If you access the page <strong>outside of business hours</strong>, the screen will display a “<strong>Closed</strong>” message.<br/>Support is available from <strong>9:00 AM - 5:00 PM (EST)</strong> on business days.<br/></p><p><strong>Ending a Remote Support Session:<br/></strong>If you granted remote access for troubleshooting, you can end the session at any time by tapping “<strong>End Remote Support Session</strong>”.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_7g3JkV": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/hvac-installation.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "HVAC Installation",
+        "text": "<p>1. Connect the hose to the quick nozzle and hose connector as shown. Test the hose length on a secure surface near a power source.</p><p>2. Drill a hole in the supply duct, just large enough for the hose, and insert it 3 to 4 inches into the duct.</p><p>3.Once everything is set up, test the system using the Aromely App.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": true,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_DAeLpC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GbnVbx": {
+          "type": "heading",
+          "settings": {
+            "title": "Need Further Assistance?"
+          }
+        },
+        "text_cnXX9t": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We hope this guide was helpful. For further questions or support, chat with us or give us a call — we’re here to help you.</p><p>ⓘ The Call Support Center is available Monday through Friday from 9 AM to 5 PM EST. If you call outside of office hours, our virtual assistant may help you resolve your inquiry.</p>"
+          }
+        },
+        "button_N63AmR": {
+          "type": "button",
+          "settings": {
+            "link": "tel://+1-866-276-6359",
+            "link_text": "📞 Call Now"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GbnVbx",
+        "text_cnXX9t",
+        "button_N63AmR"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "back_to_top_button_Amz7kp": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_and_image_XpcNkj",
+    "video_instructions_EVVBJr",
+    "text_and_image_JbjDcx",
+    "text_and_image_apcRfG",
+    "text_and_image_nyfqV8",
+    "text_and_image_CxHhwH",
+    "text_and_image_Gw44eL",
+    "text_and_image_9QMWVM",
+    "text_and_image_Nit6Cw",
+    "text_and_image_3LFUFL",
+    "text_and_image_7g3JkV",
+    "rich_text_DAeLpC",
+    "back_to_top_button_Amz7kp"
+  ]
+}

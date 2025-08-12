@@ -1,0 +1,432 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "raw_rePxDM": {
+      "type": "raw",
+      "blocks": {
+        "text_Tnp6ef": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "section_html": "<!-- Begin Custom Shopify Video + Title Section -->\n\n<!-- HTML Structure -->\n<div class=\"responsive-container\">\n  <!-- Title Block -->\n  <div class=\"title-block\">\n    <h1>Your Awesome Title Here</h1>\n    <p>Add your description or additional text here as needed.</p>\n  </div>\n\n  <!-- Video Block: Preview video will jump to the 5-second mark -->\n  <div class=\"video-block\">\n    <div class=\"video-container\">\n      <!-- IMPORTANT: Use preload=\"auto\" -->\n      <video id=\"previewVideo\" preload=\"auto\" muted=\"\" playsinline=\"\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/3eda3e1979664f4c95aa2a2e192a95bd.mp4\" type=\"video/mp4\">\n        Your browser does not support HTML5 video.\n      </source></video>\n      <!-- Play Button Overlay -->\n      <div class=\"play-overlay\">\n        <button class=\"play-button\">Play Video</button>\n      </div>\n    </div>\n  </div>\n</div>\n\n<!-- Modal for Video Playback -->\n<div id=\"videoModal\" class=\"modal\">\n  <div class=\"modal-content\">\n    <span class=\"close\">×</span>\n    <!-- Modal video using native controls (play, volume, etc.) -->\n    <video id=\"modalVideo\" controls=\"\" style=\"width:100%;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3eda3e1979664f4c95aa2a2e192a95bd.mp4\" type=\"video/mp4\">\n      Your browser does not support HTML5 video.\n    </source></video>\n  </div>\n</div>\n\n<!-- CSS Styling -->\n<style>\n  /* Container for title and video blocks */\n  .responsive-container {\n    display: flex;\n    align-items: center;\n    justify-content: space-between;\n    gap: 20px;\n    padding: 20px;\n  }\n  .title-block, .video-block {\n    flex: 1;\n  }\n\n  /* Video container and overlay */\n  .video-container {\n    position: relative;\n    width: 100%;\n    max-width: 560px;\n    margin: 0 auto;\n  }\n  .video-container video {\n    width: 100%;\n    display: block;\n  }\n  .play-overlay {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    pointer-events: none;\n  }\n  .play-overlay .play-button {\n    pointer-events: all;\n    background-color: rgba(0, 0, 0, 0.6);\n    color: #fff;\n    border: none;\n    padding: 10px 20px;\n    font-size: 16px;\n    cursor: pointer;\n    border-radius: 4px;\n  }\n\n  /* Modal styling */\n  .modal {\n    display: none; /* Hidden initially */\n    position: fixed;\n    z-index: 1000;\n    left: 0;\n    top: 0;\n    width: 100%;\n    height: 100%;\n    background-color: rgba(0,0,0,0.8);\n    /* Use flex to center the modal content */\n    align-items: center;\n    justify-content: center;\n  }\n  .modal-content {\n    position: relative;\n    background-color: #fefefe;\n    width: 80%;\n    max-width: 800px;\n  }\n  .modal-content video {\n    width: 100%;\n    height: auto;\n    display: block;\n  }\n  .close {\n    color: #aaa;\n    position: absolute;\n    top: 10px;\n    right: 20px;\n    font-size: 28px;\n    font-weight: bold;\n    cursor: pointer;\n  }\n  .close:hover,\n  .close:focus {\n    color: #000;\n    text-decoration: none;\n  }\n\n  /* Mobile: stack the title above the video */\n  @media (max-width: 768px) {\n    .responsive-container {\n      flex-direction: column;\n      text-align: center;\n    }\n    .video-block {\n      margin-top: 20px;\n    }\n  }\n</style>\n\n<!-- JavaScript for setting thumbnail at 5s & controlling modal playback -->\n<script>\n  document.addEventListener(\"DOMContentLoaded\", function() {\n    const modal = document.getElementById(\"videoModal\");\n    const playButton = document.querySelector(\".play-button\");\n    const closeModal = document.querySelector(\".close\");\n    const previewVideo = document.getElementById(\"previewVideo\");\n    const modalVideo = document.getElementById(\"modalVideo\");\n\n    /**\n     * 1) Wait until we can actually play the video (canplay) => we can seek forward\n     * 2) Then jump to 5s. The 'timeupdate' listener will pause at exactly 5s once it's reached.\n     */\n    previewVideo.addEventListener('canplay', function() {\n      if (previewVideo.duration > 5) {\n        previewVideo.currentTime = 5;\n      }\n    });\n    // Once we hit time = 5, pause the video so it stays as a thumbnail\n    previewVideo.addEventListener('timeupdate', function() {\n      if (Math.floor(previewVideo.currentTime) === 5) {\n        previewVideo.pause();\n      }\n    });\n\n    // Open modal and play the modal video\n    function openVideoModal() {\n      modal.style.display = \"flex\"; // show the modal\n      modalVideo.play();\n      previewVideo.pause();  // ensure preview is paused\n    }\n\n    // Close modal and reset modal video\n    function closeVideoModal() {\n      modal.style.display = \"none\";\n      modalVideo.pause();\n      modalVideo.currentTime = 0;\n    }\n\n    // Event listeners for playing and closing\n    playButton.addEventListener(\"click\", openVideoModal);\n    previewVideo.addEventListener(\"click\", openVideoModal);\n    closeModal.addEventListener(\"click\", closeVideoModal);\n\n    // Clicking outside the modal also closes it\n    window.addEventListener(\"click\", function(event) {\n      if (event.target === modal) {\n        closeVideoModal();\n      }\n    });\n  });\n</script>\n\n<!-- End Custom Shopify Video + Title Section -->",
+            "heading_size": "large",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "text_Tnp6ef"
+      ],
+      "disabled": true,
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "text_and_image_XpcNkj": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/ARO-CAR-GUIDE-QUICK.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "ARO-CAR",
+        "title": "Quick Car Diffuser Guide",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "video_instructions_8TQTwK": {
+      "type": "video-instructions",
+      "blocks": {
+        "video_jVyPb8": {
+          "type": "video",
+          "settings": {
+            "language": "en",
+            "title": "How to Setup My Aro Car Smart Scent Diffuser?",
+            "video_link": "https://www.youtube.com/watch?v=UvTcGht1mzI",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "video_dx3AMA": {
+          "type": "video",
+          "settings": {
+            "language": "en",
+            "title": "How to Set up the Aromely App?",
+            "video_link": "https://www.youtube.com/watch?v=HBzJtoRPp88&t=199s",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "feature_6qcrzt": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/scent-diffuser-white-black-aro-car-smart-diffuser-portable-waterless-chauffeur-grade-air-freshener-43436644696296.jpg",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "1. Unboxing",
+            "text": "<p>Whats inside the box:</p><ul><li>Diffuser </li><li>Instructions Manual</li><li>Quick Product Guide </li><li>Charger Cable</li></ul><p></p><p></p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_wiDFaG": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/Aro-car-quick-guide-example.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "2. Opening & adding Oil",
+            "text": "<p><strong>I M P O R T A N T</strong>⚠️<strong>Do not mix oil with water</strong></p><ul><li><strong>Remove the Car Diffuser Atomizer:</strong><br/>Rotate the bottle in either direction and gently pull it out.</li><li><strong>Remove the Car Diffuser Oil Bottle:</strong><br/>Rotate Counterclockwise to take car diffuser oil bottle.</li><li><strong>Prepare Aromely's Oil:</strong><br/>The car diffuser's oil bottle has a capacity of 10ml. Using a 50ml signature oil is ideal. Open the Aromely oil bottle.<br/></li><li><strong>Fill the Car Diffuser Oil Bottle:</strong><br/>Carefully pour Aromely's oil into the car diffuser's oil bottle until it reaches the neck.<br/></li><li><strong>Install the Car Diffuser Oil Bottle:</strong><br/>Insert the filled oil bottle into the car diffuser. Tighten it by rotating it clockwise.</li><li><strong>Note:  </strong>Once filled, do not invert, tilt, or rotate the device to prevent liquid spillage.<br/></li></ul><p></p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_hArxYN": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/Aromely-car-diffuser.jpg",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "3. Automatic Mode",
+            "text": "<ul><li><strong>ARO-CAR with Automatic Mode Technology</strong><br/><br/>It activates upon detecting vibrations; if no vibrations are detected for 15 minutes, it enters sleep mode until movement is sensed again.</li></ul><p></p><ul><li><strong>First:</strong> Turn on the diffuser by pressing and holding the button with three curved lines for 2 seconds. The diffuser will begin to operate.<br/></li><li><strong>Second:</strong> Quickly double-click the same button; a car icon will light up on the indicator screen.<br/></li><li><strong>Third:</strong> Adjust the intensity by pressing the button with three curved lines once; the screen will display the selected level.<br/></li><li><strong>Extra:</strong> Press and hold the button with the clock icon for 2 seconds to turn the light on or off.</li></ul><p></p><ul><li><strong>Note:</strong> If the car icon is not lit, you are in <strong>Home Mode</strong>, which does not use AI or vibration-sensing technology. In this mode, you can adjust the diffusion time using the clock icon button. Press once to switch between <strong>2/4/8 hours</strong>; the current setting will appear on the screen.</li></ul><p></p><ul><li><strong>Low Battery:</strong> The LED lights will flash red while charging. The car icon will also flash. When fully charged, the LED lights will flash green.</li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_zeaXWi": {
+          "type": "feature",
+          "settings": {
+            "language": "en",
+            "divider": false,
+            "image": "shopify://shop_images/aro-car.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "4. Home Mode",
+            "text": "<ul><li><strong>ARO-CAR with Home Mode Technology</strong><br/><br/>To activate Home Mode, quickly <strong>press the button with the three curved lines </strong>twice. The diffuser will switch from Automatic Mode to Home Mode. In this mode, you can set diffusion schedules using the clock icon button.<br/><br/><strong>Press it once to switch between 2, 4, or 8 hours</strong>; the screen will display the selected option.</li></ul><p></p><ul><li><strong>Note:</strong> Recommended for small spaces up to 150 square feet, such as bathrooms.</li></ul><p></p><ul><li><strong>Low Battery:</strong><br/><br/>The LED lights will flash red while charging. The car icon will also flash.<br/><br/>When fully charged, the LED lights will flash green.</li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "video_aHXkJC": {
+          "type": "video",
+          "settings": {
+            "language": "es",
+            "title": "¿Cómo Configurar mi Aro Car?",
+            "video_link": "https://www.youtube.com/watch?v=1XNgODZmYUw&t=1s",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "video_Ta9XMf": {
+          "type": "video",
+          "settings": {
+            "language": "es",
+            "title": "¿Cómo Configurar la App de Aromely?",
+            "video_link": "https://www.youtube.com/watch?v=A5ynA2vcJq8",
+            "link_url": "/",
+            "link_label": "Learn more"
+          }
+        },
+        "feature_bTY6Xt": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/scent-diffuser-white-black-aro-car-smart-diffuser-portable-waterless-chauffeur-grade-air-freshener-43436644696296.jpg",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "1. Contenido del paquete",
+            "text": "<p>¿Qué hay dentro de la caja?<br/></p><ul><li>Difusor</li><li>Manual de instrucciones</li><li>Guía rápida del producto</li><li>Cable cargador</li></ul><p></p><p></p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_qf6jrD": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/Aro-car-quick-guide-example.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "2. Abrir y Agregar el aceite",
+            "text": "<p><strong>⚠️ I M P O R T A N T E : No mezcles el aceite con agua</strong></p><ul><li><strong>Remueve el Atomizador del Difusor de Auto:</strong><br/><br/>Gira la botella en cualquier dirección y tira suavemente para sacarla.</li></ul><p></p><ul><li><strong>Remueve la Botella de Aceite del Difusor de Auto:</strong><br/><br/>Gira en sentido contrario a las agujas del reloj para retirarla.</li></ul><p></p><ul><li><strong>Prepara el Aceite de Aromely:</strong><br/><br/>La botella de aceite del difusor de auto tiene una capacidad de 10 ml. Usar un aceite de 50 ml de Aromely es ideal. Abre la botella de aceite de Aromely.</li></ul><p></p><ul><li><strong>Llena la Botella de Aceite del Difusor de Auto:</strong><br/><br/>Vierte cuidadosamente el aceite de Aromely en la botella del difusor de auto hasta que llegue al cuello.</li></ul><p></p><ul><li><strong>Instala la Botella de Aceite en el Difusor de Auto:</strong><br/><br/>Inserta la botella llena en el difusor de auto. Ajústala girando en sentido de las agujas del reloj.</li></ul><p></p><p><strong>Nota: </strong>Una vez llena, no inviertas, inclines ni gires el dispositivo para evitar derrames.</p>",
+            "button_label": "",
+            "button_link": "/",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_EXr9cR": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/Aromely-car-diffuser.jpg",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "3. Modo Automático",
+            "text": "<ul><li><strong>ARO-CAR con Tecnología de Modo Automatico</strong><br/><br/>Se activa al detectar vibraciones; si no detecta vibraciones durante 15 minutos, entra en modo de suspensión hasta volver a sentir movimiento.</li></ul><p></p><ul><li><strong>Pasos para usarlo:</strong></li></ul><p><br/>Mantén presionado por 2 segundos el botón con las tres líneas curvas. El difusor comenzará a funcionar.</p><p><br/> Haz doble clic rápido en el mismo botón. Se encenderá un ícono de auto en la pantalla indicadora.<br/><br/> Presiona una vez el botón con las tres líneas curvas para cambiar la intensidad. La pantalla mostrará el nivel actual.<br/><br/> Mantén presionado por 2 segundos el botón con el ícono de reloj para encender o apagar la luz.<br/></p><ul><li><strong>Batería baja:</strong><br/><br/>Las luces LED parpadearán en rojo mientras se carga. El ícono del auto también parpadeará. Cuando esté completamente cargado, las luces LED parpadearán en verde.</li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "right",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        },
+        "feature_cpXCVE": {
+          "type": "feature",
+          "settings": {
+            "language": "es",
+            "divider": false,
+            "image": "shopify://shop_images/aro-car.png",
+            "image_mask": "none",
+            "image2_mask": "none",
+            "subtitle": "",
+            "title": "4. Modo Hogar",
+            "text": "<ul><li><strong>ARO-CAR con Tecnología de Modo Hogar</strong><br/><br/><strong>Para acceder al Modo Hogar</strong>, presiona dos veces rápidamente el botón con las tres líneas curvas.<br/>El difusor cambiará del modo Automático al modo Hogar.<br/><br/>En este modo, puedes <strong>ajustar los horarios de difusión usando el botón del reloj.</strong> Presiónalo una vez para cambiar <strong>entre 2, 4 o 8 horas</strong>; la pantalla mostrará la opción seleccionada.</li></ul><p><strong>Nota:</strong> Recomendado para espacios pequeños de hasta 150 pies cuadrados, como baños.</p><ul><li><strong>Batería baja:</strong><br/><br/>Las luces LED parpadearán en rojo mientras se carga. El ícono del auto también parpadeará. Cuando esté completamente cargado, las luces LED parpadearán en verde.</li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "align_text": "left",
+            "image_width": "50",
+            "layout": "left",
+            "top_padding": true,
+            "bottom_padding": true,
+            "lazyload_images": true
+          }
+        }
+      },
+      "block_order": [
+        "video_jVyPb8",
+        "video_dx3AMA",
+        "feature_6qcrzt",
+        "feature_wiDFaG",
+        "feature_hArxYN",
+        "feature_zeaXWi",
+        "video_aHXkJC",
+        "video_Ta9XMf",
+        "feature_bTY6Xt",
+        "feature_qf6jrD",
+        "feature_EXr9cR",
+        "feature_cpXCVE"
+      ],
+      "custom_css": [
+        "@media (min-width: 1024px) {.video-instructions {padding: 40px 120px; } .video-instructions .tab-button {font-size: 25px; } .video-instructions .video-box p {font-size: 16px; } .video-instructions .guide-text {font-size: 24px; }}"
+      ],
+      "name": "Video Instructions",
+      "settings": {
+        "howto_name": "How to Setup My Scent Diffuser?",
+        "guide_text": "💡 To continue with the written guide, please scroll down to find our step-by-step instructions below.",
+        "schema_product": "aromely-smart-car-diffuser-perfect-for-sedans-suvs-more"
+      }
+    },
+    "text_and_image_JbjDcx": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image_mask": "none",
+        "image2": "shopify://shop_images/ARO-CAR.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "1. Unboxing",
+        "text": "<p>Whats inside the box:</p><ul><li>Diffuser </li><li>Instructions Manual</li><li>Quick Product Guide </li><li>Charger Cable</li></ul><p></p><p></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_apcRfG": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Aro-car-quick-guide-example.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "2. Opening & adding Oil",
+        "text": "<p><strong>I M P O R T A N T</strong>⚠️<strong>Do not mix oil with water</strong></p><ul><li><strong>Remove the Car Diffuser Atomizer:</strong><br/>Rotate the bottle in either direction and gently pull it out.</li><li><strong>Remove the Car Diffuser Oil Bottle:</strong><br/>Rotate Counterclockwise to take car diffuser oil bottle.</li><li><strong>Prepare Aromely's Oil:</strong><br/>The car diffuser's oil bottle has a capacity of 10ml. Using a 50ml signature oil is ideal. Open the Aromely oil bottle.<br/></li><li><strong>Fill the Car Diffuser Oil Bottle:</strong><br/>Carefully pour Aromely's oil into the car diffuser's oil bottle until it reaches the neck.<br/></li><li><strong>Install the Car Diffuser Oil Bottle:</strong><br/>Insert the filled oil bottle into the car diffuser. Tighten it by rotating it clockwise.</li><li><strong>Note:  </strong>Once filled, do not invert, tilt, or rotate the device to prevent liquid spillage.<br/></li></ul><p></p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_izERQU": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/aro-car.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "3. Operating AI Car Mode",
+        "text": "<ul><li><strong>ARO-CAR is equipped with AI Mode technology</strong>. It activates upon sensing vibrations; if no vibrations are detected for 15 minutes, it enters sleep mode until vibrations are sensed again.</li><li><strong>First:</strong> Turn on the diffuser by pressing the button with three curved lines inside for 2 seconds. It will start diffusing.</li><li> <strong>Second:</strong> Double-click rapidly the button with three curved lines inside; a car icon on the indicator tab should light up.</li><li><strong>Third:</strong> Adjust intensity by single pressing the button with three curved lines inside ; the currently selected intensity will be shown on the indicator tab.</li><li><strong>Extra:</strong> Press clock icon button for 2 seconds to turn the light on/off</li><li><strong>Note:</strong> If the Car Icon isn't lit, you're in Home Mode, without AI and vibration technology. On this mode you can adjust the diffusing time using the clock icon button. Press once to switch between every 2/4/8 hours; the current setting will show on the indicator.</li><li><strong>Low Battery: </strong>The LED lights will flash red while charging. The car icon will flash while charging, and when fully charged, the LED lights will flash green</li></ul>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_DAeLpC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GbnVbx": {
+          "type": "heading",
+          "settings": {
+            "title": "Need Further Assistance?"
+          }
+        },
+        "text_cnXX9t": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>We hope this guide was helpful. For further questions or support, chat with us or give us a call — we’re here to help you.</p><p>ⓘ The Call Support Center is available Monday through Friday from 9 AM to 5 PM EST. If you call outside of office hours, our virtual assistant may help you resolve your inquiry.</p>"
+          }
+        },
+        "button_FCTKKQ": {
+          "type": "button",
+          "settings": {
+            "link": "tel://+1-866-276-6359",
+            "link_text": "📞 Call Now"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GbnVbx",
+        "text_cnXX9t",
+        "button_FCTKKQ"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "back_to_top_button_YjyEjQ": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "raw_rePxDM",
+    "main",
+    "text_and_image_XpcNkj",
+    "video_instructions_8TQTwK",
+    "text_and_image_JbjDcx",
+    "text_and_image_apcRfG",
+    "text_and_image_izERQU",
+    "rich_text_DAeLpC",
+    "back_to_top_button_YjyEjQ"
+  ]
+}

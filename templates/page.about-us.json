@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "text_and_image_XpcNkj": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/aromelty-team-delivering-premium-diffusers-mobile.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Transforming Lifestyles, One Breath at a Time",
+        "text": "<p>We're Passionate Tech Diffusers and Scents  Experts.</p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "center",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_DAeLpC": {
+      "type": "rich-text",
+      "blocks": {
+        "text_cnXX9t": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>SMART-SERVICE-DECOR</p>"
+          }
+        },
+        "heading_GbnVbx": {
+          "type": "heading",
+          "settings": {
+            "title": "An Aromely Story"
+          }
+        }
+      },
+      "block_order": [
+        "text_cnXX9t",
+        "heading_GbnVbx"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_JbjDcx": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/aromely-processing-diffusers-delivery.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "A Father's Promise",
+        "text": "<p>A father wanted his daughter to always feel comfortable at home. Several candles and options were used. None of them were safe, lasting, or smart to use. He was able to find the right solution, diffusers, and could tell you he tried all of them. But none of them were as passionate as him about scenting and lifestyle.</p>",
+        "button_label": "Explore DIffusers",
+        "button_link": "shopify://collections/scent-diffusers",
+        "button_style": "secondary",
+        "align_text": "center",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": false,
+        "bottom_padding": false,
+        "lazyload_images": true
+      }
+    },
+    "text_and_image_apcRfG": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify://shop_images/Customer-enjoying-aromely-diffusers.png",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "A Scented Revelation",
+        "text": "<p>We Realized a vital Truth:<a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9754067/\" target=\"_blank\"><strong>Our surroundings have over 80% impact on positive and a joyful lifestyle.</strong></a>And since the most powerful human sense is scent, we embarked on a journey of transforming lives with the power of aromas. Aromely diffusers are crafted with the finest details and technology to encapsulate a refined, joyful, and tranquil lifestyle. With Aromely diffusers, you can enjoy the luxury and ambiance of a 5-star hotel 365 days a year.</p>",
+        "button_label": "Explore Scents",
+        "button_link": "shopify://collections/diffuser-oils",
+        "button_style": "secondary",
+        "align_text": "center",
+        "image_width": "66",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "rich_text_6xW8AX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_eenXi3": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Passion, Your Lifestyle"
+          }
+        },
+        "text_TNb7bi": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<p>Aromely lifestyle—a sanctuary where elegance, home decor, and simplicity converge within our innovative diffusers.</p><p>Passion for scenting and lifestyle remains stronger than ever at Aromely. We lead the forefront of diffuser technology, offering an exclusive array of paradisiacal fragrances crafted to transform your everyday into something extraordinary.</p><h1></h1>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eenXi3",
+        "text_TNb7bi"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "text_and_image_nyfqV8": {
+      "type": "text-and-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/image0_2.jpg",
+        "image_mask": "none",
+        "image2": "shopify://shop_images/IMG_6899.jpg",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Setup the App",
+        "text": "<ul><li>Search and download <strong>SCENT MASTER</strong> App on Google Play or Apple App Store</li><li>Once downloaded, make sure the diffuser is connected to power and bluetooth is enabled on your device then click <strong>STANDALONE MODE</strong>. </li><li>Touch your screen over the serial number, then press \"OK\", default password is (\"<strong>9999</strong>\").</li><li>Once inside the app you will see 4 options: 1. Device Name to rename the diffuser, 2. Device Notes to add notes, 3. Change  password to change the default password, and 4. Working Mode (where we will be customizing the settings and intensity) </li><li>Press on the \"<strong>Setting  Up 1</strong>\" area to access the programing edit mode. You can also switch the diffuser ON/OFF from here.</li><li>Once on Edit Mode you will see 3 options:</li></ul><ol><li><strong>Week Set:</strong> To Choose the days of the week that you wish your diffuser to work.</li><li><strong>Time Range Setting:</strong> To set the daily working hours, <strong>\"Start\"</strong> time and <strong>\"Over\"</strong> time. For example from 8am to 10pm will be Start at 08:00 Over at 22:00. </li><li><strong>Rate: </strong>To set the aromatic intensity of your diffuser. <strong>\"Run time\"</strong> to establish the amount of seconds you wish the machine to diffuse oil and <strong>\"Pause time\"</strong> to establish the amount of seconds you wish the machine to pause the diffusion process.</li></ol>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "66",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "featured_collection_Bq4ydj": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Ready Join The Aromely Lifestyle?",
+        "home_featured_products": "home-page",
+        "per_row": 4,
+        "rows": 1,
+        "mobile_scrollable": false,
+        "view_all": true,
+        "divider": false
+      }
+    },
+    "back_to_top_button_PWeELz": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "text_and_image_XpcNkj",
+    "rich_text_DAeLpC",
+    "text_and_image_JbjDcx",
+    "text_and_image_apcRfG",
+    "rich_text_6xW8AX",
+    "text_and_image_nyfqV8",
+    "featured_collection_Bq4ydj",
+    "back_to_top_button_PWeELz"
+  ]
+}

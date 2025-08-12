@@ -1,1 +1,375 @@
-{"sections":{"main":{"type":"main-page","disabled":true,"settings":{}},"faq":{"type":"faq","blocks":{"faq-0":{"type":"rich-text","settings":{"title":"Shipping","text":"","align_text":"left"}},"ad026e5c-ab05-4027-a469-fa2df3ddc29c":{"type":"question","settings":{"title":"Where does the free shipping apply?","text":"<p>We have free shipping all over USA<\/p>"}},"faq-1":{"type":"question","settings":{"title":"What is the shipping timeframe?","text":"<p>Our shipping is between 7 to 10 business days.<\/p>"}},"faq-2":{"type":"question","settings":{"title":"Which carrier do you use?","text":"<p>We ship your products via UPS and\/or USPS.<\/p>"}},"faq-4":{"type":"question","settings":{"title":"What happens if I don't receive mi package after the time frame?","text":"<p>You can let us know by sending an email to sales@aromely.com, so we can check what happened and give you a resolution!<\/p>"}},"33aa4412-6beb-4f89-89bb-ea4e790d8844":{"type":"question","settings":{"title":"What happens if my item arrived broken?","text":"<p>You'll have to let us know by sending an email to sales@aromely.com and attach pictures of your item so we can let you know about the next steps.<\/p>"}},"faq-3":{"type":"rich-text","settings":{"title":"Returns\/Refunds","text":"","align_text":"left"}},"bad16fe8-717c-4cc3-92da-9ad55c5ffe3b":{"type":"question","settings":{"title":"How do I start a return?","text":"<p>If you want to return an item, you can let us know via email to sales@aromely.com so we can guide you step by step, or going to our <a href=\"https:\/\/aromely.com\/policies\/refund-policy\" title=\"https:\/\/aromely.com\/policies\/refund-policy\">return policy<\/a>!<\/p>"}},"8ded9a68-e105-4bad-84dd-39aebd593fe0":{"type":"question","settings":{"title":"How do you process my refund?","text":"<p>After we process your return, we will process your refund to the same payment method that you used.<\/p>"}},"d0c86c4a-8b2d-4787-960b-b1660ebc8d2d":{"type":"question","settings":{"title":"If I return an item, how long does my refund would take?","text":"<p>We process refunds immediately, but depending on your bank processing time, it can take between 5 to 7 business days to be reflected on your account.<\/p>"}},"d599cf60-b6ca-44c9-93dd-e4d8355ada4d":{"type":"rich-text","settings":{"title":"About my diffuser","text":"","align_text":"left"}},"84785ae2-af39-4904-a278-5d49f616c3f2":{"type":"question","settings":{"title":"How often should I clean my diffuser?","text":"<p>In order to mantain a healthy diffuser you should clean it every 2 to 3 months.<\/p>"}},"fda019c6-0ffd-498f-9f14-9d2f7f093106":{"type":"question","settings":{"title":"How do I clean my diffuser?","text":"<p>Once your oil bottle is empty, you'll have to re-fill it with at least a 95% pure alcohol and let it work with 100% intensity for at least 15 minutes. Once it stops working, you can use it normally. <\/p>"}},"ffc2fd5d-c0b0-44d9-874f-acfbf7f7c902":{"type":"question","settings":{"title":"How safe is my oil blend?","text":"<p>It is 100% safe! You can use it around your pets and kids without any problem!<\/p>"}},"50747642-53bf-44b5-9bc2-d9ad008e57f5":{"type":"question","settings":{"title":"What is the recommended usage?","text":"<p>We recommend the standard usage from 8:00 a.m. to 10:00 p.m.<br\/><br\/>Working time → 40 to 50 seconds.<br\/>Pause time → 100 to 120 seconds.<\/p>"}}},"block_order":["faq-0","ad026e5c-ab05-4027-a469-fa2df3ddc29c","faq-1","faq-2","faq-4","33aa4412-6beb-4f89-89bb-ea4e790d8844","faq-3","bad16fe8-717c-4cc3-92da-9ad55c5ffe3b","8ded9a68-e105-4bad-84dd-39aebd593fe0","d0c86c4a-8b2d-4787-960b-b1660ebc8d2d","d599cf60-b6ca-44c9-93dd-e4d8355ada4d","84785ae2-af39-4904-a278-5d49f616c3f2","fda019c6-0ffd-498f-9f14-9d2f7f093106","ffc2fd5d-c0b0-44d9-874f-acfbf7f7c902","50747642-53bf-44b5-9bc2-d9ad008e57f5"],"settings":{"title":"Frequently Asked Questions"}}},"order":["main","faq"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "faq-0": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Shipping",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "faq-1": {
+          "type": "question",
+          "settings": {
+            "title": "Where does the free shipping apply?",
+            "text": "<p>We have free shipping all over USA</p>"
+          }
+        },
+        "faq-2": {
+          "type": "question",
+          "settings": {
+            "title": "What is the shipping timeframe?",
+            "text": "<p>Our shipping is between 7 to 10 business days.</p>"
+          }
+        },
+        "faq-4": {
+          "type": "question",
+          "settings": {
+            "title": "Which carrier do you use?",
+            "text": "<p>We ship your products via UPS and/or USPS.</p>"
+          }
+        },
+        "question_c8nBkW": {
+          "type": "question",
+          "settings": {
+            "title": "What happens if I don't receive mi package after the time frame?",
+            "text": "<p>You can let us know by sending an email to sales@aromely.com, so we can check what happened and give you a resolution!</p>"
+          }
+        },
+        "question_Kg8ene": {
+          "type": "question",
+          "settings": {
+            "title": "What happens if my item arrived broken?",
+            "text": "<p>You'll have to let us know by sending an email to sales@aromely.com and attach pictures of your item so we can let you know about the next steps.</p>"
+          }
+        },
+        "rich_text_9riKGa": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Returns/Refunds",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_TT9p8x": {
+          "type": "question",
+          "settings": {
+            "title": "How do I start a return?",
+            "text": "<p>If you want to return an item, you can let us know via email to sales@aromely.com so we can guide you step by step, or going to our <a href=\"https://aromely.com/policies/refund-policy\" title=\"https://aromely.com/policies/refund-policy\">return policy</a>!</p>"
+          }
+        },
+        "question_V9wBMD": {
+          "type": "question",
+          "settings": {
+            "title": "How do you process my refund?",
+            "text": "<p>After we process your return, we will process your refund to the same payment method that you used.</p>"
+          }
+        },
+        "question_ir9B3L": {
+          "type": "question",
+          "settings": {
+            "title": "If I return an item, how long does my refund would take?",
+            "text": "<p>We process refunds immediately, but depending on your bank processing time, it can take between 5 to 7 business days to be reflected on your account.</p>"
+          }
+        },
+        "rich_text_8icBCf": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Scent Diffuser",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_mTNfc9": {
+          "type": "question",
+          "settings": {
+            "title": "What's a Scent Diffuser?",
+            "text": "<p>Aromely's diffusers use high-end <a href=\"https://aromely.com/blogs/news/whats-a-diffuser-your-guide-to-essential-oil-diffusers\" title=\"https://aromely.com/blogs/news/whats-a-diffuser-your-guide-to-essential-oil-diffusers\">nebulizing technology </a>to disperse essential oils into a fine mist. We provide the safest and most reliable way to scent your space on the market.</p>"
+          }
+        },
+        "question_HhrnRd": {
+          "type": "question",
+          "settings": {
+            "title": "How do Scent Diffusers Work?",
+            "text": "<ol><li><a href=\"https://aromely.com/collections/scent-diffuser/Freestanding-Diffusers\" title=\"https://aromely.com/collections/scent-diffuser/Freestanding-Diffusers\">Aromely Scent Diffusers </a>uses Nebulizing Diffusion Technology turns fragrance oil into a dry nano-mist, working on a molecular level. </li><li>Nebulizing diffusion is the cleanest and safest way to diffuse our <a href=\"https://aromely.com/collections/oil-blends\" title=\"https://aromely.com/collections/oil-blends\">100% pure Aromely signature diffuser oils. </a></li><li>All Aromely's scent diffusers work via smartphone with our own secured App.</li></ol>"
+          }
+        },
+        "question_HJtUAW": {
+          "type": "question",
+          "settings": {
+            "title": "What does a Scent Diffuser do?",
+            "text": "<p>A scent diffuser can change your life 360°. Our diffusers work on a molecular level, improving air quality and filling your home with exclusive fragrances that boost mood, relaxation, and overall wellbeing. No more masking odors with sprays. Scent your home 365 days a year with a diffuser. Learn More <a href=\"https://aromely.com/blogs/news/whats-a-diffuser-your-guide-to-essential-oil-diffusers\" title=\"https://aromely.com/blogs/news/whats-a-diffuser-your-guide-to-essential-oil-diffusers\">here.</a></p>"
+          }
+        },
+        "question_VT4qmN": {
+          "type": "question",
+          "settings": {
+            "title": "How to to use a diffuser preferably?",
+            "text": "<p>We recommend the standard usage from 8:00 a.m. to 10:00 p.m.<br/><br/>Working time → 40 to 50 seconds.<br/>Pause time → 100 to 120 seconds.</p>"
+          }
+        },
+        "question_TXKHtm": {
+          "type": "question",
+          "settings": {
+            "title": "How often should I clean my diffuser?",
+            "text": "<p>In order to mantain a healthy diffuser you should clean it every 2 to 3 months.</p><p><strong>Materials Needed:</strong></p><ul><li>Isopropyl alcohol (91% to 95%)</li></ul><p><strong>Instructions:</strong></p><ul><li>Preparation: Ensure the diffuser is unplugged and situated on a stable, flat surface.</li><li>Add Alcohol: Pour isopropyl alcohol (91% to 95%) into the diffuser bottle, ensuring not to overfill.</li><li>Diffuse the Alcohol: Plug the diffuser back in and set it to diffuse at its highest intensity.</li><li>Wait: Allow the diffuser to run for 15 to 20 minutes with the alcohol.</li><li>Empty and Dry: After 15 to 20 minutes, turn off and unplug the diffuser. Carefully pour out any remaining alcohol and ensure the bottle is completely empty. It's a good idea to let the diffuser air dry for a few minutes to ensure all traces of alcohol have evaporated.</li><li>Refill and Use: Once you're certain the bottle is dry, you can add your preferred essential oil. Plug the diffuser back in and continue using it at your preferred intensity.</li></ul>"
+          }
+        },
+        "question_PK9fzV": {
+          "type": "question",
+          "settings": {
+            "title": "Can I use generic oils with your diffusers?",
+            "text": "<p>AROMELY's diffusers are designed to work exclusively with our signature diffuser oils, which are formulated for optimal dispersion and to protect your diffuser's internal components.</p><p><strong>Using other oils will void your diffuser's warranty. Learn more </strong><a href=\"https://aromely.com/pages/disclaimer\" title=\"https://aromely.com/pages/disclaimer\"><strong>here</strong></a></p>"
+          }
+        },
+        "question_VEKPet": {
+          "type": "question",
+          "settings": {
+            "title": "I can't open my AROMELY HVAC diffuser. What should I do?",
+            "text": "<p>Place the included magnetic tag on the designated area of the diffuser where the lock mechanism is located:</p><ul><li><strong>ARO-MAX:</strong> <a href=\"https://aromely.com/pages/aro-max\" title=\"https://aromely.com/pages/aro-max\">here</a></li><li><strong>ARO-PRO:</strong> <a href=\"https://aromely.com/pages/aro-pro?_pos=1&_psq=pro&_ss=e&_v=1.0\" title=\"https://aromely.com/pages/aro-pro?_pos=1&_psq=pro&_ss=e&_v=1.0\">here</a></li><li><strong>ARO-Home:</strong> <a href=\"https://aromely.com/pages/aro-home-quick-guide\" title=\"https://aromely.com/pages/aro-home-quick-guide\">here</a></li></ul><p><strong>IMPORTANT:</strong> The magnet won't work if any extra force is applied on top of the diffuser bottle, such as plugs, weights, or hand pressure. These must be removed, or the mechanism won't function. In these cases, there won't be any \"click sound.\" If you hear a \"click sound\" but the diffuser still won't open, try rotating the magnet. </p><p><strong>NOTE: </strong>If the magnetic tab is lost or not within your reach, any magnet will work perfectly fine. Many clients solve this by using fridge magnets.</p><p><strong>IF ISSUE PERSISTS</strong>, please contact us via chat Monday to Friday from 9 am to 5:30 pm. We will provide a prompt solution.</p>"
+          }
+        },
+        "question_BTJYTp": {
+          "type": "question",
+          "settings": {
+            "title": "What is the difference between the P1 diffuser and the P2 diffuser?",
+            "text": "<p>The difference between the P1 diffuser and the P2 diffuser is the fan speed. The P1 diffuser is fast, while the P2 diffuser is slow.</p>"
+          }
+        },
+        "question_whWfGW": {
+          "type": "question",
+          "settings": {
+            "title": "The app doesn't recognize the diffuser. What should I do?",
+            "text": "<p>This usually occurs if the necessary permissions were not accepted during the app installation. Please delete the app, reinstall it, and ensure all permissions are accepted during the process.</p>"
+          }
+        },
+        "question_hgrkLf": {
+          "type": "question",
+          "settings": {
+            "title": "Can I mix oil with water in the diffuser?",
+            "text": "<p>No, all our diffusers are waterless. Just pour the oil directly into the diffuser bottle and enjoy it.</p>"
+          }
+        },
+        "question_WL8ikY": {
+          "type": "question",
+          "settings": {
+            "title": "Can the diffuser be installed in an attic or garage with high temperatures?",
+            "text": "<p>Yes, the diffuser is designed to work in both high and low temperatures.</p>"
+          }
+        },
+        "rich_text_BE9UKM": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Essential Oils",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_arUhAQ": {
+          "type": "question",
+          "settings": {
+            "title": "How safe is AROMELY's essential oils?",
+            "text": "<p>Our <a href=\"https://aromely.com/collections/oil-blends\" title=\"https://aromely.com/collections/oil-blends\">signature diffuser oils</a> are safe to use around people, pets, plants, and furniture. 100% free of all Parabens, Formaldehyde, Color Additives, Synthetic Dyes, and Preservatives.</p>"
+          }
+        },
+        "question_ip7gM4": {
+          "type": "question",
+          "settings": {
+            "title": "Does AROMELY's essential oils expire?",
+            "text": "<p>Over time, they may lose their potency, depending on the type and storage conditions. They typically last 1 to 3 years.</p>"
+          }
+        },
+        "question_jYkqK7": {
+          "type": "question",
+          "settings": {
+            "title": "What's an Essential Oil?",
+            "text": "<p>An essential oil is a 100% natural concentrated plant extract that embodies the plant’s natural fragrance and therapeutic benefits. Used in aromatherapy and personal care, these oils are extracted through methods like steam distillation or cold pressing, offering a range of applications from enhancing well-being to adding scent to products.</p>"
+          }
+        },
+        "question_VzFUTf": {
+          "type": "question",
+          "settings": {
+            "title": "How Long do Essential Oils Last?",
+            "text": "<p>When used at the recommended settings of 4 to 8 hours per day, a 50 ml fragrance oil bottle will last approximately 30 days in our <a href=\"https://aromely.com/collections/scent-diffuser/Freestanding-Diffusers\" title=\"https://aromely.com/collections/scent-diffuser/Freestanding-Diffusers\">Scent Diffusers</a> that serves up to 1000 Sqft. Length of time may vary on the settings and diffuser range.</p>"
+          }
+        },
+        "question_QQnET3": {
+          "type": "question",
+          "settings": {
+            "title": "Why can’t I smell my fragrance if there’s still liquid left?",
+            "text": "<p>You're experiencing olfactory adaptation. When you first enter a room with a strong aroma, like fresh coffee, the scent is intense. </p><p>Over time, you may stop noticing it. This phenomenon influences how we perceive and interact with scents in our environment. </p><p>The same applies to our signature diffuser oils . Learn more about it <a href=\"https://aromely.com/blogs/news/introduction-to-olfactory-adaptation-and-aromely\" title=\"https://aromely.com/blogs/news/introduction-to-olfactory-adaptation-and-aromely\">here</a></p>"
+          }
+        },
+        "question_AmQNQz": {
+          "type": "question",
+          "settings": {
+            "title": "AROMELY's signature diffuser oils can work in other diffusers?",
+            "text": "<p>We cannot verify whether other diffuser designs are tailored to seamlessly complement our signature diffuser oils.</p><p>We cannot assure that they won't adversely affect the internal components of your diffuser. </p><p><strong>Therefore, we strongly advise against using our scents with  other diffusers.</strong></p>"
+          }
+        },
+        "question_wegjW7": {
+          "type": "question",
+          "settings": {
+            "title": "What do I need to do if I spilled oil?",
+            "text": "<p>In the event of an oil spill, clean the affected area and the diffuser using a mild soap solution and a soft cloth.</p>"
+          }
+        },
+        "rich_text_PGpT9y": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Subscriptions",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_3RjFjM": {
+          "type": "question",
+          "settings": {
+            "title": "If I used PayShop, can I still create an account?",
+            "text": "<p>Using Pay Shop does not affect your ability to create an account with us. You can sign up anytime <a href=\"https://aromely.com/account/login\" title=\"https://aromely.com/account/login\">here</a></p>"
+          }
+        },
+        "question_hwRQ94": {
+          "type": "question",
+          "settings": {
+            "title": "What are the benefits of having a fragrance subscription?",
+            "text": "<p>The best reason to subscribe to Aromely signature diffuser oils are the following:</p><ul><li> You get 10% off when subscribe to any scent.</li><li> Extended warranty on your diffuser.</li><li> Choose your delivery frequency easily swap fragrances or cancel your subscription using your <a href=\"https://aromely.com/tools/recurring/get-subscription-access\" title=\"https://aromely.com/tools/recurring/get-subscription-access\">customer portal.</a></li></ul>"
+          }
+        },
+        "question_Xg7QNW": {
+          "type": "question",
+          "settings": {
+            "title": "How Do I Access my Subscription Account?",
+            "text": "<p>You'll only need the registered email to log in to your <a href=\"https://aromely.com/tools/recurring/get-subscription-access\" title=\"https://aromely.com/tools/recurring/get-subscription-access\">customer portal</a>. If you don’t remember which one you used, please contact us at <a>sales@aromely.com</a> or through live chat, Monday to Friday, 9 AM to 5:30 PM. We'll give you the best solution.</p>"
+          }
+        },
+        "question_63hjYH": {
+          "type": "question",
+          "settings": {
+            "title": "How do I manage my subscription?",
+            "text": "<p>The best way to manage your subscription is to log into your account on our website though your <a href=\"https://aromely.com/tools/recurring/get-subscription-access\" title=\"https://aromely.com/tools/recurring/get-subscription-access\">customer portal</a>. Here you skip a delivery, swap aromas without losing your discount, or canceling.</p>"
+          }
+        },
+        "question_zVBh7b": {
+          "type": "question",
+          "settings": {
+            "title": "How do I Cancel My Subscription?",
+            "text": "<p>Please access your account <a href=\"https://aromely.com/tools/recurring/get-subscription-access\" title=\"https://aromely.com/tools/recurring/get-subscription-access\">here</a>. Once logged in, select the option to cancel your subscription. Make sure to cancel before the next monthly order is processed. </p><p>For example, if Aromely prepares orders for shipping on the 28th, you must cancel at least 24 hours before that date.</p>"
+          }
+        },
+        "rich_text_hwiawV": {
+          "type": "rich-text",
+          "settings": {
+            "title": "Room Sprays",
+            "text": "",
+            "align_text": "left"
+          }
+        },
+        "question_bFU9hV": {
+          "type": "question",
+          "settings": {
+            "title": "How do I use your Room Spray?",
+            "text": "<p>Simply shake well before use and apply 2-3 sprays to instantly lift the scent into the air. </p><p>This multi-purpose eau de toilette can be sprayed into the air, on linens, and on clothes. Repeat until you achieve your desired scent intensity. </p><p>Discover Our Full Scent collection Now Up to 40%OFF <a href=\"https://aromely.com/products/aromely-baby-powder-room-mist-fresh-soothing-8oz-spray-made-in-usa\" title=\"https://aromely.com/products/aromely-baby-powder-room-mist-fresh-soothing-8oz-spray-made-in-usa\">here</a>.</p>"
+          }
+        },
+        "question_RyRgGf": {
+          "type": "question",
+          "settings": {
+            "title": "Are your room sprays safe to use?",
+            "text": "<p>Aromely's Room Sprays are ideal for misting in bathrooms, living spaces, or any area in your home that needs a touch of freshness. They are also perfect for offices or cars.</p>"
+          }
+        },
+        "question_pHN4CF": {
+          "type": "question",
+          "settings": {
+            "title": "Where are your Room Spray manufactured?",
+            "text": "<p>Our <a href=\"https://aromely.com/collections/room-sprays\" title=\"https://aromely.com/collections/room-sprays\">Room Sprays</a> are produced with the highest standards of quality and care in <strong>Miami, Florida</strong>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq-0",
+        "faq-1",
+        "faq-2",
+        "faq-4",
+        "question_c8nBkW",
+        "question_Kg8ene",
+        "rich_text_9riKGa",
+        "question_TT9p8x",
+        "question_V9wBMD",
+        "question_ir9B3L",
+        "rich_text_8icBCf",
+        "question_mTNfc9",
+        "question_HhrnRd",
+        "question_HJtUAW",
+        "question_VT4qmN",
+        "question_TXKHtm",
+        "question_PK9fzV",
+        "question_VEKPet",
+        "question_BTJYTp",
+        "question_whWfGW",
+        "question_hgrkLf",
+        "question_WL8ikY",
+        "rich_text_BE9UKM",
+        "question_arUhAQ",
+        "question_ip7gM4",
+        "question_jYkqK7",
+        "question_VzFUTf",
+        "question_QQnET3",
+        "question_AmQNQz",
+        "question_wegjW7",
+        "rich_text_PGpT9y",
+        "question_3RjFjM",
+        "question_hwRQ94",
+        "question_Xg7QNW",
+        "question_63hjYH",
+        "question_zVBh7b",
+        "rich_text_hwiawV",
+        "question_bFU9hV",
+        "question_RyRgGf",
+        "question_pHN4CF"
+      ],
+      "settings": {
+        "title": "Frequently Asked Questions"
+      }
+    },
+    "back_to_top_button_V8EprP": {
+      "type": "back-to-top-button",
+      "name": "Back to Top Button",
+      "settings": {
+        "scroll_percent": 50,
+        "enable_scroll_to_class": false,
+        "scroll_to_class": "",
+        "enable_scroll_to_top": true,
+        "position": "bottom-right",
+        "background_color": "#6a2789",
+        "icon_color": "#ffffff",
+        "icon_size_mobile": 28,
+        "icon_size_desktop": 34,
+        "shape": "circle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq",
+    "back_to_top_button_V8EprP"
+  ]
+}
